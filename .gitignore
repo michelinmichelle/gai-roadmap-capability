@@ -116,3 +116,6 @@ data/backups/
 container_start.sh
 autostart.sh
 crontab_config
+
+# User instruction logs (private development notes)
+user_instructions.log.md
