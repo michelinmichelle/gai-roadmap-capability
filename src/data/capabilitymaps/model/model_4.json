@@ -1,0 +1,93 @@
+{
+    "id": "4",
+    "ref": "deepseek_model",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Deepseek Model",
+            "zh": "Deepseek 模型"
+        },
+        "status": "sketch",
+        "color": "transparent",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            },
+            "updatedAt": "2024-05-22T17:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-05-22T17:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "deepseek_r1_small",
+            "name": {
+                "en": "Deepseek R1 Small Model",
+                "zh": "Deepseek R1 蒸馏小模型"
+            },
+            "status": "planned",
+            "techStack": "Deepseek-R1-Distilled",
+            "description": {
+                "en": "Distilled small model from Deepseek R1 for efficient inference",
+                "zh": "从Deepseek R1蒸馏的小模型，用于高效推理"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "deepseek_reasoning",
+            "name": {
+                "en": "Advanced Reasoning",
+                "zh": "高级推理"
+            },
+            "status": "planned",
+            "techStack": "Deepseek-R1",
+            "description": {
+                "en": "Powerful reasoning capabilities for complex task solving",
+                "zh": "用于解决复杂任务的强大推理能力"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "deepseek_code",
+            "name": {
+                "en": "Code Generation",
+                "zh": "代码生成"
+            },
+            "status": "planned",
+            "techStack": "Deepseek-Coder",
+            "description": {
+                "en": "Generate and explain code in multiple programming languages",
+                "zh": "生成和解释多种编程语言的代码"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.7.cards[3]"
+    }
+}

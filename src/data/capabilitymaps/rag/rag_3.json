@@ -1,0 +1,279 @@
+{
+    "id": "3",
+    "ref": "retrieval",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Retrieval",
+            "zh": "检索"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "lastUpdated": "2024-05-21T14:00:00Z",
+        "priority": {
+            "level": 2,
+            "label": {
+                "en": "Critical",
+                "zh": "关键"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "standard_qa_retrieval",
+            "name": {
+                "en": "Standard Q&A Retrieval",
+                "zh": "标准问答对检索"
+            },
+            "status": "ready",
+            "techStack": "Elasticsearch, Vector DB, Q&A Database",
+            "description": {
+                "en": "Direct answer retrieval from standardized Q&A pairs: provides instant answers (e.g. 'How many annual leave days?' returns '10 days for full-time, 5 days for probation'), matches business scenarios (e.g. 'Sales reimbursement process' returns step-by-step guide), supports fixed answers and video links",
+                "zh": "从标准问答对中直接检索答案：提供即时答案（如'公司年假多少天'直接返回'正式员工10天，试用期5天'），匹配业务场景（如'销售报销流程'返回具体步骤），支持固定答案和视频链接"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "semantic_search",
+            "name": {
+                "en": "Semantic Search",
+                "zh": "语义搜索"
+            },
+            "status": "ready",
+            "techStack": "OpenAI Embeddings, SentenceTransformers, Vector DB",
+            "description": {
+                "en": "Intelligent search understanding user intent: understands different expressions (e.g. 'How long can I take leave without pay deduction?' matches 'paid annual leave policy'), natural language queries, fuzzy search, and multi-language support. Best for HR queries, IT support, and customer service",
+                "zh": "智能理解用户意图的搜索：理解不同表达方式（如'请假多久不扣工资'能匹配到'带薪年假政策'），支持自然语言查询，适用于模糊查询，支持多语言搜索。适合HR问题、IT支持和客服场景"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "lexical_search",
+            "name": {
+                "en": "Lexical Search",
+                "zh": "关键词搜索"
+            },
+            "status": "ready",
+            "techStack": "Elasticsearch, Lucene, BM25",
+            "description": {
+                "en": "Fast and precise keyword-based search: exact word matching (e.g. finding documents containing 'annual leave'), high-speed search in large document sets, and structured queries. Best for scenarios requiring exact term matches, like policy documents, product listings, and email searches",
+                "zh": "快速精准的关键词搜索：支持精确词语匹配（如查找包含'年假政策'的文档），海量文件快速检索，以及结构化查询。适用于需要精确匹配的场景，如政策文件、产品列表、邮件搜索等"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "hybrid_search",
+            "name": {
+                "en": "Hybrid Search",
+                "zh": "混合搜索"
+            },
+            "status": "ready",
+            "techStack": "Elasticsearch, Vector DB, LLM",
+            "description": {
+                "en": "Combines lexical (keyword-based) and semantic search to provide more accurate and comprehensive results. Lexical search matches exact keywords while semantic search understands the intent and context of queries, ensuring no critical information is missed",
+                "zh": "结合关键词搜索和语义搜索的智能检索系统：关键词搜索精确匹配文档中的具体词句，语义搜索理解问题意图。通过双重搜索机制提供更精准的答案，支持更自然的提问方式，并确保不会遗漏重要信息"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "ref": "metadata_filtering",
+            "name": {
+                "en": "Metadata Filtering",
+                "zh": "元数据过滤"
+            },
+            "status": "ready",
+            "techStack": "Metadata Indexing",
+            "description": {
+                "en": "Filters search results based on document metadata such as date, author, type, and category",
+                "zh": "基于文档元数据（如日期、作者、类型、类别）过滤搜索结果"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "ref": "context_aware_retrieval",
+            "name": {
+                "en": "Context-Aware Retrieval",
+                "zh": "上下文感知检索"
+            },
+            "status": "ready",
+            "techStack": "LLM, Vector DB",
+            "description": {
+                "en": "Considers conversation context and user history to improve retrieval relevance over multiple turns",
+                "zh": "考虑对话上下文和用户历史以提高多轮对话中的检索相关性"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "ref": "near_realtime_search",
+            "name": {
+                "en": "Near Real-time Search",
+                "zh": "近实时搜索"
+            },
+            "status": "sketch",
+            "techStack": "Elasticsearch, Kafka, Change Data Capture",
+            "description": {
+                "en": "Real-time search system for latest content: policy updates tracking, real-time monitoring, customer feedback tracking, and inventory management. Ensures users always get the most up-to-date information with minimal latency",
+                "zh": "实时搜索系统确保获取最新内容：政策更新追踪，实时监控，客户反馈追踪，以及库存管理。通过最小化延迟，确保用户始终获取最新信息"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "ref": "hybrid_filter_search",
+            "name": {
+                "en": "Hybrid Filter Search",
+                "zh": "混合过滤搜索"
+            },
+            "status": "sketch",
+            "techStack": "Elasticsearch, Vector DB, Metadata Indexing",
+            "description": {
+                "en": "Smart filtering system combining multiple dimensions: temporal filtering, departmental/categorical filtering, regional filtering, and data type filtering. Provides precise results by eliminating irrelevant information",
+                "zh": "智能多维度过滤系统：支持时间过滤，部门类别过滤，地区范围过滤，以及数据类型过滤。通过精确的过滤条件组合，确保搜索结果更加精准，减少无关信息"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "ref": "knowledge_graph_search",
+            "name": {
+                "en": "Knowledge Graph Search",
+                "zh": "知识图谱搜索"
+            },
+            "status": "sketch",
+            "techStack": "Neo4j, GraphQL, RDF",
+            "description": {
+                "en": "Intelligent search based on knowledge graph relationships, supporting complex queries, cross-source information integration, and logical relationship inference for more accurate answers",
+                "zh": "基于知识图谱关系的智能搜索：支持复杂问题理解，跨信息源整合，以及逻辑关系推理。相比普通搜索，能更好地理解实体间的关系，提供更精准的答案"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "ref": "query_optimization",
+            "name": {
+                "en": "Query Optimization",
+                "zh": "查询优化"
+            },
+            "status": "inProgress",
+            "techStack": "LLM, Query Rewriting",
+            "description": {
+                "en": "Automatically reformulates user queries to improve search results through query expansion, decomposition, and rewriting",
+                "zh": "通过查询扩展、分解和改写自动重新构建用户查询以改进搜索结果"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_11",
+            "ref": "query_length_constraint",
+            "name": {
+                "en": "Query Length Constraint",
+                "zh": "查询长度限制"
+            },
+            "status": "constraint",
+            "techStack": "System Limit",
+            "description": {
+                "en": "Single query should not exceed 1000 characters",
+                "zh": "单次查询不超过1000字符"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_12",
+            "ref": "result_count_constraint",
+            "name": {
+                "en": "Result Count Constraint",
+                "zh": "结果数量限制"
+            },
+            "status": "constraint",
+            "techStack": "Performance Limit",
+            "description": {
+                "en": "Maximum 20 results per query for optimal performance",
+                "zh": "单次查询最多返回20条结果以保证性能"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.6.cards[2]"
+    }
+}

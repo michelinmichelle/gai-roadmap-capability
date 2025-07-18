@@ -1,0 +1,93 @@
+{
+    "id": "3",
+    "ref": "dynamic_adjustment",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Dynamic Adjustment Mode",
+            "zh": "3.3 动态调整模式"
+        },
+        "status": "ready",
+        "color": "#98FB98",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "feedback_incorporation",
+            "name": {
+                "en": "Feedback Incorporation",
+                "zh": "反馈整合"
+            },
+            "status": "ready",
+            "techStack": "Feedback System",
+            "description": {
+                "en": "Incorporate feedback to adjust execution strategy",
+                "zh": "整合反馈以调整执行策略"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "adaptive_execution",
+            "name": {
+                "en": "Adaptive Execution",
+                "zh": "自适应执行"
+            },
+            "status": "ready",
+            "techStack": "Adaptive Engine",
+            "description": {
+                "en": "Dynamically adjust execution plan based on intermediate results",
+                "zh": "基于中间结果动态调整执行计划"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "performance_optimization",
+            "name": {
+                "en": "Performance Optimization",
+                "zh": "性能优化"
+            },
+            "status": "ready",
+            "techStack": "Optimization Engine",
+            "description": {
+                "en": "Optimize execution for better performance and results",
+                "zh": "优化执行以获得更好的性能和结果"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architectureCard": "sections.3.cards[2]"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "id": "1",
+    "ref": "admin_console",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Admin Console",
+            "zh": "管理控制台"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "gai_console",
+            "name": {
+                "en": "GAI Console Backend Management",
+                "zh": "GAI Console 后台管理"
+            },
+            "status": "ready",
+            "techStack": "Admin Framework",
+            "description": {
+                "en": "Centralized management console for GAI platform administration",
+                "zh": "GAI 平台统一后台管理控制台"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "ref": "scenario_api_integration",
+            "name": {
+                "en": "Scenario API Backend Integration",
+                "zh": "场景API后台集成"
+            },
+            "status": "ready",
+            "techStack": "API Gateway",
+            "description": {
+                "en": "Integration with backend APIs for different scenarios",
+                "zh": "与不同场景的后端API集成"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.2.cards[0]"
+    }
+}

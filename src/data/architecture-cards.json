@@ -1,0 +1,1077 @@
+{
+    "title": {
+        "en": "GEN-AI APPLICATION ARCHITECTURE",
+        "zh": "生成式 AI 应用架构"
+    },
+    "targetDate": {
+        "en": "(TARGET MID 2025)",
+        "zh": "(目标 2025年中)"
+    },
+    "legend": {
+        "missing": {
+            "en": "Missing",
+            "zh": "没有的能力",
+            "color": "#ffffff"
+        },
+        "ready": {
+            "en": "Ready",
+            "zh": "有的能力",
+            "color": "#86efac"
+        },
+        "needEnhancement": {
+            "en": "Ready Need Enhancement",
+            "zh": "有但需要加强",
+            "color": "#fdba74"
+        },
+        "critical": {
+            "en": "Critical Missing",
+            "zh": "关键但缺失",
+            "color": "#f87171"
+        }
+    },
+    "sections": {
+        "1": {
+            "id": "publicTouchPoints",
+            "title": {
+                "en": "Public Touch Points",
+                "zh": "公共接入点"
+            },
+            "cards": [
+                {
+                    "id": "publicTouchPoints1",
+                    "index": 1,
+                    "content": {
+                        "en": "MiStation Employee Portal",
+                        "zh": "米站(PC)"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "publictouchpoints/pt_1.json"
+                },
+                {
+                    "id": "publicTouchPoints2",
+                    "index": 2,
+                    "content": {
+                        "en": "Mi-Station Employee WeComm (mobile)",
+                        "zh": "米站(WeComm)"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "publictouchpoints/pt_2.json"
+                },
+                {
+                    "id": "publicTouchPoints3",
+                    "index": 3,
+                    "content": {
+                        "en": "DCP",
+                        "zh": "Dealer门户"
+                    },
+                    "color": "#fdba74",
+                    "capabilityMapRef": "publictouchpoints/pt_3.json"
+                },
+                {
+                    "id": "publicTouchPoints4",
+                    "index": 4,
+                    "content": {
+                        "en": "Call Center",
+                        "zh": "Call Center系统"
+                    },
+                    "color": "#fdba74",
+                    "capabilityMapRef": "publictouchpoints/pt_4.json"
+                },
+                {
+                    "id": "publicTouchPoints5",
+                    "index": 5,
+                    "content": {
+                        "en": "Teams",
+                        "zh": "Teams"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "publictouchpoints/pt_5.json"
+                },
+                {
+                    "id": "publicTouchPoints6",
+                    "index": 6,
+                    "content": {
+                        "en": "CRM",
+                        "zh": "CRM"
+                    },
+                    "color": "#f87171",
+                    "capabilityMapRef": "publictouchpoints/pt_6.json"
+                }
+            ]
+        },
+        "2": {
+            "id": "adminTouchPoints",
+            "title": {
+                "en": "Admin Touch Points",
+                "zh": "管理接入点"
+            },
+            "cards": [
+                {
+                    "id": "adminTouchPoints1",
+                    "index": 1,
+                    "content": {
+                        "en": "Admin Console",
+                        "zh": "管理控制台"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "adminTouchPoints/1"
+                },
+                {
+                    "id": "adminTouchPoints2",
+                    "index": 2,
+                    "content": {
+                        "en": "Content Editor",
+                        "zh": "内容编辑器"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "adminTouchPoints/2"
+                }
+            ]
+        },
+        "3": {
+            "id": "aiOrchestrator",
+            "title": {
+                "en": "AI Orchestrator",
+                "zh": "AI 编排器"
+            },
+            "cards": [
+                {
+                    "id": "singleAgentSequential",
+                    "index": 1,
+                    "content": {
+                        "en": "Single-Agent-Sequential Execution",
+                        "zh": "顺序执行模式1"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "aiOrchestrator/1",
+                    "group": {
+                        "id": "singleAgent",
+                        "title": {
+                            "en": "Single-Agent Orchestration",
+                            "zh": "单 Agent 编排"
+                        },
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "singleAgentConditional",
+                    "index": 2,
+                    "content": {
+                        "en": "Single-Agent-Conditional Execution",
+                        "zh": "条件决策模式"
+                    },
+                    "color": "#fdba74",
+                    "group": {
+                        "id": "singleAgent",
+                        "title": {
+                            "en": "Single-Agent Orchestration",
+                            "zh": "单 Agent 编排"
+                        },
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "singleAgentAdaptive",
+                    "index": 3,
+                    "content": {
+                        "en": "Single-Agent-Adaptive Execution",
+                        "zh": "动态调整模式"
+                    },
+                    "color": "#ffffff",
+                    "group": {
+                        "id": "singleAgent",
+                        "title": {
+                            "en": "Single-Agent Orchestration",
+                            "zh": "单 Agent 编排"
+                        },
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "singleAgentReasoning",
+                    "index": 4,
+                    "content": {
+                        "en": "Single-Agent-Incremental Reasoning",
+                        "zh": "增量推理模式"
+                    },
+                    "color": "#ffffff",
+                    "group": {
+                        "id": "singleAgent",
+                        "title": {
+                            "en": "Single-Agent Orchestration",
+                            "zh": "单 Agent 编排"
+                        },
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "singleAgentKnowledge",
+                    "index": 5,
+                    "content": {
+                        "en": "Single-Agent-Knowledge Retrieval",
+                        "zh": "知识检索模式"
+                    },
+                    "color": "#fdba74",
+                    "group": {
+                        "id": "singleAgent",
+                        "title": {
+                            "en": "Single-Agent Orchestration",
+                            "zh": "单 Agent 编排"
+                        },
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "multiAgentTaskDelegation",
+                    "index": 6,
+                    "content": {
+                        "en": "Multi-Agent-Task Delegation",
+                        "zh": "分工协作模式"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "aiOrchestrator/6",
+                    "group": {
+                        "id": "multiAgent",
+                        "title": {
+                            "en": "Multi-Agent Orchestration",
+                            "zh": "多 Agent 编排"
+                        },
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "multiAgentRoleBased",
+                    "index": 7,
+                    "content": {
+                        "en": "Multi-Agent-Role-Based Collaboration",
+                        "zh": "角色驱动模式"
+                    },
+                    "color": "#ffffff",
+                    "group": {
+                        "id": "multiAgent",
+                        "title": {
+                            "en": "Multi-Agent Orchestration",
+                            "zh": "多 Agent 编排"
+                        },
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "multiAgentCompetitive",
+                    "index": 8,
+                    "content": {
+                        "en": "Multi-Agent-Competitive Collaboration",
+                        "zh": "竞争模式"
+                    },
+                    "color": "#ffffff",
+                    "group": {
+                        "id": "multiAgent",
+                        "title": {
+                            "en": "Multi-Agent Orchestration",
+                            "zh": "多 Agent 编排"
+                        },
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "multiAgentKnowledgeSharing",
+                    "index": 9,
+                    "content": {
+                        "en": "Multi-Agent-Knowledge Sharing",
+                        "zh": "知识共享模式"
+                    },
+                    "color": "#ffffff",
+                    "group": {
+                        "id": "multiAgent",
+                        "title": {
+                            "en": "Multi-Agent Orchestration",
+                            "zh": "多 Agent 编排"
+                        },
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "multiAgentNegotiation",
+                    "index": 10,
+                    "content": {
+                        "en": "Multi-Agent-Iterative Negotiation",
+                        "zh": "多轮协商模式"
+                    },
+                    "color": "#ffffff",
+                    "group": {
+                        "id": "multiAgent",
+                        "title": {
+                            "en": "Multi-Agent Orchestration",
+                            "zh": "多 Agent 编排"
+                        },
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "hitlPreReview",
+                    "index": 11,
+                    "content": {
+                        "en": "HITL-AI Pre-review + Human Approval",
+                        "zh": "AI 预审 + 人工复核模式"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "aiOrchestrator/11",
+                    "group": {
+                        "id": "hitl",
+                        "title": {
+                            "en": "Human-in-the-Loop Orchestration",
+                            "zh": "HITL 编排"
+                        },
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "hitlSuggestion",
+                    "index": 12,
+                    "content": {
+                        "en": "HITL-AI Suggestion + Human Decision",
+                        "zh": "AI 推荐 + 人工决策模式"
+                    },
+                    "color": "#ffffff",
+                    "group": {
+                        "id": "hitl",
+                        "title": {
+                            "en": "Human-in-the-Loop Orchestration",
+                            "zh": "HITL 编排"
+                        },
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "hitlMonitoring",
+                    "index": 13,
+                    "content": {
+                        "en": "HITL-AI Monitoring + Human Intervention",
+                        "zh": "AI 监控 + 人工干预模式"
+                    },
+                    "color": "#ffffff",
+                    "group": {
+                        "id": "hitl",
+                        "title": {
+                            "en": "Human-in-the-Loop Orchestration",
+                            "zh": "HITL 编排"
+                        },
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "hitlSemiAuto",
+                    "index": 14,
+                    "content": {
+                        "en": "HITL-Semi-Automation",
+                        "zh": "半自动模式"
+                    },
+                    "color": "#ffffff",
+                    "group": {
+                        "id": "hitl",
+                        "title": {
+                            "en": "Human-in-the-Loop Orchestration",
+                            "zh": "HITL 编排"
+                        },
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "hitlFeedback",
+                    "index": 15,
+                    "content": {
+                        "en": "HITL-Feedback-Loop Optimization",
+                        "zh": "反馈驱动模式"
+                    },
+                    "color": "#ffffff",
+                    "group": {
+                        "id": "hitl",
+                        "title": {
+                            "en": "Human-in-the-Loop Orchestration",
+                            "zh": "HITL 编排"
+                        },
+                        "color": "transparent"
+                    }
+                }
+            ]
+        },
+        "4": {
+            "id": "serviceLayer",
+            "title": {
+                "en": "Service Layer",
+                "zh": "服务层"
+            },
+            "cards": [
+                {
+                    "id": "serviceLayer1",
+                    "index": 1,
+                    "content": {
+                        "en": "Chat Service",
+                        "zh": "聊天服务"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "serviceLayer/1"
+                },
+                {
+                    "id": "serviceLayer2",
+                    "index": 2,
+                    "content": {
+                        "en": "Prompt Management Service",
+                        "zh": "提示词管理服务"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "serviceLayer/2"
+                },
+                {
+                    "id": "serviceLayer3",
+                    "index": 3,
+                    "content": {
+                        "en": "Knowledge Management Service",
+                        "zh": "知识管理服务"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "serviceLayer/3"
+                },
+                {
+                    "id": "serviceLayer4",
+                    "index": 4,
+                    "content": {
+                        "en": "LLM Assessment Service",
+                        "zh": "LLM 评估服务"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "serviceLayer/4"
+                },
+                {
+                    "id": "serviceLayer5",
+                    "index": 5,
+                    "content": {
+                        "en": "Code Enhancement Service",
+                        "zh": "代码增强服务"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "servicelayer/sl_5.json"
+                },
+                {
+                    "id": "serviceLayer6",
+                    "index": 6,
+                    "content": {
+                        "en": "User Interaction & Feedback Service",
+                        "zh": "用户交互与反馈服务"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "serviceLayer/6"
+                },
+                {
+                    "id": "serviceLayer7",
+                    "index": 7,
+                    "content": {
+                        "en": "Platform Monitoring Service",
+                        "zh": "平台监控服务"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "serviceLayer/7"
+                },
+                {
+                    "id": "serviceLayer8",
+                    "index": 8,
+                    "content": {
+                        "en": "Help Center Service",
+                        "zh": "帮助中心服务"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "serviceLayer/8"
+                },
+                {
+                    "id": "serviceLayer9",
+                    "index": 9,
+                    "content": {
+                        "en": "System Settings & Extension Service",
+                        "zh": "系统设置与扩展服务"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "serviceLayer/9"
+                },
+                {
+                    "id": "serviceLayer10",
+                    "index": 10,
+                    "content": {
+                        "en": "Workflow Automation Service",
+                        "zh": "工作流自动化服务"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "serviceLayer/10"
+                },
+                {
+                    "id": "serviceLayer11",
+                    "index": 11,
+                    "content": {
+                        "en": "Multi-Agent Orchestration Service",
+                        "zh": "多智能体编排服务"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "serviceLayer/11"
+                },
+                {
+                    "id": "serviceLayer12",
+                    "index": 12,
+                    "content": {
+                        "en": "Data Analysis & Reporting Service",
+                        "zh": "数据分析与报告服务"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "serviceLayer/12"
+                },
+                {
+                    "id": "serviceLayer13",
+                    "index": 13,
+                    "content": {
+                        "en": "Security & Compliance Service",
+                        "zh": "安全与合规服务"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "serviceLayer/13"
+                },
+                {
+                    "id": "serviceLayer14",
+                    "index": 14,
+                    "content": {
+                        "en": "Model Fine-Tuning & Training Service",
+                        "zh": "模型微调与训练服务"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "serviceLayer/14"
+                },
+                {
+                    "id": "serviceLayer15",
+                    "index": 15,
+                    "content": {
+                        "en": "Content Service",
+                        "zh": "内容服务"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "servicelayer/sl_15.json"
+                },
+                {
+                    "id": "serviceLayer16",
+                    "index": 16,
+                    "content": {
+                        "en": "API Gateway Service",
+                        "zh": "API网关服务"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "servicelayer/sl_16.json"
+                },
+                {
+                    "id": "serviceLayer17",
+                    "index": 17,
+                    "content": {
+                        "en": "Access Control Service",
+                        "zh": "访问控制服务"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "servicelayer/sl_17.json"
+                },
+                {
+                    "id": "serviceLayer18",
+                    "index": 18,
+                    "content": {
+                        "en": "Model Context Protocol Service",
+                        "zh": "模型上下文协议服务"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "servicelayer/sl_18.json"
+                }
+            ]
+        },
+        "5": {
+            "id": "coreAI",
+            "title": {
+                "en": "Core AI",
+                "zh": "核心 AI"
+            },
+            "cards": [
+                {
+                    "id": "coreAIChatAgent",
+                    "index": 1,
+                    "content": {
+                        "en": "Chat Agent",
+                        "zh": "对话智能体"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "coreAI/1",
+                    "group": {
+                        "id": "useCase",
+                        "title": {
+                            "en": "Use Cases",
+                            "zh": "场景用例"
+                        }
+                    }
+                },
+                {
+                    "id": "coreAIKnowledgeAgent",
+                    "index": 2,
+                    "content": {
+                        "en": "Knowledge Agent",
+                        "zh": "知识智能体"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "coreAI/2",
+                    "group": {
+                        "id": "useCase",
+                        "title": {
+                            "en": "Use Cases",
+                            "zh": "场景用例"
+                        }
+                    }
+                },
+                {
+                    "id": "coreAISalesAgent",
+                    "index": 3,
+                    "content": {
+                        "en": "Sales Agent",
+                        "zh": "销售智能体"
+                    },
+                    "color": "#f87171",
+                    "capabilityMapRef": "coreAI/3",
+                    "group": {
+                        "id": "useCase",
+                        "title": {
+                            "en": "Use Cases",
+                            "zh": "场景用例"
+                        }
+                    }
+                },
+                {
+                    "id": "coreAIAnalystAgent",
+                    "index": 4,
+                    "content": {
+                        "en": "Analyst Agent",
+                        "zh": "分析智能体"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "coreAI/4",
+                    "group": {
+                        "id": "useCase",
+                        "title": {
+                            "en": "Use Cases",
+                            "zh": "场景用例"
+                        }
+                    }
+                },
+                {
+                    "id": "orchestrator",
+                    "index": 5,
+                    "content": {
+                        "en": "Orchestrator",
+                        "zh": "编排器"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "coreAI/5",
+                    "group": {
+                        "id": "component",
+                        "title": {
+                            "en": "Components",
+                            "zh": "组件"
+                        }
+                    }
+                },
+                {
+                    "id": "coreAITool",
+                    "index": 6,
+                    "content": {
+                        "en": "CoreAITool",
+                        "zh": "CoreAI工具包"
+                    },
+                    "color": "#fdba74",
+                    "capabilityMapRef": "coreAI/6",
+                    "group": {
+                        "id": "component",
+                        "title": {
+                            "en": "Components",
+                            "zh": "组件"
+                        }
+                    }
+                },
+                {
+                    "id": "coreAIPlanComponent",
+                    "index": 7,
+                    "content": {
+                        "en": "Core AI Planning",
+                        "zh": "Core AI Planning"
+                    },
+                    "color": "#fdba74",
+                    "capabilityMapRef": "coreAI/7",
+                    "group": {
+                        "id": "component",
+                        "title": {
+                            "en": "Components",
+                            "zh": "组件"
+                        }
+                    }
+                },
+                {
+                    "id": "coreAIMemoryComponent",
+                    "index": 8,
+                    "content": {
+                        "en": "Core AI Memory",
+                        "zh": "Core AI Memory"
+                    },
+                    "color": "#fdba74",
+                    "capabilityMapRef": "coreAI/8",
+                    "group": {
+                        "id": "component",
+                        "title": {
+                            "en": "Components",
+                            "zh": "组件"
+                        }
+                    }
+                }
+            ],
+            "subSection": {
+                "id": "coreAISubComponents",
+                "index": 5,
+                "title": {
+                    "en": "Orchestrator",
+                    "zh": "编排器"
+                },
+                "cards": []
+            }
+        },
+        "6": {
+            "id": "rag",
+            "title": {
+                "en": "RAG (Agentic)",
+                "zh": "RAG (智能检索)"
+            },
+            "cards": [
+                {
+                    "id": "rag1_preprocessing",
+                    "index": 1,
+                    "content": {
+                        "en": "Document Preprocessing",
+                        "zh": "文档预处理"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "rag/1"
+                },
+                {
+                    "id": "rag2_indexbuilding",
+                    "index": 2,
+                    "content": {
+                        "en": "Embeddings & Indexing",
+                        "zh": "嵌入与索引"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "rag/2"
+                },
+                {
+                    "id": "rag3_retrieval",
+                    "index": 3,
+                    "content": {
+                        "en": "Retrieval",
+                        "zh": "检索"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "rag/3"
+                },
+                {
+                    "id": "rag4_generation",
+                    "index": 4,
+                    "content": {
+                        "en": "Generation",
+                        "zh": "生成"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "rag/4"
+                },
+                {
+                    "id": "rag5_intent_detect",
+                    "index": 5,
+                    "content": {
+                        "en": "Intent Detect",
+                        "zh": "意图识别"
+                    },
+                    "color": "#fdba74",
+                    "capabilityMapRef": "rag/5"
+                },
+                {
+                    "id": "rag6_rerank",
+                    "index": 6,
+                    "content": {
+                        "en": "Re-rank",
+                        "zh": "重新排序"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "rag/6"
+                },
+                {
+                    "id": "rag7_performance_evaluation",
+                    "index": 7,
+                    "content": {
+                        "en": "Performance Evaluation",
+                        "zh": "性能评估"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "rag/7"
+                },
+                {
+                    "id": "rag8_knowledge_management",
+                    "index": 8,
+                    "content": {
+                        "en": "Knowledge Management",
+                        "zh": "知识管理"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "rag/8"
+                }
+            ]
+        },
+        "7": {
+            "id": "model",
+            "title": {
+                "en": "Model",
+                "zh": "模型"
+            },
+            "cards": [
+                {
+                    "id": "model1_azureopenai",
+                    "index": 1,
+                    "content": {
+                        "en": "Azure OpenAI",
+                        "zh": "Azure OpenAI"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "model/model_1.json"
+                },
+                {
+                    "id": "model2_bgemodel",
+                    "index": 2,
+                    "content": {
+                        "en": "BGE Model",
+                        "zh": "BGE 模型"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "model/model_2.json"
+                },
+                {
+                    "id": "model3_bertmodel",
+                    "index": 3,
+                    "content": {
+                        "en": "BERT Model",
+                        "zh": "BERT 模型"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "model/model_3.json"
+                },
+                {
+                    "id": "model4_deepseek",
+                    "index": 4,
+                    "content": {
+                        "en": "Deepseek Model",
+                        "zh": "Deepseek 模型"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "model/model_4.json"
+                },
+                {
+                    "id": "model5_qwen",
+                    "index": 5,
+                    "content": {
+                        "en": "Qwen Model",
+                        "zh": "Qwen 模型"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "model/model_5.json"
+                },
+                {
+                    "id": "model6_azureembedding",
+                    "index": 6,
+                    "content": {
+                        "en": "Azure Embedding Models",
+                        "zh": "Azure 嵌入模型"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "model/model_6.json"
+                }
+            ]
+        },
+        "8": {
+            "id": "knowledge",
+            "title": {
+                "en": "Knowledge",
+                "zh": "知识库"
+            },
+            "cards": [
+                {
+                    "id": "knowledge1",
+                    "index": 1,
+                    "content": {
+                        "en": "Semantic Knowledge Retrieval Engine",
+                        "zh": "语义知识检索引擎(向量库）"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "knowledge/knowledge_1.json"
+                },
+                {
+                    "id": "knowledge2",
+                    "index": 2,
+                    "content": {
+                        "en": "Text Knowledge Retrieval Center",
+                        "zh": "文本知识检索中心（ElasticSearch)"
+                    },
+                    "color": "#fdba74",
+                    "capabilityMapRef": "knowledge/knowledge_2.json"
+                },
+                {
+                    "id": "knowledge3",
+                    "index": 3,
+                    "content": {
+                        "en": "Knowledge Metadata Management",
+                        "zh": "知识元数据管理（MySQL)"
+                    },
+                    "color": "#fdba74",
+                    "capabilityMapRef": "knowledge/knowledge_3.json"
+                },
+                {
+                    "id": "knowledge4",
+                    "index": 4,
+                    "content": {
+                        "en": "Knowledge Cache Accelerator",
+                        "zh": "知识缓存加速器（Redis）"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "knowledge/knowledge_4.json"
+                },
+                {
+                    "id": "knowledge5",
+                    "index": 5,
+                    "content": {
+                        "en": "External Data Lake Connection",
+                        "zh": "连接外部数据湖存储（BKH)"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "knowledge/knowledge_5.json"
+                }
+            ]
+        },
+        "9": {
+            "id": "thirdParty",
+            "title": {
+                "en": "3rd Party",
+                "zh": "第三方服务"
+            },
+            "cards": [
+                {
+                    "id": "thirdParty1",
+                    "index": 1,
+                    "content": {
+                        "en": "ASR",
+                        "zh": "语音识别"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "thirdparty/tp_1.json"
+                },
+                {
+                    "id": "thirdParty2",
+                    "index": 2,
+                    "content": {
+                        "en": "TTS",
+                        "zh": "文本到语音"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "thirdparty/tp_2.json"
+                },
+                {
+                    "id": "thirdParty3",
+                    "index": 3,
+                    "content": {
+                        "en": "ServiceNow",
+                        "zh": "ServiceNow服务"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "thirdparty/tp_3.json"
+                },
+                {
+                    "id": "thirdParty4",
+                    "index": 4,
+                    "content": {
+                        "en": "MS Graph API",
+                        "zh": "MS Graph API服务"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "thirdparty/tp_4.json"
+                },
+                {
+                    "id": "thirdParty5",
+                    "index": 5,
+                    "content": {
+                        "en": "LLM Inspector",
+                        "zh": "LLM Inspector服务"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "thirdparty/tp_5.json"
+                }
+            ]
+        },
+        "10": {
+            "id": "dataAnalysis",
+            "title": {
+                "en": "Data Analysis",
+                "zh": "数据分析"
+            },
+            "cards": [
+                {
+                    "id": "dataAnalysis1_usage",
+                    "index": 1,
+                    "content": {
+                        "en": "Usage Analysis",
+                        "zh": "使用分析"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "dataAnalysis/1"
+                },
+                {
+                    "id": "dataAnalysis2_cost",
+                    "index": 2,
+                    "content": {
+                        "en": "Cost Analysis",
+                        "zh": "成本分析"
+                    },
+                    "color": "#ffffff",
+                    "capabilityMapRef": "dataAnalysis/2"
+                },
+                {
+                    "id": "dataAnalysis3_report",
+                    "index": 3,
+                    "content": {
+                        "en": "Report & Dashboard",
+                        "zh": "报表和仪表盘"
+                    },
+                    "color": "#86efac",
+                    "capabilityMapRef": "dataAnalysis/3"
+                }
+            ]
+        }
+    },
+    "rightColumn": {
+        "trustworthy": {
+            "en": "Trustworthy AI (Security, Ethics, responsible...)",
+            "zh": "可信 AI (安全、伦理、责任...)"
+        },
+        "logging": {
+            "en": "Logging & Monitoring",
+            "zh": "日志和监控"
+        }
+    },
+    "leftColumn": {
+        "ecosystem": {
+            "en": "Ecosystem",
+            "zh": "生态系统"
+        }
+    },
+    "_metadata": {
+        "version": "2025-03-30T14:24:12.452Z",
+        "lastUpdated": "2025-03-30T14:24:12.452Z"
+    }
+}

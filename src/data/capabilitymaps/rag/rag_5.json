@@ -1,0 +1,261 @@
+{
+    "id": "5",
+    "ref": "intent_detection",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Intent Detection",
+            "zh": "意图检测"
+        },
+        "status": "inProgress",
+        "color": "#fef9c3",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-05-21T21:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-05-21T22:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "query_intent_classification",
+            "name": {
+                "en": "Query Intent Classification",
+                "zh": "查询意图分类"
+            },
+            "status": "ready",
+            "techStack": "Intent Classifier",
+            "description": {
+                "en": "Classifies user queries into predefined intent categories",
+                "zh": "将用户查询分类为预定义的意图类别"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "agentic_intent_routing",
+            "name": {
+                "en": "Agentic Dynamic Intent Routing",
+                "zh": "Agentic 动态意图路由"
+            },
+            "status": "critical",
+            "techStack": "Model-based Routing System",
+            "description": {
+                "en": "Dynamically adjusts retrieval and processing strategies based on detected intent using model-based approaches",
+                "zh": "使用基于模型的方法，根据检测到的意图动态调整检索和处理策略"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "ref": "knowledge_intent_alignment",
+            "name": {
+                "en": "Knowledge-Intent Alignment",
+                "zh": "知识-意图对齐"
+            },
+            "status": "missing",
+            "techStack": "Knowledge Mapping",
+            "description": {
+                "en": "Maps detected intents to relevant knowledge sources",
+                "zh": "将检测到的意图映射到相关知识源"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "multi_intent_detection",
+            "name": {
+                "en": "Multi-intent Detection",
+                "zh": "多意图检测"
+            },
+            "status": "critical",
+            "techStack": "Multi-label Classification",
+            "description": {
+                "en": "Identifies multiple intents within a single query",
+                "zh": "在单个查询中识别多个意图"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "ref": "contextual_intent_detection",
+            "name": {
+                "en": "Contextual Intent Detection",
+                "zh": "上下文意图检测"
+            },
+            "status": "needEnhancement",
+            "techStack": "Context-aware Models",
+            "description": {
+                "en": "Considers conversation history when identifying intent",
+                "zh": "在识别意图时考虑对话历史"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "ref": "domain_specific_intent",
+            "name": {
+                "en": "Domain-specific Intent",
+                "zh": "领域特定意图"
+            },
+            "status": "needEnhancement",
+            "techStack": "Domain Adaptation",
+            "description": {
+                "en": "Detects specialized intents for specific knowledge domains",
+                "zh": "检测特定知识领域的专门意图"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "ref": "intent_disambiguation",
+            "name": {
+                "en": "Intent Disambiguation",
+                "zh": "意图消歧"
+            },
+            "status": "critical",
+            "techStack": "Disambiguation Models",
+            "description": {
+                "en": "Resolves ambiguous intents through clarification",
+                "zh": "通过澄清解决模糊意图"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_11",
+            "ref": "complex_intent_limitation",
+            "name": {
+                "en": "Complex Intent Limitation",
+                "zh": "复杂意图限制"
+            },
+            "status": "missing",
+            "techStack": "Model Limitations",
+            "description": {
+                "en": "Limited accuracy for highly nuanced or complex intents",
+                "zh": "对高度细微或复杂意图的准确性有限"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "ref": "intent_feedback_loop",
+            "name": {
+                "en": "Intent Feedback Loop",
+                "zh": "意图反馈循环"
+            },
+            "status": "missing",
+            "techStack": "Feedback System",
+            "description": {
+                "en": "Improves intent detection based on user feedback",
+                "zh": "基于用户反馈改进意图检测"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_12",
+            "ref": "adaptive_intent_learning",
+            "name": {
+                "en": "Adaptive Intent Learning",
+                "zh": "自适应意图学习"
+            },
+            "status": "missing",
+            "techStack": "Continuous Learning",
+            "description": {
+                "en": "Continuously learns and adapts to new intents over time",
+                "zh": "随着时间不断学习和适应新意图"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_13",
+            "ref": "intent_reasoning_enhancement",
+            "name": {
+                "en": "Intent Reasoning Enhancement (deepseek/o1)",
+                "zh": "意图推理增强 (deepseek/o1)"
+            },
+            "status": "missing",
+            "techStack": "Advanced Reasoning Models",
+            "description": {
+                "en": "Enhances intent detection with deeper reasoning capabilities to understand complex user requests",
+                "zh": "通过更深层次的推理能力增强意图检测，以理解复杂的用户请求"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.3.cards[4]"
+    }
+}

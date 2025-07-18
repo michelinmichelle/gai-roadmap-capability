@@ -1,0 +1,114 @@
+{
+    "id": "3",
+    "ref": "bert_model",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "BERT Model",
+            "zh": "BERT 模型"
+        },
+        "status": "sketch",
+        "color": "transparent",
+        "priority": {
+            "level": 3,
+            "label": {
+                "en": "Low",
+                "zh": "低"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-05-22T16:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "text_classification",
+            "name": {
+                "en": "Text Classification",
+                "zh": "文本分类"
+            },
+            "status": "sketch",
+            "techStack": "BERT-Base",
+            "description": {
+                "en": "Classify text into predefined categories",
+                "zh": "将文本分类到预定义类别"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "named_entity_recognition",
+            "name": {
+                "en": "Named Entity Recognition",
+                "zh": "命名实体识别"
+            },
+            "status": "sketch",
+            "techStack": "BERT-Large",
+            "description": {
+                "en": "Identify named entities in text (people, organizations, locations, etc.)",
+                "zh": "识别文本中的命名实体（人物、组织、地点等）"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "word_embeddings",
+            "name": {
+                "en": "Contextual Word Embeddings",
+                "zh": "上下文词嵌入"
+            },
+            "status": "sketch",
+            "techStack": "BERT-Multilingual",
+            "description": {
+                "en": "Generate context-aware word representations",
+                "zh": "生成上下文感知的词表示"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "sentiment_analysis",
+            "name": {
+                "en": "Sentiment Analysis",
+                "zh": "情感分析"
+            },
+            "status": "sketch",
+            "techStack": "BERT-Chinese",
+            "description": {
+                "en": "Determine sentiment expressed in text",
+                "zh": "确定文本中表达的情感"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.7.cards[2]"
+    }
+}

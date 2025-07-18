@@ -1,0 +1,633 @@
+{
+  "generatedAt": "2025-03-30T15:09:42.178Z",
+  "stats": {
+    "total": {
+      "readyButEnhancement": 7,
+      "criticalMissing": 0,
+      "total": 252
+    },
+    "byCategory": {
+      "admintouchpoints": {
+        "total": {
+          "readyButEnhancement": 0,
+          "criticalMissing": 0,
+          "total": 3
+        },
+        "cards": [
+          {
+            "title": {
+              "en": "Admin Console",
+              "zh": "管理控制台"
+            },
+            "ref": "admin_console",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 2
+            }
+          },
+          {
+            "title": {
+              "en": "Content Editor",
+              "zh": "内容编辑器"
+            },
+            "ref": "content_editor",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 1
+            }
+          }
+        ]
+      },
+      "aiorchestrator": {
+        "total": {
+          "readyButEnhancement": 0,
+          "criticalMissing": 0,
+          "total": 0
+        },
+        "cards": []
+      },
+      "coreAI": {
+        "total": {
+          "readyButEnhancement": 0,
+          "criticalMissing": 0,
+          "total": 46
+        },
+        "cards": [
+          {
+            "title": {
+              "en": "Chat Agent",
+              "zh": "对话智能体"
+            },
+            "ref": "chat_agent",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 0
+            }
+          },
+          {
+            "title": {
+              "en": "Knowledge Agent",
+              "zh": "知识智能体"
+            },
+            "ref": "knowledge_agent",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 9
+            }
+          },
+          {
+            "title": {
+              "en": "Sales Agent",
+              "zh": "销售智能体"
+            },
+            "ref": "sales_agent",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 3
+            }
+          },
+          {
+            "title": {
+              "en": "NLP Agent",
+              "zh": "自然语言处理智能体"
+            },
+            "ref": "qa_agent",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 11
+            }
+          },
+          {
+            "title": {
+              "en": "Orchestrator",
+              "zh": "编排器"
+            },
+            "ref": "orchestrator",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 11
+            }
+          },
+          {
+            "title": {
+              "en": "CoreAI Toolbox",
+              "zh": "CoreAI工具包"
+            },
+            "ref": "toolbox",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 0
+            }
+          },
+          {
+            "title": {
+              "en": "Core AI Planning",
+              "zh": "Core AI Planning"
+            },
+            "ref": "integrator",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 0
+            }
+          },
+          {
+            "title": {
+              "en": "Core AI Memory",
+              "zh": "Core AI Memory"
+            },
+            "ref": "planning",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 0
+            }
+          },
+          {
+            "title": {
+              "en": "Memory",
+              "zh": "记忆系统"
+            },
+            "ref": "memory",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 12
+            }
+          }
+        ]
+      },
+      "dataanalysis": {
+        "total": {
+          "readyButEnhancement": 0,
+          "criticalMissing": 0,
+          "total": 8
+        },
+        "cards": [
+          {
+            "title": {
+              "en": "Usage Analysis",
+              "zh": "使用分析"
+            },
+            "ref": "usage_analysis",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 6
+            }
+          },
+          {
+            "title": {
+              "en": "Cost Analysis",
+              "zh": "成本分析"
+            },
+            "ref": "cost_analysis",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 1
+            }
+          },
+          {
+            "title": {
+              "en": "Report & Dashboard",
+              "zh": "报表和仪表板"
+            },
+            "ref": "reporting_dashboard",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 1
+            }
+          }
+        ]
+      },
+      "knowledge": {
+        "total": {
+          "readyButEnhancement": 1,
+          "criticalMissing": 0,
+          "total": 23
+        },
+        "cards": [
+          {
+            "title": {
+              "en": "Semantic Knowledge Retrieval Engine",
+              "zh": "语义知识检索引擎(向量库）"
+            },
+            "ref": "vector_db",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 7
+            }
+          },
+          {
+            "title": {
+              "en": "Text Knowledge Retrieval Center",
+              "zh": "文本知识检索中心（ElasticSearch)"
+            },
+            "ref": "graph_db",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 4
+            }
+          },
+          {
+            "title": {
+              "en": "Knowledge Metadata Management",
+              "zh": "知识元数据管理（MySQL)"
+            },
+            "ref": "document_processing",
+            "stats": {
+              "readyButEnhancement": 1,
+              "criticalMissing": 0,
+              "total": 5
+            }
+          },
+          {
+            "title": {
+              "en": "Knowledge Cache Accelerator",
+              "zh": "知识缓存加速器（Redis）"
+            },
+            "ref": "content_management",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 4
+            }
+          },
+          {
+            "title": {
+              "en": "External Data Lake Connection",
+              "zh": "连接外部数据湖存储（BKH)"
+            },
+            "ref": "external_data_lake",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 3
+            }
+          }
+        ]
+      },
+      "model": {
+        "total": {
+          "readyButEnhancement": 0,
+          "criticalMissing": 0,
+          "total": 24
+        },
+        "cards": [
+          {
+            "title": {
+              "en": "Azure OpenAI",
+              "zh": "Azure OpenAI"
+            },
+            "ref": "azure_openai",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 6
+            }
+          },
+          {
+            "title": {
+              "en": "BGE Model",
+              "zh": "BGE 模型"
+            },
+            "ref": "bge_model",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 6
+            }
+          },
+          {
+            "title": {
+              "en": "BERT Model",
+              "zh": "BERT 模型"
+            },
+            "ref": "bert_model",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 4
+            }
+          },
+          {
+            "title": {
+              "en": "Deepseek Model",
+              "zh": "Deepseek 模型"
+            },
+            "ref": "deepseek_model",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 3
+            }
+          },
+          {
+            "title": {
+              "en": "Qwen Model",
+              "zh": "Qwen 模型"
+            },
+            "ref": "qwen_model",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 3
+            }
+          },
+          {
+            "title": {
+              "en": "Azure Embedding Models",
+              "zh": "Azure 嵌入模型"
+            },
+            "ref": "azure_embedding",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 2
+            }
+          }
+        ]
+      },
+      "publictouchpoints": {
+        "total": {
+          "readyButEnhancement": 3,
+          "criticalMissing": 0,
+          "total": 18
+        },
+        "cards": [
+          {
+            "title": {
+              "en": "MiStation Employee Portal",
+              "zh": "米站(PC)"
+            },
+            "ref": "mistation_portal",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 3
+            }
+          },
+          {
+            "title": {
+              "en": "Mi-Station Employee WeComm (mobile)",
+              "zh": "米站(WeComm)"
+            },
+            "ref": "mistation_wecomm",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 1
+            }
+          },
+          {
+            "title": {
+              "en": "DCP",
+              "zh": "Dealer门户"
+            },
+            "ref": "dealer_portal",
+            "stats": {
+              "readyButEnhancement": 2,
+              "criticalMissing": 0,
+              "total": 4
+            }
+          },
+          {
+            "title": {
+              "en": "Call Center",
+              "zh": "Call Center系统"
+            },
+            "ref": "call_center",
+            "stats": {
+              "readyButEnhancement": 1,
+              "criticalMissing": 0,
+              "total": 5
+            }
+          },
+          {
+            "title": {
+              "en": "Teams",
+              "zh": "Teams"
+            },
+            "ref": "teams",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 3
+            }
+          },
+          {
+            "title": {
+              "en": "CRM",
+              "zh": "CRM"
+            },
+            "ref": "crm",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 2
+            }
+          }
+        ]
+      },
+      "rag": {
+        "total": {
+          "readyButEnhancement": 3,
+          "criticalMissing": 0,
+          "total": 106
+        },
+        "cards": [
+          {
+            "title": {
+              "en": "Document Preprocessing",
+              "zh": "文档预处理"
+            },
+            "ref": "preprocessing",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 14
+            }
+          },
+          {
+            "title": {
+              "en": "Embeddings & Indexing",
+              "zh": "嵌入与索引"
+            },
+            "ref": "embedding_indexing",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 18
+            }
+          },
+          {
+            "title": {
+              "en": "Retrieval",
+              "zh": "检索"
+            },
+            "ref": "retrieval",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 12
+            }
+          },
+          {
+            "title": {
+              "en": "Generation",
+              "zh": "生成"
+            },
+            "ref": "generation",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 11
+            }
+          },
+          {
+            "title": {
+              "en": "Intent Detection",
+              "zh": "意图检测"
+            },
+            "ref": "intent_detection",
+            "stats": {
+              "readyButEnhancement": 2,
+              "criticalMissing": 0,
+              "total": 11
+            }
+          },
+          {
+            "title": {
+              "en": "Re-ranking",
+              "zh": "重新排序"
+            },
+            "ref": "reranking",
+            "stats": {
+              "readyButEnhancement": 1,
+              "criticalMissing": 0,
+              "total": 10
+            }
+          },
+          {
+            "title": {
+              "en": "Performance Evaluation",
+              "zh": "性能评估"
+            },
+            "ref": "performance_evaluation",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 20
+            }
+          },
+          {
+            "title": {
+              "en": "Knowledge Management",
+              "zh": "知识管理"
+            },
+            "ref": "knowledge_management",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 10
+            }
+          }
+        ]
+      },
+      "service_layer": {
+        "total": {
+          "readyButEnhancement": 0,
+          "criticalMissing": 0,
+          "total": 0
+        },
+        "cards": []
+      },
+      "thirdparty": {
+        "total": {
+          "readyButEnhancement": 0,
+          "criticalMissing": 0,
+          "total": 24
+        },
+        "cards": [
+          {
+            "title": {
+              "en": "ASR",
+              "zh": "自动语音识别"
+            },
+            "ref": "asr",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 9
+            }
+          },
+          {
+            "title": {
+              "en": "TTS",
+              "zh": "文本到语音"
+            },
+            "ref": "tts",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 5
+            }
+          },
+          {
+            "title": {
+              "en": "ServiceNow",
+              "zh": "ServiceNow服务"
+            },
+            "ref": "servicenow",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 1
+            }
+          },
+          {
+            "title": {
+              "en": "MS Graph API",
+              "zh": "MS Graph API服务"
+            },
+            "ref": "msgraph",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 5
+            }
+          },
+          {
+            "title": {
+              "en": "LLM Inspector",
+              "zh": "LLM Inspector服务"
+            },
+            "ref": "llminspector",
+            "stats": {
+              "readyButEnhancement": 0,
+              "criticalMissing": 0,
+              "total": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "summary": {
+    "total": 252,
+    "readyButEnhancement": 7,
+    "criticalMissing": 0
+  }
+}

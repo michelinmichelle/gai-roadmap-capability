@@ -1,0 +1,107 @@
+{
+    "id": "10",
+    "ref": "workflow_automation",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Workflow Automation Service",
+            "zh": "4.10 Workflow Automation Service"
+        },
+        "status": "ready",
+        "color": "#FEB273",
+        "lastUpdated": "2024-05-16T12:30:00Z",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "name": {
+                "en": "Workflow Designer (DIFY)",
+                "zh": "工作流设计器 (DIFY)"
+            },
+            "description": {
+                "en": "Visual interface for designing automated workflows",
+                "zh": "用于设计自动化工作流的可视化界面"
+            },
+            "status": "experiment",
+            "techStack": "Workflow Engine",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "name": {
+                "en": "Workflow Templates (DIFY)",
+                "zh": "工作流模板 (DIFY)"
+            },
+            "description": {
+                "en": "Library of reusable workflow templates for common scenarios",
+                "zh": "适用于常见场景的可重用工作流模板库"
+            },
+            "status": "experiment",
+            "techStack": "Template System",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "name": {
+                "en": "Workflow Monitoring (DIFY)",
+                "zh": "工作流监控 (DIFY)"
+            },
+            "description": {
+                "en": "Track and monitor workflow execution and performance",
+                "zh": "跟踪和监控工作流执行和性能"
+            },
+            "status": "experiment",
+            "techStack": "Monitoring System",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "name": {
+                "en": "AI-assisted Workflow Creation",
+                "zh": "AI辅助工作流创建"
+            },
+            "description": {
+                "en": "Use AI to suggest and optimize workflow designs",
+                "zh": "使用AI建议和优化工作流设计"
+            },
+            "status": "sketch",
+            "techStack": "AI Assistant",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architecture": "sections.4.cards[9]"
+    }
+}

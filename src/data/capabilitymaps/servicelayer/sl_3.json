@@ -1,0 +1,367 @@
+{
+    "id": "3",
+    "ref": "knowledge_management",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Knowledge Management Service",
+            "zh": "4.3 Knowledge Management Service"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "lastUpdated": "2024-03-23T19:15:00Z",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "name": {
+                "en": "Knowledge Base Management",
+                "zh": "知识库管理"
+            },
+            "description": {
+                "en": "Support knowledge base creation, updating, deletion, storing multiple types of data",
+                "zh": "支持知识库创建、更新、删除，存储多类型数据"
+            },
+            "status": "ready",
+            "techStack": "Database Management",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "name": {
+                "en": "Automatic Knowledge Synchronization",
+                "zh": "自动同步其他知识库"
+            },
+            "description": {
+                "en": "Automatic synchronization with other internal knowledge websites such as SharePoint, SNOW, etc.",
+                "zh": "与其他内部知识网站的自动同步，如SharePoint、SNOW等"
+            },
+            "status": "missing",
+            "techStack": "Content Management",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "name": {
+                "en": "Intelligent Knowledge Recommendations",
+                "zh": "知识库智能推荐"
+            },
+            "description": {
+                "en": "Combine AI to suggest knowledge base content, improve information organization efficiency",
+                "zh": "结合 AI 建议知识库内容，提高信息组织效率"
+            },
+            "status": "missing",
+            "techStack": "Recommendation Engine",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "name": {
+                "en": "Document File Management",
+                "zh": "文件管理"
+            },
+            "description": {
+                "en": "Support document file upload, deletion, file status tracking",
+                "zh": "支持文档文件上传、删除、文件状态跟踪"
+            },
+            "status": "ready",
+            "techStack": "File Storage",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "name": {
+                "en": "Document File Limitation",
+                "zh": "文档文件限制"
+            },
+            "description": {
+                "en": "Lack of file version management",
+                "zh": "缺少文件版本管理"
+            },
+            "status": "missing",
+            "techStack": "Version Control",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "name": {
+                "en": "Video File Compression",
+                "zh": "视频文件压缩"
+            },
+            "description": {
+                "en": "Support video file compression for optimal storage and retrieval",
+                "zh": "支持视频文件压缩，优化存储和检索"
+            },
+            "status": "missing",
+            "techStack": "Compression Service",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "name": {
+                "en": "Advanced RAG",
+                "zh": "知识检索"
+            },
+            "description": {
+                "en": "Support Advanced RAG, combining vector search to optimize queries",
+                "zh": "支持 Advanced RAG，结合向量搜索优化查询，但未封装为外部服务"
+            },
+            "status": "ready",
+            "techStack": "Vector Search",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "name": {
+                "en": "Knowledge Retrieval Microservice",
+                "zh": "知识检索微服务"
+            },
+            "description": {
+                "en": "Package knowledge retrieval as a microservice, provide external API access, support cache optimization",
+                "zh": "封装知识检索微服务，提供外部 API 访问，支持缓存优化"
+            },
+            "status": "missing",
+            "techStack": "Microservice Architecture",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "name": {
+                "en": "Tag Group Access Control",
+                "zh": "权限管理"
+            },
+            "description": {
+                "en": "Support document tag group management, refine access permissions for knowledge tag groups",
+                "zh": "支持文档标签组管理，知识标签组的访问权限细化"
+            },
+            "status": "ready",
+            "techStack": "Access Control",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_11",
+            "name": {
+                "en": "Enhanced Tag Management",
+                "zh": "增强标签管理"
+            },
+            "description": {
+                "en": "Support cross-tag group permission control, support dynamic permission adjustment",
+                "zh": "增强标签管理，支持跨标签组权限控制，支持动态权限调整"
+            },
+            "status": "needEnhancement",
+            "techStack": "Permission Framework",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_12",
+            "name": {
+                "en": "Standard Q&A Excel Management",
+                "zh": "标准问答管理"
+            },
+            "description": {
+                "en": "Support standard Q&A Excel and video link management",
+                "zh": "支持标准问答 Excel 及待视频链接的管理"
+            },
+            "status": "ready",
+            "techStack": "Q&A System",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_13",
+            "name": {
+                "en": "Multimedia Content Repository",
+                "zh": "多媒体素材知识库"
+            },
+            "description": {
+                "en": "Support management of multimedia assets such as videos, including storage, indexing and retrieval",
+                "zh": "支持视频等多媒体素材的管理，包括存储、索引和检索"
+            },
+            "status": "missing",
+            "techStack": "Media Asset Management",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_14",
+            "name": {
+                "en": "Embedding Status Management",
+                "zh": "Embedding 服务"
+            },
+            "description": {
+                "en": "Support Embedding status management, monitor Embedding processing progress",
+                "zh": "支持 Embedding 状态管理，可监控 Embedding 处理进度"
+            },
+            "status": "ready",
+            "techStack": "Embedding Service",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_16",
+            "name": {
+                "en": "Metadata and Storage Consistency",
+                "zh": "元数据和存储一致性"
+            },
+            "description": {
+                "en": "Improve consistency between metadata management and physical storage",
+                "zh": "改进元数据管理与物理存储的一致性问题"
+            },
+            "status": "missing",
+            "techStack": "Consistency Service",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_18",
+            "name": {
+                "en": "Knowledge Graph",
+                "zh": "知识图谱"
+            },
+            "description": {
+                "en": "Manage complex relationships between knowledge entities using graph structures, suitable for answering global questions",
+                "zh": "利用图结构管理复杂知识间的关系，适合回答全局问题"
+            },
+            "status": "missing",
+            "techStack": "Graph Database",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_19",
+            "name": {
+                "en": "Crawled Web Knowledge Management",
+                "zh": "Crawled Web 知识管理"
+            },
+            "description": {
+                "en": "Manage and index knowledge crawled from the web, supporting automatic updates and categorization",
+                "zh": "管理和索引从网络抓取的知识，支持自动更新和分类"
+            },
+            "status": "missing",
+            "techStack": "Web Crawler, Knowledge Processing",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_20",
+            "name": {
+                "en": "Multi-stage Intelligent Knowledge Filtering",
+                "zh": "多阶段智能知识过滤"
+            },
+            "description": {
+                "en": "Support deep research and progressive retrieval from coarse to fine, with multi-stage filtering and multi-level intelligent filtering capabilities",
+                "zh": "支持deep research，支持由粗到细的渐进检索/多阶段筛选/多层次智能过滤的能力"
+            },
+            "status": "missing",
+            "techStack": "Advanced Filtering System",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.4.cards[2]"
+    }
+}

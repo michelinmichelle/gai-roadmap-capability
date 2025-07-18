@@ -1,0 +1,240 @@
+{
+    "id": "6",
+    "ref": "reranking",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Re-ranking",
+            "zh": "重新排序"
+        },
+        "status": "inProgress",
+        "color": "#fef9c3",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-05-21T20:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-05-21T20:30:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "semantic_reranking",
+            "name": {
+                "en": "Semantic Re-ranking",
+                "zh": "语义重排序"
+            },
+            "status": "ready",
+            "techStack": "Neural Rerankers",
+            "description": {
+                "en": "Reorders retrieval results based on semantic relevance",
+                "zh": "基于语义相关性重新排序检索结果"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "cross_encoder_reranking",
+            "name": {
+                "en": "Cross-encoder Re-ranking (BERT)",
+                "zh": "交叉编码器重排序 (BERT)"
+            },
+            "status": "missing",
+            "techStack": "Cross-encoders",
+            "description": {
+                "en": "Uses query-document pairs for more accurate relevance scoring",
+                "zh": "使用查询-文档对进行更准确的相关性评分"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "diversity_reranking",
+            "name": {
+                "en": "Diversity Re-ranking",
+                "zh": "多样性重排序"
+            },
+            "status": "missing",
+            "techStack": "Diversity Algorithms",
+            "description": {
+                "en": "Ensures variety in top retrieval results",
+                "zh": "确保顶部检索结果的多样性"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "context_aware_reranking",
+            "name": {
+                "en": "Context-aware Re-ranking",
+                "zh": "上下文感知重排序"
+            },
+            "status": "missing",
+            "techStack": "Contextual Models",
+            "description": {
+                "en": "Incorporates conversation context into re-ranking decisions",
+                "zh": "将对话上下文纳入重排序决策"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "ref": "personalized_reranking",
+            "name": {
+                "en": "Personalized Re-ranking",
+                "zh": "个性化重排序"
+            },
+            "status": "missing",
+            "techStack": "User Modeling",
+            "description": {
+                "en": "Tailors result ordering to user preferences and history",
+                "zh": "根据用户偏好和历史定制结果排序"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "ref": "hybrid_reranking",
+            "name": {
+                "en": "Hybrid Re-ranking",
+                "zh": "混合重排序"
+            },
+            "status": "needEnhancement",
+            "techStack": "Multiple Signals",
+            "description": {
+                "en": "Combines results from multiple retrieval paths for optimal ordering",
+                "zh": "结合多路召回结果进行排序以获得最佳结果"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "ref": "query_transformers_reranking",
+            "name": {
+                "en": "Query Transformers Re-ranking",
+                "zh": "查询转换器重排序"
+            },
+            "status": "missing",
+            "techStack": "Query Rewriting",
+            "description": {
+                "en": "Reranks using transformed queries for better relevance",
+                "zh": "使用转换后的查询进行重排序以提高相关性"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "ref": "adaptive_reranking",
+            "name": {
+                "en": "Adaptive Re-ranking",
+                "zh": "自适应重排序"
+            },
+            "status": "missing",
+            "techStack": "Feedback Learning",
+            "description": {
+                "en": "Adjusts re-ranking strategy based on user feedback",
+                "zh": "根据用户反馈调整重排序策略"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "ref": "efficient_reranking",
+            "name": {
+                "en": "Efficient Re-ranking",
+                "zh": "高效重排序"
+            },
+            "status": "missing",
+            "techStack": "Optimization Techniques",
+            "description": {
+                "en": "Minimizes computational costs of re-ranking process",
+                "zh": "最小化重排序过程的计算成本"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "ref": "multi_stage_reranking",
+            "name": {
+                "en": "Multi-stage Re-ranking",
+                "zh": "多阶段重排序"
+            },
+            "status": "missing",
+            "techStack": "Cascaded Models",
+            "description": {
+                "en": "Applies sequential filters for progressive result refinement",
+                "zh": "应用顺序过滤器进行渐进式结果优化"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.3.cards[5]"
+    }
+}

@@ -1,0 +1,267 @@
+{
+    "id": "9",
+    "ref": "system_settings",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "System Settings & Extension Service",
+            "zh": "4.9 System Settings & Extension Service"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "lastUpdated": "2024-05-16T10:00:00Z",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "name": {
+                "en": "User Preference Configuration",
+                "zh": "用户偏好配置"
+            },
+            "description": {
+                "en": "Allow users to configure system preferences and settings",
+                "zh": "允许用户配置系统偏好和设置"
+            },
+            "status": "ready",
+            "techStack": "Settings Manager",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "name": {
+                "en": "Theme Customization",
+                "zh": "主题定制"
+            },
+            "description": {
+                "en": "Support customization of UI themes and appearance",
+                "zh": "支持UI主题和外观的定制"
+            },
+            "status": "ready",
+            "techStack": "Theme Engine",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "name": {
+                "en": "Language Settings",
+                "zh": "语言设置"
+            },
+            "description": {
+                "en": "Configure language preferences for the platform interface",
+                "zh": "配置平台界面的语言偏好"
+            },
+            "status": "ready",
+            "techStack": "Localization System",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "name": {
+                "en": "Notification Preferences",
+                "zh": "通知偏好"
+            },
+            "description": {
+                "en": "Configure how and when system notifications are received",
+                "zh": "配置系统通知的接收方式和时间"
+            },
+            "status": "ready",
+            "techStack": "Notification Framework",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_13",
+            "name": {
+                "en": "MCP Model Context Protocol",
+                "zh": "MCP模型上下文协议"
+            },
+            "description": {
+                "en": "Standardize requests across different data sources APIs, building foundation for modular deployment architecture",
+                "zh": "将不同数据源的API转换为标准化请求, 奠定模块化部署架构基础"
+            },
+            "status": "experiment",
+            "techStack": "Protocol Framework",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "name": {
+                "en": "API Connection Settings",
+                "zh": "API连接设置"
+            },
+            "description": {
+                "en": "Configure connections to external APIs and services",
+                "zh": "配置与外部API和服务的连接"
+            },
+            "status": "ready",
+            "techStack": "Connection Manager",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "name": {
+                "en": "Limited Extension Options",
+                "zh": "有限的扩展选项"
+            },
+            "description": {
+                "en": "Current system supports only a limited set of extensions",
+                "zh": "当前系统仅支持有限的扩展集"
+            },
+            "status": "constraint",
+            "techStack": "Extension Framework",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "name": {
+                "en": "Manual Configuration Updates",
+                "zh": "手动配置更新"
+            },
+            "description": {
+                "en": "System settings changes require manual updates, lacking automation",
+                "zh": "系统设置更改需要手动更新，缺乏自动化"
+            },
+            "status": "constraint",
+            "techStack": "Configuration Manager",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "name": {
+                "en": "Open Extension Marketplace",
+                "zh": "开放扩展市场"
+            },
+            "description": {
+                "en": "Develop marketplace for third-party extensions and plugins",
+                "zh": "开发第三方扩展和插件的市场"
+            },
+            "status": "sketch",
+            "techStack": "Marketplace Platform",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "name": {
+                "en": "Configuration Profiles",
+                "zh": "配置文件"
+            },
+            "description": {
+                "en": "Create and share configuration profiles across users and teams",
+                "zh": "创建和共享用户和团队之间的配置文件"
+            },
+            "status": "sketch",
+            "techStack": "Profile Manager",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_11",
+            "name": {
+                "en": "Extension Development Kit",
+                "zh": "扩展开发套件"
+            },
+            "description": {
+                "en": "Provide SDK for developers to create custom extensions",
+                "zh": "为开发人员提供创建自定义扩展的SDK"
+            },
+            "status": "sketch",
+            "techStack": "Developer SDK",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_12",
+            "name": {
+                "en": "Cross-Platform Settings Sync",
+                "zh": "跨平台设置同步"
+            },
+            "description": {
+                "en": "Synchronize settings across different devices and platforms",
+                "zh": "在不同设备和平台之间同步设置"
+            },
+            "status": "sketch",
+            "techStack": "Sync Service",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architecture": "sections.4.cards[8]"
+    }
+}

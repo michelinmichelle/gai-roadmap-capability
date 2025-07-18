@@ -1,0 +1,93 @@
+{
+    "id": "sa_1",
+    "ref": "single_agent_sequential",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Single-Agent-Sequential Execution",
+            "zh": "顺序执行模式"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "sequential_execution",
+            "name": {
+                "en": "Sequential Execution",
+                "zh": "顺序执行"
+            },
+            "status": "ready",
+            "techStack": "Workflow Engine",
+            "description": {
+                "en": "Execute tasks in predefined order",
+                "zh": "按预定义顺序执行任务"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "step_transition",
+            "name": {
+                "en": "Step Transition",
+                "zh": "步骤转换"
+            },
+            "status": "ready",
+            "techStack": "Control Flow",
+            "description": {
+                "en": "Manage transitions between execution steps",
+                "zh": "管理执行步骤之间的转换"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "execution_tracking",
+            "name": {
+                "en": "Execution Tracking",
+                "zh": "执行跟踪"
+            },
+            "status": "ready",
+            "techStack": "Monitoring System",
+            "description": {
+                "en": "Track and record execution progress",
+                "zh": "跟踪和记录执行进度"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architectureCard": "sections.3.cards[0]"
+    }
+}

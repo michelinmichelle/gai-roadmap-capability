@@ -1,0 +1,89 @@
+{
+    "version": "1.0.0",
+    "prefix": "ma",
+    "groups": [
+        {
+            "id": "multi_agent_execution",
+            "name": {
+                "en": "Multi-Agent Execution",
+                "zh": "多 Agent 执行"
+            },
+            "description": {
+                "en": "Multi-agent execution capabilities",
+                "zh": "多智能体执行能力"
+            },
+            "cards": [
+                {
+                    "id": "1",
+                    "ref": "task_delegation",
+                    "filename": "ma_1.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Task Delegation Mode",
+                            "zh": "3.6 分工协作模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "2",
+                    "ref": "role_based",
+                    "filename": "ma_2.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Role-Based Collaboration Mode",
+                            "zh": "3.7 角色驱动模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "3",
+                    "ref": "competitive",
+                    "filename": "ma_3.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Competitive Mode",
+                            "zh": "3.8 竞争模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "4",
+                    "ref": "knowledge_sharing",
+                    "filename": "ma_4.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Knowledge Sharing Mode",
+                            "zh": "3.9 知识共享模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "5",
+                    "ref": "negotiation",
+                    "filename": "ma_5.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Iterative Negotiation Mode",
+                            "zh": "3.10 多轮协商模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent"
+                    }
+                }
+            ]
+        }
+    ],
+    "deletedCards": [],
+    "references": {
+        "architecture": "../../architecture.json",
+        "capabilities": "../../capabilities.json"
+    }
+}

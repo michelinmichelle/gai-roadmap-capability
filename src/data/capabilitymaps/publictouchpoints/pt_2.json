@@ -1,0 +1,51 @@
+{
+    "id": "2",
+    "ref": "mistation_wecomm",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Mi-Station Employee WeComm (mobile)",
+            "zh": "米站(WeComm)"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "wecomm_login_integration",
+            "name": {
+                "en": "WeComm Login Integration",
+                "zh": "企业微信登录集成"
+            },
+            "status": "ready",
+            "techStack": "WeComm API",
+            "description": {
+                "en": "Integration with WeComm enterprise login and authentication",
+                "zh": "与企业微信登录和认证功能的集成"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.1.cards[1]"
+    }
+}

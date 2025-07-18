@@ -1,0 +1,87 @@
+{
+    "id": "15",
+    "ref": "content_service",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Content Service",
+            "zh": "4.15 Content Service"
+        },
+        "status": "planned",
+        "color": "#fef9c3",
+        "lastUpdated": "2024-05-20T22:00:00Z",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_3",
+            "name": {
+                "en": "Content Versioning",
+                "zh": "内容版本控制"
+            },
+            "description": {
+                "en": "Track and manage different versions of content",
+                "zh": "跟踪和管理内容的不同版本"
+            },
+            "status": "missing",
+            "techStack": "Version Control",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_12",
+            "name": {
+                "en": "Content Analytics",
+                "zh": "内容分析"
+            },
+            "description": {
+                "en": "Detailed analytics on content performance and user engagement",
+                "zh": "关于内容性能和用户参与度的详细分析"
+            },
+            "status": "missing",
+            "techStack": "Analytics Platform",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_13",
+            "name": {
+                "en": "Multi-channel Content Distribution",
+                "zh": "内容媒体多渠道分发"
+            },
+            "description": {
+                "en": "Distribution of content across multiple social media platforms including TikTok and RedNote",
+                "zh": "跨多个社交媒体平台（包括抖音和小红书）分发内容"
+            },
+            "status": "missing",
+            "techStack": "Social Media Integration API",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.4.cards[14]"
+    }
+}

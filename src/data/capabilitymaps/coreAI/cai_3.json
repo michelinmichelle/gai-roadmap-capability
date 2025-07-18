@@ -1,0 +1,93 @@
+{
+    "id": "3",
+    "ref": "sales_agent",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Sales Agent",
+            "zh": "销售智能体"
+        },
+        "status": "sketch",
+        "color": "transparent",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "sales_policy_analysis",
+            "name": {
+                "en": "Sales Policy Analysis",
+                "zh": "销售政策分析"
+            },
+            "status": "sketch",
+            "techStack": "NLP Engine",
+            "description": {
+                "en": "Analyzes sales policies and regulations to provide guidance",
+                "zh": "分析销售政策和规定，提供指导建议"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "inventory_analysis",
+            "name": {
+                "en": "Inventory Analysis",
+                "zh": "库存分析"
+            },
+            "status": "sketch",
+            "techStack": "Data Analytics",
+            "description": {
+                "en": "Monitors and analyzes inventory levels and trends",
+                "zh": "监控和分析库存水平和趋势"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "visit_planning",
+            "name": {
+                "en": "Visit Planning",
+                "zh": "拜访规划"
+            },
+            "status": "sketch",
+            "techStack": "Planning Engine",
+            "description": {
+                "en": "Generates optimized customer visit plans based on various factors",
+                "zh": "基于多个因素生成优化的客户拜访计划"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.5.cards[2]"
+    }
+}

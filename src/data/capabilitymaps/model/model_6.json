@@ -1,0 +1,72 @@
+{
+    "id": "6",
+    "ref": "azure_embedding",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Azure Embedding Models",
+            "zh": "Azure 嵌入模型"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-05-22T19:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-05-22T19:00:00Z",
+        "updatedAt": "2024-05-23T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "text_embedding_large",
+            "name": {
+                "en": "Text Embedding Large",
+                "zh": "大型文本嵌入"
+            },
+            "status": "ready",
+            "techStack": "text-embedding-large",
+            "description": {
+                "en": "Create high-quality vector representations of text using text-embedding-large",
+                "zh": "使用text-embedding-large创建高质量的文本向量表示"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "multilingual_embedding",
+            "name": {
+                "en": "Multilingual Embedding",
+                "zh": "多语言嵌入"
+            },
+            "status": "ready",
+            "techStack": "text-embedding-multilingual",
+            "description": {
+                "en": "Support for generating embeddings across multiple languages",
+                "zh": "支持生成多种语言的嵌入向量"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.7.cards[5]"
+    }
+}

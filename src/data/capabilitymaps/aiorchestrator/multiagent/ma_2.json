@@ -1,0 +1,93 @@
+{
+    "id": "7",
+    "ref": "role_based",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Role-Based Collaboration Mode",
+            "zh": "3.7 角色驱动模式"
+        },
+        "status": "sketch",
+        "color": "transparent",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "role_definition",
+            "name": {
+                "en": "Role Definition",
+                "zh": "角色定义"
+            },
+            "status": "sketch",
+            "techStack": "Role Framework",
+            "description": {
+                "en": "Define specialized roles with specific capabilities and responsibilities",
+                "zh": "定义具有特定能力和职责的专业角色"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "role_assignment",
+            "name": {
+                "en": "Role Assignment",
+                "zh": "角色分配"
+            },
+            "status": "sketch",
+            "techStack": "Agent Management",
+            "description": {
+                "en": "Assign agents to appropriate roles based on capabilities",
+                "zh": "基于能力将智能体分配到适当的角色"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "role_based_interaction",
+            "name": {
+                "en": "Role-Based Interaction",
+                "zh": "基于角色的交互"
+            },
+            "status": "sketch",
+            "techStack": "Interaction Framework",
+            "description": {
+                "en": "Manage interactions between agents based on their defined roles",
+                "zh": "基于定义的角色管理智能体之间的交互"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architectureCard": "sections.3.cards[6]"
+    }
+}

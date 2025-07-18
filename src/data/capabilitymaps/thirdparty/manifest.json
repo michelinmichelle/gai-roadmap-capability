@@ -1,0 +1,92 @@
+{
+    "id": "9",
+    "ref": "thirdparty",
+    "version": "1.0.0",
+    "prefix": "tp_",
+    "metadata": {
+        "title": {
+            "en": "3rd Party",
+            "zh": "第三方服务"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "lastUpdated": "2024-05-23T17:00:00Z"
+    },
+    "cards": [
+        {
+            "id": "1",
+            "ref": "asr",
+            "filename": "tp_1.json",
+            "metadata": {
+                "title": {
+                    "en": "ASR",
+                    "zh": "自动语音识别"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-05-23T17:00:00Z"
+            }
+        },
+        {
+            "id": "2",
+            "ref": "tts",
+            "filename": "tp_2.json",
+            "metadata": {
+                "title": {
+                    "en": "TTS",
+                    "zh": "文本到语音"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-05-23T16:00:00Z"
+            }
+        },
+        {
+            "id": "3",
+            "ref": "servicenow",
+            "filename": "tp_3.json",
+            "metadata": {
+                "title": {
+                    "en": "ServiceNow",
+                    "zh": "ServiceNow服务"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-05-23T16:00:00Z"
+            }
+        },
+        {
+            "id": "4",
+            "ref": "msgraph",
+            "filename": "tp_4.json",
+            "metadata": {
+                "title": {
+                    "en": "MS Graph API",
+                    "zh": "MS Graph API服务"
+                },
+                "status": "planned",
+                "color": "#fef9c3",
+                "lastUpdated": "2024-05-23T16:00:00Z"
+            }
+        },
+        {
+            "id": "5",
+            "ref": "llminspector",
+            "filename": "tp_5.json",
+            "metadata": {
+                "title": {
+                    "en": "LLM Inspector",
+                    "zh": "LLM Inspector服务"
+                },
+                "status": "experimental",
+                "color": "#fdba74",
+                "lastUpdated": "2024-05-23T16:00:00Z"
+            }
+        }
+    ],
+    "deletedCards": [],
+    "references": {
+        "architecture": "../../architecture-cards.json",
+        "capabilities": "../capabilities"
+    }
+}

@@ -1,0 +1,450 @@
+{
+    "id": "7",
+    "ref": "performance_evaluation",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Performance Evaluation",
+            "zh": "性能评估"
+        },
+        "status": "inProgress",
+        "color": "#fef9c3",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-05-22T13:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "retrieval_accuracy",
+            "name": {
+                "en": "Retrieval Accuracy Metrics",
+                "zh": "检索准确性指标"
+            },
+            "status": "missing",
+            "techStack": "Evaluation Framework",
+            "description": {
+                "en": "Measures the precision and recall of retrieved information",
+                "zh": "测量检索信息的精确度和召回率"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "relevance_evaluation",
+            "name": {
+                "en": "Relevance Evaluation",
+                "zh": "相关性评估"
+            },
+            "status": "ready",
+            "techStack": "Semantic Similarity",
+            "description": {
+                "en": "Evaluates semantic relevance of retrieved content to query",
+                "zh": "评估检索内容与查询的语义相关性"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_11",
+            "ref": "context_relevancy",
+            "name": {
+                "en": "Context Relevancy",
+                "zh": "上下文相关性"
+            },
+            "status": "ready",
+            "techStack": "Semantic Matching",
+            "description": {
+                "en": "Evaluates whether retrieved context is relevant to user queries",
+                "zh": "评估检索出的上下文是否与用户查询相关"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_12",
+            "ref": "context_precision",
+            "name": {
+                "en": "Context Precision",
+                "zh": "上下文精确度"
+            },
+            "status": "missing",
+            "techStack": "Precision Metrics",
+            "description": {
+                "en": "Measures how much of the retrieved context is relevant to the correct answer",
+                "zh": "测量检索出的上下文中有多少是与正确答案相关的"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_13",
+            "ref": "context_recall",
+            "name": {
+                "en": "Context Recall",
+                "zh": "上下文召回率"
+            },
+            "status": "missing",
+            "techStack": "Recall Metrics",
+            "description": {
+                "en": "Evaluates how much of the information needed for the correct answer is covered in the retrieved context",
+                "zh": "评估检索出的上下文中覆盖了多少正确答案所需的信息"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "latency_measurement",
+            "name": {
+                "en": "Latency Measurement",
+                "zh": "延迟测量"
+            },
+            "status": "missing",
+            "techStack": "Performance Monitoring",
+            "description": {
+                "en": "Tracks response time across RAG pipeline components",
+                "zh": "跟踪RAG管道组件的响应时间"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "hallucination_detection",
+            "name": {
+                "en": "Hallucination Detection",
+                "zh": "幻觉检测"
+            },
+            "status": "missing",
+            "techStack": "Fact Verification",
+            "description": {
+                "en": "Identifies generated content not grounded in retrieved data",
+                "zh": "识别未基于检索数据的生成内容"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "ref": "answer_quality_assessment",
+            "name": {
+                "en": "Answer Quality Assessment",
+                "zh": "回答质量评估"
+            },
+            "status": "missing",
+            "techStack": "Quality Metrics",
+            "description": {
+                "en": "Evaluates completeness, clarity and accuracy of responses",
+                "zh": "评估回答的完整性、清晰度和准确性"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_14",
+            "ref": "answer_relevancy",
+            "name": {
+                "en": "Answer Relevancy",
+                "zh": "答案相关性"
+            },
+            "status": "missing",
+            "techStack": "Relevance Metrics",
+            "description": {
+                "en": "Evaluates whether generated answers are relevant to user queries",
+                "zh": "评估生成的答案是否与用户的查询相关"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_15",
+            "ref": "answer_similarity",
+            "name": {
+                "en": "Answer Similarity",
+                "zh": "答案相似度"
+            },
+            "status": "missing",
+            "techStack": "Similarity Metrics",
+            "description": {
+                "en": "Measures similarity between generated answers and ground truth reference answers",
+                "zh": "测量生成的答案与参考答案的相似度"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_16",
+            "ref": "answer_correctness",
+            "name": {
+                "en": "Answer Correctness",
+                "zh": "答案正确性"
+            },
+            "status": "missing",
+            "techStack": "Correctness Evaluation",
+            "description": {
+                "en": "Evaluates factual correctness of answers in relation to retrieved context",
+                "zh": "结合答案和上下文评估答案的事实正确性"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_17",
+            "ref": "faithfulness",
+            "name": {
+                "en": "Faithfulness Evaluation",
+                "zh": "忠实度评估"
+            },
+            "status": "ready",
+            "techStack": "Faithfulness Metrics",
+            "description": {
+                "en": "Evaluates whether answers are faithful to retrieved context without hallucinations",
+                "zh": "评估答案是否忠实于检索的上下文，是否产生了幻觉"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_18",
+            "ref": "harmfulness_detection",
+            "name": {
+                "en": "Harmfulness Detection",
+                "zh": "有害性检测"
+            },
+            "status": "missing",
+            "techStack": "Content Safety",
+            "description": {
+                "en": "Detects harmful information in generated answers",
+                "zh": "检测生成答案中的有害信息"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_19",
+            "ref": "coherence_evaluation",
+            "name": {
+                "en": "Coherence Evaluation",
+                "zh": "连贯性评估"
+            },
+            "status": "missing",
+            "techStack": "Linguistic Analysis",
+            "description": {
+                "en": "Evaluates logical clarity and structure of generated answers",
+                "zh": "评估生成答案的逻辑清晰度和条理性"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_20",
+            "ref": "conciseness_evaluation",
+            "name": {
+                "en": "Conciseness Evaluation",
+                "zh": "简洁性评估"
+            },
+            "status": "missing",
+            "techStack": "Brevity Metrics",
+            "description": {
+                "en": "Evaluates brevity and conciseness of answers, avoiding verbosity",
+                "zh": "评估答案是否简明扼要，避免冗长"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_21",
+            "ref": "maliciousness_detection",
+            "name": {
+                "en": "Maliciousness Detection",
+                "zh": "恶意性检测"
+            },
+            "status": "missing",
+            "techStack": "Bias & Safety Analysis",
+            "description": {
+                "en": "Detects malicious attacks or biases in generated content",
+                "zh": "检测生成内容中的恶意攻击或偏见"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "ref": "ab_testing",
+            "name": {
+                "en": "A/B Testing Framework",
+                "zh": "A/B测试框架"
+            },
+            "status": "missing",
+            "techStack": "Experimental Framework",
+            "description": {
+                "en": "Compares performance of different RAG configurations",
+                "zh": "比较不同RAG配置的性能"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "ref": "user_satisfaction_metrics",
+            "name": {
+                "en": "User Satisfaction Metrics",
+                "zh": "用户满意度指标"
+            },
+            "status": "ready",
+            "techStack": "Feedback Analysis",
+            "description": {
+                "en": "Collects and analyzes user feedback on responses",
+                "zh": "收集和分析用户对回答的反馈"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_22",
+            "ref": "groundtruth_creation_challenge",
+            "name": {
+                "en": "Ground Truth Creation Challenge",
+                "zh": "标准答案创建挑战"
+            },
+            "status": "constraint",
+            "techStack": "Manual Annotation",
+            "description": {
+                "en": "Creating benchmark datasets requires significant effort for ground truth establishment",
+                "zh": "创建标准测试集需要大量人力投入建立标准答案(ground truth)"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "ref": "performance_degradation_detection",
+            "name": {
+                "en": "Performance Degradation Detection",
+                "zh": "性能退化检测"
+            },
+            "status": "missing",
+            "techStack": "Anomaly Detection",
+            "description": {
+                "en": "Identifies and alerts on declining RAG performance",
+                "zh": "识别并警告RAG性能下降"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.3.cards[6]"
+    }
+}

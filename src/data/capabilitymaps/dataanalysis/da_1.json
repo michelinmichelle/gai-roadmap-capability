@@ -1,0 +1,151 @@
+{
+    "id": "1",
+    "ref": "usage_analysis",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Usage Analysis",
+            "zh": "使用分析"
+        },
+        "status": "ready",
+        "color": "#bef264",
+        "priority": {
+            "level": 1,
+            "label": "High"
+        },
+        "createdAt": "2024-03-22T10:00:00Z",
+        "lastUpdated": "2024-03-22T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "1",
+            "ref": "cap_1",
+            "name": {
+                "en": "Model Usage Tracking",
+                "zh": "数据使用追踪"
+            },
+            "status": "missing",
+            "techStack": "Analytics Engine",
+            "description": {
+                "en": "Track and analyze usage patterns of different AI models",
+                "zh": "追踪和分析不同AI模型的使用模式"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "2",
+            "ref": "cap_2",
+            "name": {
+                "en": "User Activity Monitoring",
+                "zh": "用户活动监控"
+            },
+            "status": "ready",
+            "techStack": "User Analytics",
+            "description": {
+                "en": "Monitor and analyze user interactions and session data",
+                "zh": "监控和分析用户交互和会话数据"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "3",
+            "ref": "cap_3",
+            "name": {
+                "en": "Feature Utilization Analysis",
+                "zh": "功能利用分析"
+            },
+            "status": "missing",
+            "techStack": "Feature Tracking",
+            "description": {
+                "en": "Track which features are most frequently used and by whom",
+                "zh": "追踪哪些功能最常被使用以及使用者是谁"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "4",
+            "ref": "cap_4",
+            "name": {
+                "en": "Performance Metrics",
+                "zh": "性能指标"
+            },
+            "status": "missing",
+            "techStack": "Metrics Dashboard",
+            "description": {
+                "en": "Measure and analyze response times, throughput, and other performance metrics",
+                "zh": "测量和分析响应时间、吞吐量和其他性能指标"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "5",
+            "ref": "cap_5",
+            "name": {
+                "en": "Usage Pattern Recognition",
+                "zh": "使用模式识别"
+            },
+            "status": "missing",
+            "techStack": "Pattern Analysis",
+            "description": {
+                "en": "Identify and categorize common usage patterns and workflows",
+                "zh": "识别和分类常见的使用模式和工作流程"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "6",
+            "ref": "cap_6",
+            "name": {
+                "en": "Historical Data Limitations",
+                "zh": "历史数据限制"
+            },
+            "status": "missing",
+            "techStack": "Data Storage",
+            "description": {
+                "en": "Limited historical data availability for long-term trend analysis",
+                "zh": "用于长期趋势分析的历史数据可用性有限"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architecture": "architecture_card_1.json"
+    }
+}

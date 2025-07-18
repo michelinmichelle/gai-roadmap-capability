@@ -1,0 +1,89 @@
+{
+    "version": "1.0.0",
+    "prefix": "hl",
+    "groups": [
+        {
+            "id": "human_review",
+            "name": {
+                "en": "Human Review",
+                "zh": "人工审核"
+            },
+            "description": {
+                "en": "Human-in-the-loop review capabilities",
+                "zh": "人在环审核能力"
+            },
+            "cards": [
+                {
+                    "id": "1",
+                    "ref": "hitl_human_review",
+                    "filename": "hl_1.json",
+                    "metadata": {
+                        "title": {
+                            "en": "HITL-AI Pre-review + Human Approval",
+                            "zh": "3.11 AI预审+人工复核模式"
+                        },
+                        "status": "inProgress",
+                        "color": "#86efac"
+                    }
+                },
+                {
+                    "id": "2",
+                    "ref": "feedback_loop",
+                    "filename": "hl_2.json",
+                    "metadata": {
+                        "title": {
+                            "en": "HITL-AI Suggestion + Human Decision",
+                            "zh": "3.12 AI推荐+人工决策模式"
+                        },
+                        "status": "planned",
+                        "color": "#fef9c3"
+                    }
+                },
+                {
+                    "id": "3",
+                    "ref": "quality_assurance",
+                    "filename": "hl_3.json",
+                    "metadata": {
+                        "title": {
+                            "en": "HITL-AI Monitoring + Human Intervention",
+                            "zh": "3.13 AI监控+人工干预模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "4",
+                    "ref": "semi_automation",
+                    "filename": "hl_4.json",
+                    "metadata": {
+                        "title": {
+                            "en": "HITL-Semi-Automation",
+                            "zh": "3.14 半自动模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent"
+                    }
+                },
+                {
+                    "id": "5",
+                    "ref": "feedback_loop_optimization",
+                    "filename": "hl_5.json",
+                    "metadata": {
+                        "title": {
+                            "en": "HITL-Feedback-Loop Optimization",
+                            "zh": "3.15 反馈驱动模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent"
+                    }
+                }
+            ]
+        }
+    ],
+    "deletedCards": [],
+    "references": {
+        "architecture": "../../architecture.json",
+        "capabilities": "../../capabilities.json"
+    }
+}

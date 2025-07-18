@@ -1,0 +1,187 @@
+{
+    "id": "1",
+    "ref": "chat_service",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Chat Service",
+            "zh": "4.1 Chat Service"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "lastUpdated": "2024-03-23T16:00:00Z",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "name": {
+                "en": "LLM Selection",
+                "zh": "LLM 选择"
+            },
+            "description": {
+                "en": "Select different LLM models for conversation",
+                "zh": "选择不同的 LLM 模型进行对话"
+            },
+            "status": "ready",
+            "techStack": "Model Registry",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "name": {
+                "en": "Parameter Setting",
+                "zh": "参数设定"
+            },
+            "description": {
+                "en": "Set chat parameters (e.g. temperature, context length)",
+                "zh": "设定聊天时的参数（如温度、上下文长度）"
+            },
+            "status": "ready",
+            "techStack": "Parameter API",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "name": {
+                "en": "Chat History Management",
+                "zh": "聊天记录管理"
+            },
+            "description": {
+                "en": "Maintain conversation history, support query and export",
+                "zh": "维护对话历史，支持查询、导出"
+            },
+            "status": "ready",
+            "techStack": "Storage Service",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "name": {
+                "en": "File Management",
+                "zh": "文件管理"
+            },
+            "description": {
+                "en": "Handle file upload and storage during chat",
+                "zh": "处理聊天过程中涉及的文件上传、存储"
+            },
+            "status": "ready",
+            "techStack": "File Service",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "name": {
+                "en": "Chat Control",
+                "zh": "对话控制"
+            },
+            "description": {
+                "en": "Terminate conversation, manage chat lifecycle",
+                "zh": "终止对话，管理对话生命周期"
+            },
+            "status": "ready",
+            "techStack": "Chat Engine",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "name": {
+                "en": "Chat Rating",
+                "zh": "聊天评分"
+            },
+            "description": {
+                "en": "Allow users to rate chat content (like, dislike)",
+                "zh": "允许用户对聊天内容进行评分（点赞、差评）"
+            },
+            "status": "ready",
+            "techStack": "Feedback API",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "name": {
+                "en": "Chat-Scenario Binding",
+                "zh": "聊天与场景关联"
+            },
+            "description": {
+                "en": "Bind chat content to specific business scenarios",
+                "zh": "让聊天内容与特定业务场景绑定"
+            },
+            "status": "ready",
+            "techStack": "Context Service",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "name": {
+                "en": "Enhanced Context Memory",
+                "zh": "加强对话上下文记忆长度"
+            },
+            "description": {
+                "en": "Enhanced context memory length, providing personalized conversation based on user chat history and context",
+                "zh": "基于用户对话历史和上下文，提供个性化的对话内容"
+            },
+            "status": "sketch",
+            "techStack": "Context Memory Service",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architecture": "sections.4.cards[0]"
+    }
+}

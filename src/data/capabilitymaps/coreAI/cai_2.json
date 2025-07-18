@@ -1,0 +1,219 @@
+{
+    "id": "2",
+    "ref": "knowledge_agent",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Knowledge Agent",
+            "zh": "知识智能体"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 2,
+            "label": {
+                "en": "Critical",
+                "zh": "关键"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "knowledge_retrieval",
+            "name": {
+                "en": "Knowledge Retrieval",
+                "zh": "知识检索"
+            },
+            "status": "ready",
+            "techStack": "Vector Database",
+            "description": {
+                "en": "Retrieves relevant information from knowledge base",
+                "zh": "从知识库中检索相关信息"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "content_understanding",
+            "name": {
+                "en": "Content Understanding",
+                "zh": "内容理解"
+            },
+            "status": "ready",
+            "techStack": "NLP Engine",
+            "description": {
+                "en": "Comprehends and processes document content",
+                "zh": "理解和处理文档内容"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "answer_generation",
+            "name": {
+                "en": "Answer Generation",
+                "zh": "答案生成"
+            },
+            "status": "ready",
+            "techStack": "LLM",
+            "description": {
+                "en": "Generates accurate and contextual answers",
+                "zh": "生成准确且符合上下文的答案"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "semantic_search",
+            "name": {
+                "en": "Semantic Search",
+                "zh": "语义搜索"
+            },
+            "status": "ready",
+            "techStack": "Embedding Engine",
+            "description": {
+                "en": "Performs meaning-based search across knowledge sources",
+                "zh": "在知识源中执行基于语义的搜索"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "ref": "citation_management",
+            "name": {
+                "en": "Citation Management",
+                "zh": "引用管理"
+            },
+            "status": "ready",
+            "techStack": "Metadata System",
+            "description": {
+                "en": "Tracks sources and provides accurate citations",
+                "zh": "跟踪来源并提供准确的引用"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "ref": "multilingual_support",
+            "name": {
+                "en": "Multilingual Support",
+                "zh": "多语言支持"
+            },
+            "status": "inProgress",
+            "techStack": "Translation Engine",
+            "description": {
+                "en": "Processes and responds in multiple languages",
+                "zh": "以多种语言处理和响应"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "ref": "knowledge_gap_detection",
+            "name": {
+                "en": "Knowledge Gap Detection",
+                "zh": "知识缺口检测"
+            },
+            "status": "inProgress",
+            "techStack": "Analytics Engine",
+            "description": {
+                "en": "Identifies missing information in knowledge bases",
+                "zh": "识别知识库中缺失的信息"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "ref": "knowledge_verification",
+            "name": {
+                "en": "Knowledge Verification",
+                "zh": "知识验证"
+            },
+            "status": "sketch",
+            "techStack": "Fact Checking System",
+            "description": {
+                "en": "Validates accuracy of information before providing answers",
+                "zh": "在提供答案前验证信息的准确性"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "ref": "cross_domain_reasoning",
+            "name": {
+                "en": "Cross-domain Reasoning",
+                "zh": "跨领域推理"
+            },
+            "status": "sketch",
+            "techStack": "Reasoning Engine",
+            "description": {
+                "en": "Applies knowledge from one domain to solve problems in another",
+                "zh": "应用一个领域的知识解决另一个领域的问题"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.5.cards[1]"
+    }
+}

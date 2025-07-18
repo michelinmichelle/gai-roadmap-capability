@@ -1,0 +1,261 @@
+{
+    "id": "5",
+    "ref": "orchestrator",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Orchestrator",
+            "zh": "编排器"
+        },
+        "status": "experimental",
+        "color": "#fdba74",
+        "priority": {
+            "level": 2,
+            "label": {
+                "en": "Critical",
+                "zh": "关键"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "agent_coordination",
+            "name": {
+                "en": "Agent Coordination",
+                "zh": "智能体协调"
+            },
+            "status": "sketch",
+            "techStack": "Coordination Engine",
+            "description": {
+                "en": "Coordinates multiple agents to solve complex tasks",
+                "zh": "协调多个智能体以解决复杂任务"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "task_decomposition",
+            "name": {
+                "en": "Task Decomposition",
+                "zh": "任务分解"
+            },
+            "status": "sketch",
+            "techStack": "Task Manager",
+            "description": {
+                "en": "Breaks down complex tasks into smaller, manageable sub-tasks",
+                "zh": "将复杂任务分解为更小、可管理的子任务"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "agent_selection",
+            "name": {
+                "en": "Agent Selection",
+                "zh": "智能体选择"
+            },
+            "status": "sketch",
+            "techStack": "Selection Algorithm",
+            "description": {
+                "en": "Selects the most appropriate agent for each sub-task",
+                "zh": "为每个子任务选择最合适的智能体"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "workflow_management",
+            "name": {
+                "en": "Workflow Management",
+                "zh": "工作流管理"
+            },
+            "status": "experimental",
+            "techStack": "Workflow Engine",
+            "description": {
+                "en": "Manages the sequence and dependencies of tasks",
+                "zh": "管理任务的顺序和依赖关系"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "ref": "result_aggregation",
+            "name": {
+                "en": "Result Aggregation",
+                "zh": "结果聚合"
+            },
+            "status": "sketch",
+            "techStack": "Aggregation System",
+            "description": {
+                "en": "Combines results from multiple agents into coherent output",
+                "zh": "将多个智能体的结果组合成连贯的输出"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "ref": "error_handling",
+            "name": {
+                "en": "Error Handling",
+                "zh": "错误处理"
+            },
+            "status": "sketch",
+            "techStack": "Error Management",
+            "description": {
+                "en": "Detects and manages errors in agent execution",
+                "zh": "检测和管理智能体执行中的错误"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "ref": "execution_monitoring",
+            "name": {
+                "en": "Execution Monitoring",
+                "zh": "执行监控"
+            },
+            "status": "sketch",
+            "techStack": "Monitoring System",
+            "description": {
+                "en": "Tracks and monitors the execution of tasks",
+                "zh": "跟踪和监控任务的执行"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "ref": "resource_management",
+            "name": {
+                "en": "Resource Management",
+                "zh": "资源管理"
+            },
+            "status": "sketch",
+            "techStack": "Resource Allocator",
+            "description": {
+                "en": "Allocates computational resources to agents efficiently",
+                "zh": "高效地为智能体分配计算资源"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "ref": "complex_dependencies",
+            "name": {
+                "en": "Complex Dependencies",
+                "zh": "复杂依赖关系"
+            },
+            "status": "sketch",
+            "techStack": "Dependency Management",
+            "description": {
+                "en": "Limited handling of complex inter-task dependencies",
+                "zh": "对复杂的任务间依赖关系处理有限"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "ref": "adaptive_orchestration",
+            "name": {
+                "en": "Adaptive Orchestration",
+                "zh": "自适应编排"
+            },
+            "status": "sketch",
+            "techStack": "Adaptive Engine",
+            "description": {
+                "en": "Dynamically adjusts workflows based on intermediate results",
+                "zh": "根据中间结果动态调整工作流"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_11",
+            "ref": "self_optimization",
+            "name": {
+                "en": "Self-optimization",
+                "zh": "自我优化"
+            },
+            "status": "sketch",
+            "techStack": "Optimization Engine",
+            "description": {
+                "en": "Learns and improves orchestration strategy over time",
+                "zh": "随着时间的推移学习和改进编排策略"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.5.cards[5]"
+    }
+}

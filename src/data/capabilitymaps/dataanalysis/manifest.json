@@ -1,0 +1,53 @@
+{
+    "version": "1.0.0",
+    "prefix": "da_",
+    "cards": [
+        {
+            "id": "1",
+            "ref": "usage_analysis",
+            "filename": "da_1.json",
+            "metadata": {
+                "title": {
+                    "en": "Usage Analysis",
+                    "zh": "使用分析"
+                },
+                "status": "ready",
+                "color": "#bef264",
+                "lastUpdated": "2024-03-22T10:00:00Z"
+            }
+        },
+        {
+            "id": "2",
+            "ref": "cost_analysis",
+            "filename": "da_2.json",
+            "metadata": {
+                "title": {
+                    "en": "Cost Analysis",
+                    "zh": "成本分析"
+                },
+                "status": "ready",
+                "color": "#fef08a",
+                "lastUpdated": "2024-03-22T10:00:00Z"
+            }
+        },
+        {
+            "id": "3",
+            "ref": "reporting_dashboard",
+            "filename": "da_3.json",
+            "metadata": {
+                "title": {
+                    "en": "Report & Dashboard",
+                    "zh": "报表和仪表板"
+                },
+                "status": "ready",
+                "color": "#bef264",
+                "lastUpdated": "2024-03-22T10:00:00Z"
+            }
+        }
+    ],
+    "deletedCards": [],
+    "references": {
+        "architecture": "../../architecture-cards.json",
+        "capabilities": "../capabilities"
+    }
+}

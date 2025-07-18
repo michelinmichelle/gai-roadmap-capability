@@ -1,0 +1,261 @@
+{
+    "id": "4",
+    "ref": "nlp_agent",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "NLP Agent",
+            "zh": "自然语言处理智能体"
+        },
+        "status": "inProgress",
+        "color": "#fef9c3",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "language_understanding",
+            "name": {
+                "en": "Language Understanding",
+                "zh": "语言理解"
+            },
+            "status": "ready",
+            "techStack": "NLU Engine",
+            "description": {
+                "en": "Comprehends natural language input",
+                "zh": "理解自然语言输入"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "intent_recognition",
+            "name": {
+                "en": "Intent Recognition",
+                "zh": "意图识别"
+            },
+            "status": "ready",
+            "techStack": "Intent Classifier",
+            "description": {
+                "en": "Identifies user's intentions from text",
+                "zh": "从文本中识别用户的意图"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "entity_extraction",
+            "name": {
+                "en": "Entity Extraction",
+                "zh": "实体提取"
+            },
+            "status": "ready",
+            "techStack": "NER System",
+            "description": {
+                "en": "Extracts named entities from text",
+                "zh": "从文本中提取命名实体"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "sentiment_analysis",
+            "name": {
+                "en": "Sentiment Analysis",
+                "zh": "情感分析"
+            },
+            "status": "ready",
+            "techStack": "Sentiment Engine",
+            "description": {
+                "en": "Determines sentiment and emotional tone in text",
+                "zh": "确定文本中的情感和情绪基调"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "ref": "text_classification",
+            "name": {
+                "en": "Text Classification",
+                "zh": "文本分类"
+            },
+            "status": "ready",
+            "techStack": "Classification Engine",
+            "description": {
+                "en": "Categorizes text into predefined categories",
+                "zh": "将文本分类到预定义类别中"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "ref": "language_generation",
+            "name": {
+                "en": "Language Generation",
+                "zh": "语言生成"
+            },
+            "status": "ready",
+            "techStack": "NLG Engine",
+            "description": {
+                "en": "Generates natural language responses",
+                "zh": "生成自然语言响应"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "ref": "contextual_understanding",
+            "name": {
+                "en": "Contextual Understanding",
+                "zh": "上下文理解"
+            },
+            "status": "inProgress",
+            "techStack": "Context Engine",
+            "description": {
+                "en": "Maintains and utilizes conversation context",
+                "zh": "维护并利用对话上下文"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "ref": "ambiguity_resolution",
+            "name": {
+                "en": "Ambiguity Resolution",
+                "zh": "歧义解析"
+            },
+            "status": "inProgress",
+            "techStack": "Disambiguation Engine",
+            "description": {
+                "en": "Resolves unclear or ambiguous language",
+                "zh": "解析不清楚或有歧义的语言"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "ref": "language_limitation",
+            "name": {
+                "en": "Language Limitations",
+                "zh": "语言限制"
+            },
+            "status": "constraint",
+            "techStack": "Language Support",
+            "description": {
+                "en": "Limited support for certain languages and dialects",
+                "zh": "对某些语言和方言的支持有限"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "ref": "advanced_reasoning",
+            "name": {
+                "en": "Advanced Reasoning",
+                "zh": "高级推理"
+            },
+            "status": "sketch",
+            "techStack": "Reasoning Engine",
+            "description": {
+                "en": "Complex logical reasoning based on language input",
+                "zh": "基于语言输入的复杂逻辑推理"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_11",
+            "ref": "cultural_awareness",
+            "name": {
+                "en": "Cultural Awareness",
+                "zh": "文化意识"
+            },
+            "status": "sketch",
+            "techStack": "Cultural Context",
+            "description": {
+                "en": "Understanding of cultural references and idioms",
+                "zh": "理解文化参考和习语"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.2.cards[3]"
+    }
+}

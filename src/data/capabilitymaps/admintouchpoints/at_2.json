@@ -1,0 +1,51 @@
+{
+    "id": "2",
+    "ref": "content_editor",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Content Editor",
+            "zh": "内容编辑器"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 3,
+            "label": {
+                "en": "Low",
+                "zh": "低"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "knowledge_base_editor",
+            "name": {
+                "en": "Knowledge Base Editor",
+                "zh": "知识库编辑器"
+            },
+            "status": "ready",
+            "techStack": "CMS, Validation Service",
+            "description": {
+                "en": "Edit and manage knowledge base content with integrated document validation, supporting markdown preview and confirmation after knowledge parsing",
+                "zh": "编辑和管理知识库内容，集成文档验证功能，支持知识解析后的markdown预览和确认"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.2.cards[1]"
+    }
+}

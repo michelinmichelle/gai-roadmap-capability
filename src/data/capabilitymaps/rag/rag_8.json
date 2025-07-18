@@ -1,0 +1,240 @@
+{
+    "id": "8",
+    "ref": "knowledge_management",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Knowledge Management",
+            "zh": "知识管理"
+        },
+        "status": "inProgress",
+        "color": "#fef9c3",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-05-22T15:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "knowledge_tagging",
+            "name": {
+                "en": "Knowledge Tagging",
+                "zh": "知识标记"
+            },
+            "status": "ready",
+            "techStack": "Metadata Management",
+            "description": {
+                "en": "Manually tags and categorizes knowledge assets",
+                "zh": "手动标记和分类知识资产"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "ref": "knowledge_access_control",
+            "name": {
+                "en": "Knowledge Access Control",
+                "zh": "知识访问控制"
+            },
+            "status": "ready",
+            "techStack": "Access Management",
+            "description": {
+                "en": "Manages permissions for knowledge access and modification",
+                "zh": "管理知识访问和修改的权限"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "version_control",
+            "name": {
+                "en": "Version Control",
+                "zh": "版本控制"
+            },
+            "status": "missing",
+            "techStack": "Versioning System",
+            "description": {
+                "en": "Tracks and manages changes to knowledge content over time",
+                "zh": "跟踪和管理知识内容随时间的变化"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "knowledge_freshness",
+            "name": {
+                "en": "Knowledge Freshness",
+                "zh": "知识新鲜度"
+            },
+            "status": "missing",
+            "techStack": "Freshness Monitoring",
+            "description": {
+                "en": "Assesses and maintains up-to-date knowledge content",
+                "zh": "评估和维护最新的知识内容"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "knowledge_curation",
+            "name": {
+                "en": "Knowledge Curation",
+                "zh": "知识策划"
+            },
+            "status": "sketch",
+            "techStack": "Content Management",
+            "description": {
+                "en": "Selects and organizes high-quality knowledge sources",
+                "zh": "选择和组织高质量的知识源"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "ref": "knowledge_gap_analysis",
+            "name": {
+                "en": "Knowledge Gap Analysis",
+                "zh": "知识差距分析"
+            },
+            "status": "sketch",
+            "techStack": "Coverage Analysis",
+            "description": {
+                "en": "Identifies missing information in the knowledge base",
+                "zh": "识别知识库中的缺失信息"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "ref": "knowledge_consistency",
+            "name": {
+                "en": "Knowledge Consistency",
+                "zh": "知识一致性"
+            },
+            "status": "missing",
+            "techStack": "Consistency Checking",
+            "description": {
+                "en": "Ensures consistent information across knowledge assets",
+                "zh": "确保知识资产之间的信息一致性"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "ref": "automated_knowledge_ingestion",
+            "name": {
+                "en": "Automated Knowledge Ingestion",
+                "zh": "自动知识摄取"
+            },
+            "status": "missing",
+            "techStack": "Ingestion Pipeline",
+            "description": {
+                "en": "Streamlines process for adding new knowledge sources",
+                "zh": "简化添加新知识源的流程"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "ref": "knowledge_redundancy_detection",
+            "name": {
+                "en": "Knowledge Redundancy Detection",
+                "zh": "知识冗余检测"
+            },
+            "status": "missing",
+            "techStack": "Duplication Analysis",
+            "description": {
+                "en": "Identifies and manages duplicate or overlapping content",
+                "zh": "识别和管理重复或重叠的内容"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "ref": "knowledge_usage_analytics",
+            "name": {
+                "en": "Knowledge Usage Analytics",
+                "zh": "知识使用分析"
+            },
+            "status": "missing",
+            "techStack": "Usage Metrics",
+            "description": {
+                "en": "Tracks and analyzes utilization of knowledge resources",
+                "zh": "跟踪和分析知识资源的使用情况"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.3.cards[7]"
+    }
+}

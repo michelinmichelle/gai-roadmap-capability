@@ -1,0 +1,261 @@
+{
+    "id": "4",
+    "ref": "generation",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Generation",
+            "zh": "生成"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 2,
+            "label": {
+                "en": "Critical",
+                "zh": "关键"
+            },
+            "updatedAt": "2024-05-21T15:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-05-21T15:00:00Z",
+        "updatedAt": "2024-05-21T16:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "text_generation",
+            "name": {
+                "en": "Text Generation",
+                "zh": "文本生成"
+            },
+            "status": "ready",
+            "techStack": "LLM Engine",
+            "description": {
+                "en": "Generates high-quality text content based on user prompts",
+                "zh": "根据用户提示生成高质量文本内容"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "code_generation",
+            "name": {
+                "en": "Code Generation",
+                "zh": "代码生成"
+            },
+            "status": "ready",
+            "techStack": "Code Generation Engine",
+            "description": {
+                "en": "Creates code in multiple programming languages based on requirements",
+                "zh": "根据需求创建多种编程语言的代码"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "structured_output",
+            "name": {
+                "en": "Structured Output",
+                "zh": "结构化输出"
+            },
+            "status": "ready",
+            "techStack": "Format Engine",
+            "description": {
+                "en": "Produces content in specific formats like JSON, XML, or markdown",
+                "zh": "生成特定格式的内容，如JSON、XML或markdown"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "multilingual_support",
+            "name": {
+                "en": "Multilingual Support",
+                "zh": "多语言支持"
+            },
+            "status": "ready",
+            "techStack": "Language Models",
+            "description": {
+                "en": "Generates text in multiple languages with high fidelity",
+                "zh": "以高保真度生成多种语言的文本"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "ref": "response_customization",
+            "name": {
+                "en": "Response Customization",
+                "zh": "响应定制"
+            },
+            "status": "ready",
+            "techStack": "Style Engine",
+            "description": {
+                "en": "Tailors output tone, style, and format to user preferences",
+                "zh": "根据用户偏好定制输出语调、风格和格式"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "ref": "creative_writing",
+            "name": {
+                "en": "Creative Writing",
+                "zh": "创意写作"
+            },
+            "status": "ready",
+            "techStack": "Creative LLM",
+            "description": {
+                "en": "Generates stories, poems, scripts and other creative content",
+                "zh": "生成故事、诗歌、剧本和其他创意内容"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "ref": "summarization",
+            "name": {
+                "en": "Summarization",
+                "zh": "摘要生成"
+            },
+            "status": "ready",
+            "techStack": "Summarization Engine",
+            "description": {
+                "en": "Condenses large texts into concise, accurate summaries",
+                "zh": "将大量文本压缩为简洁、准确的摘要"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "ref": "image_generation",
+            "name": {
+                "en": "Image Generation",
+                "zh": "图像生成"
+            },
+            "status": "constraint",
+            "techStack": "Diffusion Models",
+            "description": {
+                "en": "Currently unsupported: Creation of images based on text descriptions",
+                "zh": "当前不支持：根据文本描述创建图像"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "ref": "video_generation",
+            "name": {
+                "en": "Video Generation",
+                "zh": "视频生成"
+            },
+            "status": "constraint",
+            "techStack": "Video Generation Models",
+            "description": {
+                "en": "Currently unsupported: Creation of video content from text prompts",
+                "zh": "当前不支持：从文本提示创建视频内容"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "ref": "context_aware_generation",
+            "name": {
+                "en": "Context-Aware Generation",
+                "zh": "上下文感知生成"
+            },
+            "status": "ready",
+            "techStack": "Context Engine",
+            "description": {
+                "en": "Produces content that maintains coherence with previous interactions",
+                "zh": "生成与之前交互保持连贯性的内容"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_11",
+            "ref": "technical_documentation",
+            "name": {
+                "en": "Technical Documentation",
+                "zh": "技术文档"
+            },
+            "status": "ready",
+            "techStack": "Documentation Engine",
+            "description": {
+                "en": "Creates detailed technical documentation for code and systems",
+                "zh": "为代码和系统创建详细的技术文档"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.6.cards[3]"
+    }
+}

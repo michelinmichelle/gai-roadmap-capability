@@ -1,0 +1,93 @@
+{
+    "id": "8",
+    "ref": "competitive",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Competitive Mode",
+            "zh": "3.8 竞争模式"
+        },
+        "status": "sketch",
+        "color": "transparent",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "competitive_solution_generation",
+            "name": {
+                "en": "Competitive Solution Generation",
+                "zh": "竞争性解决方案生成"
+            },
+            "status": "sketch",
+            "techStack": "Competing Agents",
+            "description": {
+                "en": "Multiple agents compete to generate the best solution",
+                "zh": "多个智能体竞争生成最佳解决方案"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "solution_evaluation",
+            "name": {
+                "en": "Solution Evaluation",
+                "zh": "解决方案评估"
+            },
+            "status": "sketch",
+            "techStack": "Evaluation System",
+            "description": {
+                "en": "Evaluate and rank solutions from competing agents",
+                "zh": "评估和排名竞争智能体提供的解决方案"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "optimized_selection",
+            "name": {
+                "en": "Optimized Selection",
+                "zh": "优化选择"
+            },
+            "status": "sketch",
+            "techStack": "Selection Algorithm",
+            "description": {
+                "en": "Select or combine the best elements from competing solutions",
+                "zh": "从竞争解决方案中选择或结合最佳元素"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architectureCard": "sections.3.cards[7]"
+    }
+}

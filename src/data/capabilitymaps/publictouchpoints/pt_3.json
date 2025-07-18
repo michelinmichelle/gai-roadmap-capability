@@ -1,0 +1,114 @@
+{
+    "id": "3",
+    "ref": "dealer_portal",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "DCP",
+            "zh": "Dealer门户"
+        },
+        "status": "inProgress",
+        "color": "#86efac",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "teds_integration",
+            "name": {
+                "en": "DCP TEDS Portal Integration",
+                "zh": "DCP TEDS入口集成"
+            },
+            "status": "ready",
+            "techStack": "Portal API",
+            "description": {
+                "en": "Integration with TEDS portal entry points for dealers",
+                "zh": "与经销商TEDS门户入口点的集成"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "dcp_integration",
+            "name": {
+                "en": "DCP Overall Integration",
+                "zh": "DCP整体入口集成"
+            },
+            "status": "needEnhancement",
+            "techStack": "Portal Framework",
+            "description": {
+                "en": "Direct access to DCP portal without requiring TEDS entry points",
+                "zh": "DCP门户直接访问，无需进入TEDS入口"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "voice_input",
+            "name": {
+                "en": "Voice Input Service",
+                "zh": "语音输入服务"
+            },
+            "status": "needEnhancement",
+            "techStack": "Speech Recognition",
+            "description": {
+                "en": "Voice-based command and input capabilities for dealer portal",
+                "zh": "经销商门户的语音命令和输入功能"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "store_account_limitation",
+            "name": {
+                "en": "Store Staff Account Support",
+                "zh": "支持门店员工级别的账号"
+            },
+            "status": "missing",
+            "techStack": "Authentication System",
+            "description": {
+                "en": "Support for individual staff accounts at dealer stores",
+                "zh": "支持门店员工级别的账号管理"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.1.cards[2]"
+    }
+}

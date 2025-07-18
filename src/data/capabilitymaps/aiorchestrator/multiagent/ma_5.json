@@ -1,0 +1,93 @@
+{
+    "id": "10",
+    "ref": "negotiation",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Iterative Negotiation Mode",
+            "zh": "3.10 多轮协商模式"
+        },
+        "status": "sketch",
+        "color": "transparent",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "proposal_generation",
+            "name": {
+                "en": "Proposal Generation",
+                "zh": "提案生成"
+            },
+            "status": "sketch",
+            "techStack": "Proposal Engine",
+            "description": {
+                "en": "Agents generate proposals for negotiation",
+                "zh": "智能体生成协商提案"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "counter_proposal",
+            "name": {
+                "en": "Counter-Proposal",
+                "zh": "反提案"
+            },
+            "status": "sketch",
+            "techStack": "Negotiation Framework",
+            "description": {
+                "en": "Agents respond to proposals with counter-offers",
+                "zh": "智能体以反提案回应提案"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "consensus_reaching",
+            "name": {
+                "en": "Consensus Reaching",
+                "zh": "达成共识"
+            },
+            "status": "sketch",
+            "techStack": "Consensus Algorithm",
+            "description": {
+                "en": "Iterative process to reach agreement among agents",
+                "zh": "在智能体之间达成协议的迭代过程"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architectureCard": "sections.3.cards[9]"
+    }
+}

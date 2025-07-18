@@ -1,0 +1,135 @@
+{
+    "id": "3",
+    "ref": "document_processing",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Knowledge Metadata Management",
+            "zh": "知识元数据管理（MySQL)"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            },
+            "updatedAt": "2024-05-23T14:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-05-23T14:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "format_conversion",
+            "name": {
+                "en": "Metadata Storage",
+                "zh": "元数据存储"
+            },
+            "status": "ready",
+            "techStack": "MySQL",
+            "description": {
+                "en": "Structured storage of document metadata in relational database",
+                "zh": "在关系型数据库中结构化存储文档元数据"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "metadata_extraction",
+            "name": {
+                "en": "Metadata Query",
+                "zh": "元数据查询"
+            },
+            "status": "ready",
+            "techStack": "MySQL",
+            "description": {
+                "en": "Complex SQL queries for document metadata retrieval",
+                "zh": "用于文档元数据检索的复杂SQL查询"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "text_chunking",
+            "name": {
+                "en": "Metadata Relationships",
+                "zh": "元数据关系管理"
+            },
+            "status": "ready",
+            "techStack": "MySQL",
+            "description": {
+                "en": "Manage relationships between document metadata",
+                "zh": "管理文档元数据之间的关系"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "content_classification",
+            "name": {
+                "en": "Metadata Indexing",
+                "zh": "元数据索引"
+            },
+            "status": "ready",
+            "techStack": "MySQL",
+            "description": {
+                "en": "Efficient indexing of metadata for quick retrieval",
+                "zh": "元数据的高效索引以便快速检索"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "ref": "data_consistency",
+            "name": {
+                "en": "Data Consistency Management",
+                "zh": "元数据与文档管理的一致性问题"
+            },
+            "status": "needEnhancement",
+            "techStack": "MySQL/Milvus/Redis/ES",
+            "description": {
+                "en": "Address knowledge maintenance fragmentation issues affecting system robustness across different storage systems",
+                "zh": "解决不同存储系统之间的知识维护碎片问题影响系统健壮性"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.6.cards[2]"
+    }
+}

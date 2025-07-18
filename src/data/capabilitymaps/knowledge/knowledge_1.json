@@ -1,0 +1,177 @@
+{
+    "id": "1",
+    "ref": "vector_db",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Semantic Knowledge Retrieval Engine",
+            "zh": "语义知识检索引擎(向量库）"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            },
+            "updatedAt": "2024-05-23T14:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-05-23T14:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "semantic_search",
+            "name": {
+                "en": "Semantic Search (Milvus)",
+                "zh": "语义搜索 (Milvus)"
+            },
+            "status": "ready",
+            "techStack": "Pinecone/Weaviate/Milvus",
+            "description": {
+                "en": "High-performance similarity search for text embeddings",
+                "zh": "高性能文本嵌入向量相似度搜索"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "image_semantic_search",
+            "name": {
+                "en": "Image Semantic Search (Milvus)",
+                "zh": "图像语义搜索 (Milvus)"
+            },
+            "status": "missing",
+            "techStack": "MultiModal Vector DB",
+            "description": {
+                "en": "Similarity search for image embeddings",
+                "zh": "图像嵌入向量相似度搜索"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "backup_recovery",
+            "name": {
+                "en": "Backup & Recovery (Milvus)",
+                "zh": "备份与恢复 (Milvus)"
+            },
+            "status": "missing",
+            "techStack": "Vector DB Backup System",
+            "description": {
+                "en": "Regular backup and point-in-time recovery for vector databases",
+                "zh": "向量数据库的定期备份和时间点恢复"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "mcp_milvus_integration",
+            "name": {
+                "en": "MCP Milvus Integration",
+                "zh": "MCP接入Milvus"
+            },
+            "status": "missing",
+            "techStack": "Milvus",
+            "description": {
+                "en": "Integration with Milvus vector database for enhanced vector search capabilities",
+                "zh": "接入Milvus向量数据库以增强向量搜索能力"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "ref": "multimodal_search_milvus",
+            "name": {
+                "en": "Multimodal Search (Milvus)",
+                "zh": "多模态搜索 (Milvus)"
+            },
+            "status": "missing",
+            "techStack": "Milvus",
+            "description": {
+                "en": "Search across text, images and other modalities using Milvus",
+                "zh": "使用Milvus跨文本、图像和其他模态进行搜索"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "ref": "recommendation_milvus",
+            "name": {
+                "en": "Recommendation System (Milvus)",
+                "zh": "推荐系统 (Milvus)"
+            },
+            "status": "missing",
+            "techStack": "Milvus",
+            "description": {
+                "en": "Content and item recommendation using vector similarity in Milvus",
+                "zh": "使用Milvus向量相似度进行内容和项目推荐"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "ref": "vector_storage",
+            "name": {
+                "en": "Vector Storage (Milvus)",
+                "zh": "向量存储能力 (Milvus)"
+            },
+            "status": "ready",
+            "techStack": "Pinecone/Weaviate/Milvus",
+            "description": {
+                "en": "Efficient storage of high-dimensional vector embeddings with optimized indexing",
+                "zh": "高效存储高维向量嵌入并进行优化索引"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.8.cards[0]"
+    }
+}

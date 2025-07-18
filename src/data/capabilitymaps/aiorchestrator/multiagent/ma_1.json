@@ -1,0 +1,93 @@
+{
+    "id": "6",
+    "ref": "task_delegation",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Task Delegation Mode",
+            "zh": "3.6 分工协作模式"
+        },
+        "status": "sketch",
+        "color": "transparent",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "agent_coordinator",
+            "name": {
+                "en": "Agent Coordinator",
+                "zh": "智能体协调器"
+            },
+            "status": "sketch",
+            "techStack": "Agent Framework",
+            "description": {
+                "en": "Coordinates multiple agents to complete complex tasks",
+                "zh": "协调多个智能体完成复杂任务"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "task_allocation",
+            "name": {
+                "en": "Task Allocation",
+                "zh": "任务分配"
+            },
+            "status": "sketch",
+            "techStack": "Workflow System",
+            "description": {
+                "en": "Allocates tasks to specialized agents based on capabilities",
+                "zh": "基于能力向专业智能体分配任务"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "result_aggregation",
+            "name": {
+                "en": "Result Aggregation",
+                "zh": "结果聚合"
+            },
+            "status": "sketch",
+            "techStack": "Data Processing",
+            "description": {
+                "en": "Aggregates results from multiple agents into cohesive output",
+                "zh": "将多个智能体的结果聚合为统一输出"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architectureCard": "sections.3.cards[5]"
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "id": "2",
+    "ref": "graph_db",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Text Knowledge Retrieval Center",
+            "zh": "文本知识检索中心（ElasticSearch)"
+        },
+        "status": "inProgress",
+        "color": "#fef9c3",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            },
+            "updatedAt": "2024-05-23T14:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-05-23T14:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "knowledge_graph",
+            "name": {
+                "en": "Full-text Search",
+                "zh": "全文检索"
+            },
+            "status": "ready",
+            "techStack": "ElasticSearch",
+            "description": {
+                "en": "Full-text search for document content",
+                "zh": "文档内容全文检索"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "graph_algorithms",
+            "name": {
+                "en": "Text Analysis",
+                "zh": "文本分析"
+            },
+            "status": "missing",
+            "techStack": "ElasticSearch Analyzers",
+            "description": {
+                "en": "Text analysis including tokenization, stemming, and synonyms",
+                "zh": "包括分词、词干提取和同义词在内的文本分析"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "relationship_inference",
+            "name": {
+                "en": "Document Relevance Scoring",
+                "zh": "文档相关性评分"
+            },
+            "status": "missing",
+            "techStack": "ElasticSearch BM25",
+            "description": {
+                "en": "Calculate document relevance scores based on query terms",
+                "zh": "基于查询词计算文档相关性得分"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "real_time_graphing",
+            "name": {
+                "en": "Real-time Text Indexing",
+                "zh": "实时文本索引"
+            },
+            "status": "missing",
+            "techStack": "ElasticSearch",
+            "description": {
+                "en": "Dynamic text index updates based on new documents",
+                "zh": "基于新文档动态更新文本索引"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.6.cards[1]"
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "id": "14",
+    "ref": "model_fine_tuning",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Model Fine-Tuning & Training Service",
+            "zh": "4.14 Model Fine-Tuning & Training Service"
+        },
+        "status": "inProgress",
+        "color": "#ffffff",
+        "lastUpdated": "2024-05-16T17:00:00Z",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_7",
+            "name": {
+                "en": "Limited Model Size",
+                "zh": "有限的模型大小"
+            },
+            "description": {
+                "en": "Current infrastructure can only support models up to certain size",
+                "zh": "当前基础设施只能支持一定大小的模型"
+            },
+            "status": "constraint",
+            "techStack": "Compute Resources",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "name": {
+                "en": "Limited Multimodal Training",
+                "zh": "有限的多模态训练"
+            },
+            "description": {
+                "en": "Multimodal (text, image, audio) training capabilities are limited",
+                "zh": "多模态（文本、图像、音频）训练能力有限"
+            },
+            "status": "constraint",
+            "techStack": "Multimodal Framework",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architecture": "sections.4.cards[13]"
+    }
+}

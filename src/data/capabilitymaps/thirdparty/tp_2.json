@@ -1,0 +1,133 @@
+{
+    "id": "2",
+    "ref": "tts",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "TTS",
+            "zh": "文本到语音"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            }
+        },
+        "createdAt": "2024-03-22T10:00:00Z",
+        "lastUpdated": "2024-03-22T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "1",
+            "ref": "cap_1",
+            "name": {
+                "en": "Natural Speech Synthesis",
+                "zh": "自然语音合成"
+            },
+            "status": "ready",
+            "techStack": "Neural TTS",
+            "description": {
+                "en": "Generate natural-sounding speech from text with human-like intonation",
+                "zh": "从文本生成带有类人语调的自然语音"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "2",
+            "ref": "cap_2",
+            "name": {
+                "en": "Multi-voice Support",
+                "zh": "多声音支持"
+            },
+            "status": "ready",
+            "techStack": "Voice Library",
+            "description": {
+                "en": "Multiple voice options including gender, age, and accent variations",
+                "zh": "多种声音选项，包括性别、年龄和口音变化"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "4",
+            "ref": "cap_4",
+            "name": {
+                "en": "Multi-language Support",
+                "zh": "多语言支持"
+            },
+            "status": "ready",
+            "techStack": "Language Models",
+            "description": {
+                "en": "Support for multiple languages and dialects",
+                "zh": "支持多种语言和方言"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "7",
+            "ref": "cap_7",
+            "name": {
+                "en": "Emotional Speech",
+                "zh": "情感语音"
+            },
+            "status": "missing",
+            "techStack": "Emotional TTS",
+            "description": {
+                "en": "Generate speech with emotional tones such as happy, sad, or excited",
+                "zh": "生成带有情感色彩的语音，如高兴、悲伤或兴奋"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "8",
+            "ref": "cap_8",
+            "name": {
+                "en": "Voice Cloning",
+                "zh": "声音克隆"
+            },
+            "status": "missing",
+            "techStack": "Voice Cloning Technology",
+            "description": {
+                "en": "Create custom voices based on sample recordings",
+                "zh": "根据样本录音创建自定义声音"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architecture": "architecture_card_2.json"
+    }
+}

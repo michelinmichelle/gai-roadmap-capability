@@ -1,0 +1,290 @@
+{
+    "version": "1.0.0",
+    "prefix": "ao_",
+    "groups": [
+        {
+            "id": "singleagent",
+            "title": {
+                "en": "Single-Agent Orchestration",
+                "zh": "单 Agent 编排"
+            },
+            "cards": [
+                {
+                    "id": "1",
+                    "ref": "single_agent_sequential",
+                    "filename": "singleagent/sa_1.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Single-Agent-Sequential Execution",
+                            "zh": "顺序执行模式"
+                        },
+                        "status": "ready",
+                        "color": "#ffffff",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                },
+                {
+                    "id": "2",
+                    "ref": "single_agent_conditional",
+                    "filename": "singleagent/sa_2.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Single-Agent-Conditional Execution",
+                            "zh": "条件决策模式"
+                        },
+                        "status": "planned",
+                        "color": "#fef9c3",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                },
+                {
+                    "id": "3",
+                    "ref": "single_agent_adaptive",
+                    "filename": "singleagent/sa_3.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Single-Agent-Adaptive Execution",
+                            "zh": "动态调整模式"
+                        },
+                        "status": "inProgress",
+                        "color": "#86efac",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                },
+                {
+                    "id": "4",
+                    "ref": "single_agent_reasoning",
+                    "filename": "singleagent/sa_4.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Single-Agent-Incremental Reasoning",
+                            "zh": "增量推理模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                },
+                {
+                    "id": "5",
+                    "ref": "single_agent_knowledge",
+                    "filename": "singleagent/sa_5.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Single-Agent-Knowledge Retrieval",
+                            "zh": "知识检索模式"
+                        },
+                        "status": "inProgress",
+                        "color": "#86efac",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "multiagent",
+            "title": {
+                "en": "Multi-Agent Orchestration",
+                "zh": "多 Agent 编排"
+            },
+            "cards": [
+                {
+                    "id": "1",
+                    "ref": "multi_agent_collaborative",
+                    "filename": "multiagent/ma_1.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Multi-Agent-Collaborative Execution",
+                            "zh": "协作执行模式"
+                        },
+                        "status": "planned",
+                        "color": "#fef9c3",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                },
+                {
+                    "id": "2",
+                    "ref": "multi_agent_parallel",
+                    "filename": "multiagent/ma_2.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Multi-Agent-Parallel Execution",
+                            "zh": "并行执行模式"
+                        },
+                        "status": "inProgress",
+                        "color": "#86efac",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                },
+                {
+                    "id": "6",
+                    "ref": "multi_agent_task_delegation",
+                    "filename": "multiagent/ma_3.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Multi-Agent-Task Delegation",
+                            "zh": "分工协作模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                },
+                {
+                    "id": "7",
+                    "ref": "multi_agent_role_based",
+                    "filename": "multiagent/ma_4.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Multi-Agent-Role-Based Collaboration",
+                            "zh": "角色驱动模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                },
+                {
+                    "id": "8",
+                    "ref": "multi_agent_competitive",
+                    "filename": "multiagent/ma_5.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Multi-Agent-Competitive Collaboration",
+                            "zh": "竞争模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                },
+                {
+                    "id": "9",
+                    "ref": "multi_agent_knowledge_sharing",
+                    "filename": "multiagent/ao_9.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Multi-Agent-Knowledge Sharing",
+                            "zh": "知识共享模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                },
+                {
+                    "id": "10",
+                    "ref": "multi_agent_negotiation",
+                    "filename": "multiagent/ao_10.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Multi-Agent-Iterative Negotiation",
+                            "zh": "多轮协商模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "hitl",
+            "title": {
+                "en": "Human-in-the-Loop Integration",
+                "zh": "人机协同集成"
+            },
+            "cards": [
+                {
+                    "id": "1",
+                    "ref": "hitl_approval",
+                    "filename": "hitl/hl_1.json",
+                    "metadata": {
+                        "title": {
+                            "en": "HITL-Approval Workflow",
+                            "zh": "审批工作流"
+                        },
+                        "status": "inProgress",
+                        "color": "#86efac",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                },
+                {
+                    "id": "11",
+                    "ref": "hitl_pre_review",
+                    "filename": "hitl/hl_2.json",
+                    "metadata": {
+                        "title": {
+                            "en": "HITL-AI Pre-review + Human Approval",
+                            "zh": "AI 预审 + 人工复核模式"
+                        },
+                        "status": "inProgress",
+                        "color": "#86efac",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                },
+                {
+                    "id": "12",
+                    "ref": "hitl_suggestion",
+                    "filename": "hitl/hl_3.json",
+                    "metadata": {
+                        "title": {
+                            "en": "HITL-AI Suggestion + Human Decision",
+                            "zh": "AI 推荐 + 人工决策模式"
+                        },
+                        "status": "planned",
+                        "color": "#fef9c3",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                },
+                {
+                    "id": "13",
+                    "ref": "hitl_monitoring",
+                    "filename": "hitl/hl_4.json",
+                    "metadata": {
+                        "title": {
+                            "en": "HITL-AI Monitoring + Human Intervention",
+                            "zh": "AI 监控 + 人工干预模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                },
+                {
+                    "id": "14",
+                    "ref": "hitl_semi_auto",
+                    "filename": "hitl/hl_5.json",
+                    "metadata": {
+                        "title": {
+                            "en": "HITL-Semi-Automation",
+                            "zh": "半自动模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                },
+                {
+                    "id": "15",
+                    "ref": "hitl_feedback",
+                    "filename": "hitl/hl_5.json",
+                    "metadata": {
+                        "title": {
+                            "en": "HITL-Feedback-Loop Optimization",
+                            "zh": "反馈驱动模式"
+                        },
+                        "status": "sketch",
+                        "color": "transparent",
+                        "lastUpdated": "2024-03-21T10:00:00Z"
+                    }
+                }
+            ]
+        }
+    ],
+    "deletedCards": [],
+    "references": {
+        "architecture": "../../architecture-cards.json",
+        "capabilities": "../capabilities"
+    }
+}

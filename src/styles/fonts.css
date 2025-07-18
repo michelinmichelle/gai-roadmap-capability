@@ -1,0 +1,69 @@
+/* 
+ * 由于没有实际的 Michelin Unit Titling 字体文件，
+ * 我们使用 Orbitron 作为备用字体
+ */
+
+@font-face {
+    font-family: 'Michelin Unit Titling';
+    src: url('../fonts/Michelin-Bold_20250224.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Michelin Unit Titling';
+    src: url('../fonts/Michelin-Regular_20250224.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Michelin Unit Titling';
+    src: url('../fonts/Michelin-SemiBold_20250224.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Michelin Unit Titling';
+    src: url('../fonts/Michelin-Black_20250224.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Michelin Unit Titling';
+    src: url('../fonts/Michelin-Light_20250224.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Open Sans 字体 - 使用本地字体文件 */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}

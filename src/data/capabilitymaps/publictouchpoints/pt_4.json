@@ -1,0 +1,135 @@
+{
+    "id": "4",
+    "ref": "call_center",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Call Center",
+            "zh": "Call Center系统"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "customer_service_integration",
+            "name": {
+                "en": "Customer Service Integration",
+                "zh": "客服系统集成"
+            },
+            "status": "ready",
+            "techStack": "Call Center API",
+            "description": {
+                "en": "Integration with customer service system",
+                "zh": "与客服系统的集成"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "call_summary",
+            "name": {
+                "en": "Call Summary Integration",
+                "zh": "小结功能的集成"
+            },
+            "status": "needEnhancement",
+            "techStack": "Call Summary Service",
+            "description": {
+                "en": "Integration of call summary functionality with call center system",
+                "zh": "小结功能与呼叫中心系统的集成"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "inbound_service",
+            "name": {
+                "en": "Inbound Service Integration",
+                "zh": "呼入服务的集成"
+            },
+            "status": "missing",
+            "techStack": "Inbound Call API",
+            "description": {
+                "en": "Integration with inbound service for customer calls",
+                "zh": "与客户呼入服务的集成"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "ref": "outbound_service",
+            "name": {
+                "en": "Outbound Service Integration",
+                "zh": "外呼服务的集成"
+            },
+            "status": "missing",
+            "techStack": "Outbound Call API",
+            "description": {
+                "en": "Integration with outbound service for customer calls",
+                "zh": "与客户外呼服务的集成"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "ref": "ticket_creation",
+            "name": {
+                "en": "Service Ticket Creation Integration",
+                "zh": "客服工单创建的集成"
+            },
+            "status": "missing",
+            "techStack": "Ticket System API",
+            "description": {
+                "en": "Integration with service ticket creation system",
+                "zh": "与客服工单创建系统的集成"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.1.cards[3]"
+    }
+}

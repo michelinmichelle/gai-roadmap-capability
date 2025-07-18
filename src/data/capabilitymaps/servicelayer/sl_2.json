@@ -1,0 +1,147 @@
+{
+    "id": "2",
+    "ref": "prompt_management",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Prompt Management Service",
+            "zh": "4.2 Prompt Management Service"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "lastUpdated": "2024-03-23T18:45:00Z",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "name": {
+                "en": "Scenario Management",
+                "zh": "场景管理"
+            },
+            "description": {
+                "en": "Support creation, deletion, enable/disable of Scenarios, and configuration of multiple Prompts",
+                "zh": "支持 Scenarios 创建、删除、启用/禁用，并配置多个 Prompt"
+            },
+            "status": "ready",
+            "techStack": "Scenario Service",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "name": {
+                "en": "Prompt Configuration",
+                "zh": "Prompt 维护"
+            },
+            "description": {
+                "en": "Configure Prompt welcome message, icons, support for knowledge base and Agent association",
+                "zh": "配置 Prompt 开场白、图标，支持知识库和 Agent 关联"
+            },
+            "status": "ready",
+            "techStack": "Prompt Editor",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "name": {
+                "en": "Prompt Scoring and Versioning",
+                "zh": "Prompt 评分和版本管理"
+            },
+            "description": {
+                "en": "Add Prompt scoring and version management features, optimize Prompt evolution mechanisms",
+                "zh": "增加 Prompt 评分和版本管理功能，优化 Prompt 进化机制"
+            },
+            "status": "missing",
+            "techStack": "Scoring System",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "name": {
+                "en": "Prompt Access Control",
+                "zh": "交互 & 访问控制"
+            },
+            "description": {
+                "en": "Support Public Prompt settings, record user Prompt usage",
+                "zh": "支持 Public Prompt 设定，记录用户 Prompt 使用情况"
+            },
+            "status": "ready",
+            "techStack": "Access Control",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "name": {
+                "en": "LLM Binding",
+                "zh": "高级交互"
+            },
+            "description": {
+                "en": "Allow Prompts to bind with specific LLMs for interaction",
+                "zh": "允许 Prompt 绑定特定 LLM 进行交互"
+            },
+            "status": "ready",
+            "techStack": "Model Integration",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_11",
+            "name": {
+                "en": "Knowledge & Agent Binding",
+                "zh": "知识库 & Agent 结合"
+            },
+            "description": {
+                "en": "Prompts can be bound to knowledge bases and call Agents to perform tasks",
+                "zh": "Prompt 可绑定知识库，并调用 Agent 进行任务执行"
+            },
+            "status": "ready",
+            "techStack": "Integration API",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.4.cards[1]"
+    }
+}

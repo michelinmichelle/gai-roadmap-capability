@@ -1,0 +1,137 @@
+{
+    "version": "1.0.0",
+    "prefix": "cai_",
+    "cards": [
+        {
+            "id": "1",
+            "ref": "chat_agent",
+            "filename": "cai_1.json",
+            "metadata": {
+                "title": {
+                    "en": "Chat Agent",
+                    "zh": "对话智能体"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "2",
+            "ref": "knowledge_agent",
+            "filename": "cai_2.json",
+            "metadata": {
+                "title": {
+                    "en": "Knowledge Agent",
+                    "zh": "知识智能体"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "3",
+            "ref": "sales_agent",
+            "filename": "cai_3.json",
+            "metadata": {
+                "title": {
+                    "en": "Sales Agent",
+                    "zh": "销售智能体"
+                },
+                "status": "sketch",
+                "color": "transparent",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "4",
+            "ref": "qa_agent",
+            "filename": "cai_4.json",
+            "metadata": {
+                "title": {
+                    "en": "QA Agent",
+                    "zh": "质量检查智能体"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "5",
+            "ref": "orchestrator",
+            "filename": "cai_5.json",
+            "metadata": {
+                "title": {
+                    "en": "Orchestrator",
+                    "zh": "编排器"
+                },
+                "status": "experimental",
+                "color": "#fdba74",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "6",
+            "ref": "toolbox",
+            "filename": "cai_6.json",
+            "metadata": {
+                "title": {
+                    "en": "CoreAI Toolbox",
+                    "zh": "CoreAI工具包"
+                },
+                "status": "ready",
+                "color": "#86efac",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "7",
+            "ref": "integrator",
+            "filename": "cai_7.json",
+            "metadata": {
+                "title": {
+                    "en": "Integrator",
+                    "zh": "集成器"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "8",
+            "ref": "planning",
+            "filename": "cai_8.json",
+            "metadata": {
+                "title": {
+                    "en": "Planning",
+                    "zh": "规划器"
+                },
+                "status": "inProgress",
+                "color": "#fef9c3",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "9",
+            "ref": "memory",
+            "filename": "cai_9.json",
+            "metadata": {
+                "title": {
+                    "en": "Memory",
+                    "zh": "记忆系统"
+                },
+                "status": "inProgress",
+                "color": "#fef9c3",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        }
+    ],
+    "deletedCards": [],
+    "references": {
+        "architecture": "../../architecture-cards.json",
+        "capabilities": "../capabilities"
+    }
+}

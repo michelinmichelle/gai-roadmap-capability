@@ -1,0 +1,321 @@
+{
+    "id": "1",
+    "ref": "preprocessing",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Document Preprocessing",
+            "zh": "文档预处理"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "lastUpdated": "2024-05-20T23:00:00Z",
+        "priority": {
+            "level": 2,
+            "label": {
+                "en": "Critical",
+                "zh": "关键"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "pdf_support",
+            "name": {
+                "en": "PDF Document Support",
+                "zh": "PDF文档支持"
+            },
+            "status": "ready",
+            "techStack": "PDF Parser",
+            "description": {
+                "en": "Basic parsing, page splitting, OCR for images, table data extraction",
+                "zh": "基础解析：可解析 PDF 文件的文本；页面分割：支持对 PDF 进行页面级别的分割处理；图片文字识别：支持识别 PDF 图片中的文字；表格识别：可提取 PDF 内部的表格数据"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "word_support",
+            "name": {
+                "en": "Word Document Support",
+                "zh": "Word文档支持"
+            },
+            "status": "ready",
+            "techStack": "Word Parser",
+            "description": {
+                "en": "Text extraction, paragraph format preservation, table content extraction, list structure preservation, image extraction, hyperlink processing",
+                "zh": "文本提取、段落格式保留、表格内容提取、列表结构保留、图片提取、超链接处理"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "powerpoint_support",
+            "name": {
+                "en": "PowerPoint Support",
+                "zh": "PowerPoint支持"
+            },
+            "status": "ready",
+            "techStack": "PPT Parser",
+            "description": {
+                "en": "Text extraction, slide splitting, format preservation, table structure recognition",
+                "zh": "文本提取、幻灯片分割、格式保留、表格结构识别"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "excel_support",
+            "name": {
+                "en": "Excel Support",
+                "zh": "Excel支持"
+            },
+            "status": "ready",
+            "techStack": "Excel Parser",
+            "description": {
+                "en": "Table data extraction, multi-sheet processing, basic data format recognition",
+                "zh": "表格数据提取、多工作表处理、基本数据格式识别"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "ref": "text_document_support",
+            "name": {
+                "en": "Text Document Support",
+                "zh": "文本类文档支持"
+            },
+            "status": "ready",
+            "techStack": "Text Parser",
+            "description": {
+                "en": "TXT(GBK/UTF-8), Markdown(syntax/links), JSON(structure), CSV(table data/GBK)",
+                "zh": "TXT(GBK/UTF-8)、Markdown(语法/链接)、JSON(结构)、CSV(表格数据/GBK)"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "ref": "chunking",
+            "name": {
+                "en": "Chunking",
+                "zh": "分块"
+            },
+            "status": "ready",
+            "techStack": "Text Chunking Engine",
+            "description": {
+                "en": "Divides documents into smaller, semantically coherent segments",
+                "zh": "将文档划分为更小的、语义连贯的段落"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "ref": "metadata_extraction",
+            "name": {
+                "en": "Metadata Extraction",
+                "zh": "元数据提取"
+            },
+            "status": "ready",
+            "techStack": "Metadata Processors",
+            "description": {
+                "en": "Extracts and preserves document metadata for enhanced retrieval",
+                "zh": "提取并保存文档元数据以增强检索"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "ref": "file_size_limit",
+            "name": {
+                "en": "File Size Limit",
+                "zh": "文件大小限制"
+            },
+            "status": "constraint",
+            "techStack": "System Limit",
+            "description": {
+                "en": "Single file size should not exceed 100MB",
+                "zh": "单个文件大小不超过100MB"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "ref": "pdf_limitations",
+            "name": {
+                "en": "PDF Limitations",
+                "zh": "PDF文档限制"
+            },
+            "status": "constraint",
+            "techStack": "PDF Parser",
+            "description": {
+                "en": "Does not support PDF forms, signature verification, and encrypted documents",
+                "zh": "不支持PDF表单处理、签名验证和加密文档"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "ref": "word_limitations",
+            "name": {
+                "en": "Word Limitations",
+                "zh": "Word文档限制"
+            },
+            "status": "constraint",
+            "techStack": "Word Parser",
+            "description": {
+                "en": "Does not support Word macros, formulas, and comments",
+                "zh": "不支持Word宏、公式和批注"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_11",
+            "ref": "powerpoint_limitations",
+            "name": {
+                "en": "PowerPoint Limitations",
+                "zh": "PowerPoint文档限制"
+            },
+            "status": "constraint",
+            "techStack": "PPT Parser",
+            "description": {
+                "en": "Does not support animations, slideshow, templates, and table styles",
+                "zh": "不支持动画效果、幻灯片放映、PPT模板和表格样式"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_12",
+            "ref": "excel_limitations",
+            "name": {
+                "en": "Excel Limitations",
+                "zh": "Excel文档限制"
+            },
+            "status": "constraint",
+            "techStack": "Excel Parser",
+            "description": {
+                "en": "Does not support Excel formulas, charts, macros, images, and pivot tables",
+                "zh": "不支持Excel公式、图表、宏、图片和数据透视表"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_13",
+            "ref": "adaptive_chunking",
+            "name": {
+                "en": "Adaptive Chunking",
+                "zh": "自适应分块"
+            },
+            "status": "sketch",
+            "techStack": "Intelligent Chunking",
+            "description": {
+                "en": "Dynamically adjusts chunk size based on content semantics",
+                "zh": "根据内容语义动态调整块大小"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_14",
+            "ref": "html_preprocessing",
+            "name": {
+                "en": "HTML Document Preprocessing",
+                "zh": "HTML文档预处理"
+            },
+            "status": "sketch",
+            "techStack": "HTML Parser",
+            "description": {
+                "en": "HTML documents often contain redundant tags or noise data. AI preprocessing optimizes data quality through: Tag filtering - remove irrelevant tags (like ad scripts <script>, styles <style>), preserve core content. Attribute cleaning - remove redundant HTML element attributes (like class, id) to simplify data structure.",
+                "zh": "HTML文档常包含冗余标签或噪声数据，AI预处理需通过以下方式优化数据质量：标签过滤：移除无关标签（如广告脚本 <script>、样式 <style>），保留核心内容。属性清理：删除HTML元素的冗余属性（如 class、id），简化数据结构。"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.6.cards[0]"
+    }
+}

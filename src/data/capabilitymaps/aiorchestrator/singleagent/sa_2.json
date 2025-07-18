@@ -1,0 +1,21 @@
+{
+    "id": "sa_2",
+    "title": {
+        "zh": "3.1 Single-Agent-Sequential Execution",
+        "en": "3.1 Single-Agent-Sequential Execution"
+    },
+    "description": {
+        "zh": "单Agent顺序执行能力",
+        "en": "Single Agent Sequential Execution Capability"
+    },
+    "cards": [
+        {
+            "id": "sa_2_1",
+            "content": {
+                "zh": "基于LLM的单Agent顺序执行能力，支持任务分解、执行和结果整合",
+                "en": "LLM-based single agent sequential execution capability, supporting task decomposition, execution and result integration"
+            },
+            "color": "rgba(30, 41, 59, 0.8)"
+        }
+    ]
+}

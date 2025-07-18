@@ -1,0 +1,274 @@
+{
+    "id": "4",
+    "ref": "service_layer",
+    "version": "1.0.0",
+    "prefix": "sl",
+    "metadata": {
+        "title": {
+            "en": "Service Layer",
+            "zh": "4. 服务层"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "lastUpdated": "2024-05-20T17:00:00Z"
+    },
+    "cards": [
+        {
+            "id": "1",
+            "ref": "chat_service",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "Chat Service",
+                    "zh": "4.1 Chat Service"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "2",
+            "ref": "prompt_management",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "Prompt Management Service",
+                    "zh": "4.2 Prompt Management Service"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "3",
+            "ref": "knowledge_management",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "Knowledge Management Service",
+                    "zh": "4.3 Knowledge Management Service"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "4",
+            "ref": "llm_assessment",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "LLM Assessment Service",
+                    "zh": "4.4 LLM Assessment Service"
+                },
+                "status": "inProgress",
+                "color": "#86efac",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "5",
+            "ref": "code_enhancement",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "Code Enhancement Service",
+                    "zh": "4.5 Code Enhancement Service"
+                },
+                "status": "inProgress",
+                "color": "#86efac",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "6",
+            "ref": "user_interaction",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "User Interaction & Feedback Service",
+                    "zh": "4.6 User Interaction & Feedback Service"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "7",
+            "ref": "platform_monitoring",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "Platform Monitoring Service",
+                    "zh": "4.7 Platform Monitoring Service"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "8",
+            "ref": "help_center",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "Help Center Service",
+                    "zh": "4.8 Help Center Service"
+                },
+                "status": "inProgress",
+                "color": "#86efac",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "9",
+            "ref": "system_settings",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "System Settings & Extension Service",
+                    "zh": "4.9 System Settings & Extension Service"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "10",
+            "ref": "workflow_automation",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "Workflow Automation Service",
+                    "zh": "4.10 Workflow Automation Service"
+                },
+                "status": "ready",
+                "color": "#FEB273",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "11",
+            "ref": "multi_agent_orchestration",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "Multi-Agent Orchestration Service",
+                    "zh": "4.11 Multi-Agent Orchestration Service"
+                },
+                "status": "inProgress",
+                "color": "#86efac",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "12",
+            "ref": "data_analysis",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "Data Analysis & Reporting Service",
+                    "zh": "4.12 Data Analysis & Reporting Service"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "13",
+            "ref": "security_compliance",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "Security & Compliance Service",
+                    "zh": "4.13 Security & Compliance Service"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "14",
+            "ref": "model_fine_tuning",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "Model Fine-Tuning & Training Service",
+                    "zh": "4.14 Model Fine-Tuning & Training Service"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "15",
+            "ref": "content_service",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "Content Service",
+                    "zh": "4.15 Content Service"
+                },
+                "status": "planned",
+                "color": "#fef9c3",
+                "lastUpdated": "2024-05-20T22:00:00Z"
+            }
+        },
+        {
+            "id": "16",
+            "ref": "api_gateway",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "API Gateway Service",
+                    "zh": "4.16 API Gateway Service"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "17",
+            "ref": "access_control",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "Access Control Service",
+                    "zh": "4.17 Access Control Service"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "18",
+            "ref": "model_context_protocol",
+            "version": "1.0.0",
+            "metadata": {
+                "title": {
+                    "en": "Model Context Protocol Service",
+                    "zh": "4.18 模型上下文协议服务"
+                },
+                "status": "experimental",
+                "color": "#fdba74",
+                "lastUpdated": "2024-05-20T21:30:00Z"
+            }
+        }
+    ],
+    "deletedCards": [],
+    "references": {
+        "architecture": "../../architecture-cards.json",
+        "capabilities": "../capabilities"
+    }
+}

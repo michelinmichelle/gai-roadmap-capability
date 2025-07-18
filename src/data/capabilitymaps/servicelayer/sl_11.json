@@ -1,0 +1,67 @@
+{
+    "id": "11",
+    "ref": "data_analytics",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Multi-Agent Orchestration Service",
+            "zh": "4.11 多Agent编排服务"
+        },
+        "status": "inProgress",
+        "color": "#86efac",
+        "lastUpdated": "2024-05-16T16:30:00Z",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "name": {
+                "en": "Agent Role Definition",
+                "zh": "Agent角色定义"
+            },
+            "description": {
+                "en": "Define and configure different agent roles and responsibilities",
+                "zh": "定义和配置不同Agent的角色和职责"
+            },
+            "status": "ready",
+            "techStack": "Role Management System",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "name": {
+                "en": "MCP Model Context Protocol",
+                "zh": "MCP 模型上下文协议"
+            },
+            "description": {
+                "en": "Protocol for managing and sharing context between models and agents",
+                "zh": "用于模型和Agent之间管理和共享上下文的协议"
+            },
+            "status": "missing",
+            "techStack": "Context Protocol Framework",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.4.cards[10]"
+    }
+}

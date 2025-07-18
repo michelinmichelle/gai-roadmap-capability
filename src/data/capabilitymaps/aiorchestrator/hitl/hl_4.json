@@ -1,0 +1,93 @@
+{
+    "id": "4",
+    "ref": "semi_automation",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "HITL-Semi-Automation",
+            "zh": "3.14 半自动模式"
+        },
+        "status": "sketch",
+        "color": "transparent",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "task_partitioning",
+            "name": {
+                "en": "Task Partitioning",
+                "zh": "任务分割"
+            },
+            "status": "sketch",
+            "techStack": "Workflow Engine",
+            "description": {
+                "en": "Divide tasks between AI automation and human execution",
+                "zh": "在AI自动化和人工执行之间分割任务"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "human_handoff",
+            "name": {
+                "en": "Human Handoff",
+                "zh": "人工交接"
+            },
+            "status": "sketch",
+            "techStack": "Handoff System",
+            "description": {
+                "en": "Smoothly transition tasks from AI to human operators",
+                "zh": "平稳地将任务从AI转移到人工操作员"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "process_continuity",
+            "name": {
+                "en": "Process Continuity",
+                "zh": "流程连续性"
+            },
+            "status": "sketch",
+            "techStack": "Process Management",
+            "description": {
+                "en": "Maintain continuity across handoffs between AI and human operators",
+                "zh": "在AI和人工操作员之间的交接中保持连续性"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architectureCard": "sections.3.cards[13]"
+    }
+}

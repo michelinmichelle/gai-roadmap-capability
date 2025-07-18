@@ -1,0 +1,114 @@
+{
+    "version": "1.0",
+    "matrices": [
+        {
+            "id": "agent-capabilities",
+            "title": {
+                "en": "Agent Capabilities Matrix",
+                "zh": "Agent基础能力矩阵"
+            },
+            "description": {
+                "en": "Overview of different agent capabilities across various dimensions",
+                "zh": "不同类型Agent在各种能力维度上的概览"
+            },
+            "file": "agent-capabilities.md",
+            "subMatrices": [
+                "planning-capabilities",
+                "memory-capabilities",
+                "tool-capabilities"
+            ]
+        },
+        {
+            "id": "planning-capabilities",
+            "title": {
+                "en": "Planning Capabilities Matrix",
+                "zh": "规划能力细分矩阵"
+            },
+            "description": {
+                "en": "Detailed breakdown of planning capabilities for AI agents",
+                "zh": "AI智能体规划能力的详细分解"
+            },
+            "file": "planning-capabilities.md",
+            "parentMatrix": "agent-capabilities"
+        },
+        {
+            "id": "memory-capabilities",
+            "title": {
+                "en": "Memory Capabilities Matrix",
+                "zh": "记忆能力细分矩阵"
+            },
+            "description": {
+                "en": "Detailed breakdown of memory capabilities for AI agents",
+                "zh": "AI智能体记忆能力的详细分解"
+            },
+            "file": "memory-capabilities.md",
+            "parentMatrix": "agent-capabilities"
+        },
+        {
+            "id": "tool-capabilities",
+            "title": {
+                "en": "Tool Use Capabilities Matrix",
+                "zh": "工具调用能力细分矩阵"
+            },
+            "description": {
+                "en": "Detailed breakdown of tool use capabilities for AI agents",
+                "zh": "AI智能体工具调用能力的详细分解"
+            },
+            "file": "tool-capabilities.md",
+            "parentMatrix": "agent-capabilities"
+        },
+        {
+            "id": "knowledge-processing",
+            "title": {
+                "en": "Knowledge Preprocessing Matrix",
+                "zh": "知识预处理矩阵"
+            },
+            "description": {
+                "en": "Capabilities for preprocessing different types of documents and media",
+                "zh": "不同类型文档和媒体的预处理能力"
+            },
+            "file": "knowledge-preprocessing.md"
+        },
+        {
+            "id": "rag-capabilities",
+            "title": {
+                "en": "RAG Capabilities Matrix",
+                "zh": "RAG细分能力矩阵"
+            },
+            "description": {
+                "en": "Detailed breakdown of Retrieval Augmented Generation capabilities",
+                "zh": "检索增强生成技术的详细能力分解"
+            },
+            "file": "rag-capabilities.md"
+        }
+    ],
+    "statusTypes": [
+        {
+            "id": "ready",
+            "symbol": "✅",
+            "label": {
+                "en": "Ready",
+                "zh": "已就绪"
+            },
+            "color": "#10b981"
+        },
+        {
+            "id": "partial",
+            "symbol": "⚠️",
+            "label": {
+                "en": "Partially Ready",
+                "zh": "部分就绪"
+            },
+            "color": "#f59e0b"
+        },
+        {
+            "id": "missing",
+            "symbol": "❌",
+            "label": {
+                "en": "Missing",
+                "zh": "未就绪"
+            },
+            "color": "#ef4444"
+        }
+    ]
+}

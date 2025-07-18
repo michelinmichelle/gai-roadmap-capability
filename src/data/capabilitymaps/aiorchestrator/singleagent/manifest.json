@@ -1,0 +1,89 @@
+{
+    "version": "1.0.0",
+    "prefix": "sa",
+    "groups": [
+        {
+            "id": "single_agent_execution",
+            "name": {
+                "en": "Single-Agent Execution",
+                "zh": "单 Agent 执行"
+            },
+            "description": {
+                "en": "Single agent execution capabilities",
+                "zh": "单一智能体执行能力"
+            },
+            "cards": [
+                {
+                    "id": "1",
+                    "ref": "sequential_execution",
+                    "filename": "sa_1.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Sequential Execution Mode",
+                            "zh": "3.1 顺序执行模式"
+                        },
+                        "status": "ready",
+                        "color": "#98FB98"
+                    }
+                },
+                {
+                    "id": "2",
+                    "ref": "conditional_decision",
+                    "filename": "sa_2.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Conditional Decision Mode",
+                            "zh": "3.2 条件决策模式"
+                        },
+                        "status": "planned",
+                        "color": "#FFFFE0"
+                    }
+                },
+                {
+                    "id": "3",
+                    "ref": "dynamic_adjustment",
+                    "filename": "sa_3.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Dynamic Adjustment Mode",
+                            "zh": "3.3 动态调整模式"
+                        },
+                        "status": "ready",
+                        "color": "#98FB98"
+                    }
+                },
+                {
+                    "id": "4",
+                    "ref": "incremental_reasoning",
+                    "filename": "sa_4.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Incremental Reasoning Mode",
+                            "zh": "3.4 增量推理模式"
+                        },
+                        "status": "sketch",
+                        "color": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "5",
+                    "ref": "knowledge_retrieval",
+                    "filename": "sa_5.json",
+                    "metadata": {
+                        "title": {
+                            "en": "Knowledge Retrieval Mode",
+                            "zh": "3.5 知识检索模式"
+                        },
+                        "status": "ready",
+                        "color": "#98FB98"
+                    }
+                }
+            ]
+        }
+    ],
+    "deletedCards": [],
+    "references": {
+        "architecture": "../../architecture.json",
+        "capabilities": "../../capabilities.json"
+    }
+}

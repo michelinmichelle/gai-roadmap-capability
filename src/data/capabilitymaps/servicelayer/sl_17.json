@@ -1,0 +1,127 @@
+{
+    "id": "17",
+    "ref": "access_control",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Access Control Service",
+            "zh": "4.17 Access Control Service"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "lastUpdated": "2024-05-20T16:00:00Z",
+        "priority": {
+            "level": 2,
+            "label": {
+                "en": "Critical",
+                "zh": "关键"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_6",
+            "name": {
+                "en": "SSO Integration",
+                "zh": "单点登录集成"
+            },
+            "description": {
+                "en": "Support for single sign-on with external identity providers",
+                "zh": "支持与外部身份提供商进行单点登录"
+            },
+            "status": "ready",
+            "techStack": "SSO Framework",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_1",
+            "name": {
+                "en": "Authentication",
+                "zh": "身份验证"
+            },
+            "description": {
+                "en": "Verify user identities across the platform",
+                "zh": "在整个平台上验证用户身份"
+            },
+            "status": "ready",
+            "techStack": "Auth System",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "name": {
+                "en": "Authorization",
+                "zh": "授权"
+            },
+            "description": {
+                "en": "Control access to resources based on user permissions",
+                "zh": "基于用户权限控制对资源的访问"
+            },
+            "status": "ready",
+            "techStack": "Authorization Framework",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "name": {
+                "en": "Role Management",
+                "zh": "角色管理"
+            },
+            "description": {
+                "en": "Define and manage roles with associated permissions",
+                "zh": "定义和管理具有关联权限的角色"
+            },
+            "status": "ready",
+            "techStack": "Role System",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "name": {
+                "en": "Advanced Access Controls",
+                "zh": "高级访问控制"
+            },
+            "description": {
+                "en": "Implement fine-grained, attribute-based access control",
+                "zh": "实现细粒度、基于属性的访问控制"
+            },
+            "status": "missing",
+            "techStack": "ABAC System",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.4.cards[16]"
+    }
+}

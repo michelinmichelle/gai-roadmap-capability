@@ -1,0 +1,29 @@
+{
+    "id": "7",
+    "ref": "planning",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Core AI Planning",
+            "zh": "Core AI Planning"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.5.cards[6]"
+    }
+}

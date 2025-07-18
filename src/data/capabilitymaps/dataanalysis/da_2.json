@@ -1,0 +1,49 @@
+{
+    "id": "2",
+    "ref": "cost_analysis",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Cost Analysis",
+            "zh": "成本分析"
+        },
+        "status": "sketch",
+        "color": "#fef08a",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            }
+        },
+        "createdAt": "2024-03-22T10:00:00Z",
+        "lastUpdated": "2024-03-22T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "1",
+            "ref": "cap_1",
+            "name": {
+                "en": "Model Cost Tracking",
+                "zh": "模型成本追踪"
+            },
+            "status": "missing",
+            "techStack": "Cost Management System",
+            "description": {
+                "en": "Track and analyze costs associated with different AI model usage",
+                "zh": "追踪和分析与不同AI模型使用相关的成本"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architecture": "architecture_card_2.json"
+    }
+}

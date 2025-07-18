@@ -1,0 +1,93 @@
+{
+    "id": "2",
+    "ref": "feedback_loop",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "HITL-AI Suggestion + Human Decision",
+            "zh": "3.12 AI推荐+人工决策模式"
+        },
+        "status": "planned",
+        "color": "#fef9c3",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "ai_suggestion_generation",
+            "name": {
+                "en": "AI Suggestion Generation",
+                "zh": "AI推荐生成"
+            },
+            "status": "planned",
+            "techStack": "Recommendation Engine",
+            "description": {
+                "en": "Generate recommendations and suggestions for human decision makers",
+                "zh": "为人类决策者生成推荐和建议"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "decision_interface",
+            "name": {
+                "en": "Decision Interface",
+                "zh": "决策界面"
+            },
+            "status": "planned",
+            "techStack": "UI Framework",
+            "description": {
+                "en": "Interface for presenting AI suggestions and capturing human decisions",
+                "zh": "用于展示AI建议和捕获人类决策的界面"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "decision_tracking",
+            "name": {
+                "en": "Decision Tracking",
+                "zh": "决策跟踪"
+            },
+            "status": "planned",
+            "techStack": "Analytics Platform",
+            "description": {
+                "en": "Track and analyze human decisions for future improvements",
+                "zh": "跟踪和分析人类决策以进行未来改进"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architectureCard": "sections.3.cards[11]"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": "1",
+    "ref": "chat_agent",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Chat Agent",
+            "zh": "对话智能体"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 2,
+            "label": {
+                "en": "Critical",
+                "zh": "关键"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.5.cards[0]"
+    }
+}

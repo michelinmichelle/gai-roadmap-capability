@@ -1,0 +1,112 @@
+{
+    "id": "5",
+    "ref": "llminspector",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "LLM Inspector",
+            "zh": "LLM Inspector服务"
+        },
+        "status": "experimental",
+        "color": "#fdba74",
+        "priority": {
+            "level": 3,
+            "label": {
+                "en": "Low",
+                "zh": "低"
+            }
+        },
+        "createdAt": "2024-05-23T16:00:00Z",
+        "lastUpdated": "2024-05-23T16:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "1",
+            "ref": "cap_1",
+            "name": {
+                "en": "LLM Output Analysis",
+                "zh": "LLM输出分析"
+            },
+            "status": "experimental",
+            "techStack": "LLM Inspector",
+            "description": {
+                "en": "Analyze and evaluate the quality and accuracy of LLM outputs",
+                "zh": "分析和评估LLM输出的质量和准确性"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "3",
+            "ref": "cap_3",
+            "name": {
+                "en": "Hallucination Detection",
+                "zh": "幻觉检测"
+            },
+            "status": "experimental",
+            "techStack": "Factual Verification",
+            "description": {
+                "en": "Identify and flag potential factual inaccuracies in LLM outputs",
+                "zh": "识别和标记LLM输出中的潜在事实不准确性"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "4",
+            "ref": "cap_4",
+            "name": {
+                "en": "Integration API",
+                "zh": "集成API"
+            },
+            "status": "planned",
+            "techStack": "REST API",
+            "description": {
+                "en": "API endpoints for seamless integration with other systems and platforms",
+                "zh": "提供与其他系统和平台无缝集成的API端点"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "5",
+            "ref": "cap_5",
+            "name": {
+                "en": "Emotion Detection",
+                "zh": "情绪检测"
+            },
+            "status": "sketch",
+            "techStack": "Sentiment Analysis",
+            "description": {
+                "en": "Detect and analyze emotional content in text and LLM responses",
+                "zh": "检测和分析文本和LLM响应中的情绪内容"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architecture": "architecture_card_5.json"
+    }
+}

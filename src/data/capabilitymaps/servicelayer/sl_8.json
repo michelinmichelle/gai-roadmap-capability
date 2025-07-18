@@ -1,0 +1,267 @@
+{
+    "id": "8",
+    "ref": "help_center",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Help Center Service",
+            "zh": "4.8 Help Center Service"
+        },
+        "status": "inProgress",
+        "color": "#ffffff",
+        "lastUpdated": "2024-05-16T10:00:00Z",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "name": {
+                "en": "Documentation Access",
+                "zh": "文档访问"
+            },
+            "description": {
+                "en": "Provide access to comprehensive platform documentation",
+                "zh": "提供对全面平台文档的访问"
+            },
+            "status": "ready",
+            "techStack": "Document Repository",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "name": {
+                "en": "FAQ Management",
+                "zh": "常见问题管理"
+            },
+            "description": {
+                "en": "Maintain and provide answers to frequently asked questions",
+                "zh": "维护并提供常见问题的解答"
+            },
+            "status": "ready",
+            "techStack": "FAQ System",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "name": {
+                "en": "Tutorial Guides",
+                "zh": "教程指南"
+            },
+            "description": {
+                "en": "Provide step-by-step tutorial guides for platform features",
+                "zh": "为平台功能提供逐步教程指南"
+            },
+            "status": "inProgress",
+            "techStack": "Tutorial Engine",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "name": {
+                "en": "Search Functionality",
+                "zh": "搜索功能"
+            },
+            "description": {
+                "en": "Allow users to search help documents and knowledge base",
+                "zh": "允许用户搜索帮助文档和知识库"
+            },
+            "status": "missing",
+            "techStack": "Search Engine",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "name": {
+                "en": "Support Ticket System",
+                "zh": "支持工单系统"
+            },
+            "description": {
+                "en": "Allow users to create and track support tickets",
+                "zh": "允许用户创建和跟踪支持工单"
+            },
+            "status": "missing",
+            "techStack": "Ticket System",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "name": {
+                "en": "AI-assisted Support",
+                "zh": "AI辅助支持"
+            },
+            "description": {
+                "en": "Provide AI-powered responses to common support questions",
+                "zh": "为常见支持问题提供AI支持的回复"
+            },
+            "status": "missing",
+            "techStack": "AI Support Bot",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "name": {
+                "en": "Limited Content Updates",
+                "zh": "有限的内容更新"
+            },
+            "description": {
+                "en": "Help center content is not automatically updated with new features",
+                "zh": "帮助中心内容不会随新功能自动更新"
+            },
+            "status": "missing",
+            "techStack": "Content Management",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "name": {
+                "en": "Basic Support Analytics",
+                "zh": "基础支持分析"
+            },
+            "description": {
+                "en": "Current analytics on support issues are limited and require manual review",
+                "zh": "当前对支持问题的分析有限，需要手动审查"
+            },
+            "status": "missing",
+            "techStack": "Analytics Platform",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "name": {
+                "en": "Auto-updating Documentation",
+                "zh": "自动更新文档"
+            },
+            "description": {
+                "en": "Implement system for automatically updating documentation with new features",
+                "zh": "实施系统，随新功能自动更新文档"
+            },
+            "status": "missing",
+            "techStack": "Doc Automation",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "name": {
+                "en": "Interactive Tutorials",
+                "zh": "交互式教程"
+            },
+            "description": {
+                "en": "Develop interactive, guided tutorials for complex platform features",
+                "zh": "为复杂的平台功能开发交互式引导教程"
+            },
+            "status": "missing",
+            "techStack": "Interactive Guide",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_11",
+            "name": {
+                "en": "Advanced Support Analytics",
+                "zh": "高级支持分析"
+            },
+            "description": {
+                "en": "Implement advanced analytics to identify patterns in support requests",
+                "zh": "实施高级分析，识别支持请求中的模式"
+            },
+            "status": "missing",
+            "techStack": "Advanced Analytics",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_12",
+            "name": {
+                "en": "Community Support Forum",
+                "zh": "社区支持论坛"
+            },
+            "description": {
+                "en": "Implement user community forums for peer-to-peer support",
+                "zh": "实施用户社区论坛，用于对等支持"
+            },
+            "status": "missing",
+            "techStack": "Community Platform",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.4.cards[7]"
+    }
+}

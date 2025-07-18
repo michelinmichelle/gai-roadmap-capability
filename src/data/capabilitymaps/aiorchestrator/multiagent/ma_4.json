@@ -1,0 +1,93 @@
+{
+    "id": "9",
+    "ref": "knowledge_sharing",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Knowledge Sharing Mode",
+            "zh": "3.9 知识共享模式"
+        },
+        "status": "sketch",
+        "color": "transparent",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "shared_knowledge_base",
+            "name": {
+                "en": "Shared Knowledge Base",
+                "zh": "共享知识库"
+            },
+            "status": "sketch",
+            "techStack": "Knowledge Graph",
+            "description": {
+                "en": "Centralized knowledge repository accessible by all agents",
+                "zh": "所有智能体都可访问的中央知识库"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "knowledge_contribution",
+            "name": {
+                "en": "Knowledge Contribution",
+                "zh": "知识贡献"
+            },
+            "status": "sketch",
+            "techStack": "Contribution System",
+            "description": {
+                "en": "Agents contribute new knowledge to the shared repository",
+                "zh": "智能体向共享库贡献新知识"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "collaborative_learning",
+            "name": {
+                "en": "Collaborative Learning",
+                "zh": "协作学习"
+            },
+            "status": "sketch",
+            "techStack": "Learning Framework",
+            "description": {
+                "en": "Agents learn from shared knowledge and experiences",
+                "zh": "智能体从共享知识和经验中学习"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architectureCard": "sections.3.cards[8]"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "version": "1.0.0",
+    "prefix": "at_",
+    "cards": [
+        {
+            "id": "1",
+            "ref": "admin_console",
+            "filename": "at_1.json",
+            "metadata": {
+                "title": {
+                    "en": "Admin Console",
+                    "zh": "管理控制台"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "2",
+            "ref": "content_editor",
+            "filename": "at_2.json",
+            "metadata": {
+                "title": {
+                    "en": "Content Editor",
+                    "zh": "内容编辑器"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        }
+    ],
+    "deletedCards": [],
+    "references": {
+        "architecture": "../../architecture-cards.json",
+        "capabilities": "../capabilities"
+    }
+}

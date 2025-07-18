@@ -1,0 +1,156 @@
+{
+    "id": "1",
+    "ref": "azure_openai",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Azure OpenAI",
+            "zh": "Azure OpenAI"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-05-22T21:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "text_generation",
+            "name": {
+                "en": "Text Generation",
+                "zh": "文本生成"
+            },
+            "status": "ready",
+            "techStack": "GPT-4o",
+            "description": {
+                "en": "Generate coherent and contextually relevant text using GPT-4o for chat",
+                "zh": "使用GPT-4o生成连贯且上下文相关的聊天文本"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "ref": "intent_detection",
+            "name": {
+                "en": "Intent Detection",
+                "zh": "意图检测"
+            },
+            "status": "ready",
+            "techStack": "GPT-4o-mini",
+            "description": {
+                "en": "Detect user intent using GPT-4o-mini for efficient intent recognition",
+                "zh": "使用GPT-4o-mini高效识别用户意图"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "function_calling",
+            "name": {
+                "en": "Function Calling",
+                "zh": "函数调用"
+            },
+            "status": "inProgress",
+            "techStack": "GPT-4o",
+            "description": {
+                "en": "Structured function calling with parameter parsing",
+                "zh": "带参数解析的结构化函数调用"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "content_filtering",
+            "name": {
+                "en": "Content Filtering",
+                "zh": "内容过滤"
+            },
+            "status": "ready",
+            "techStack": "Azure Content Safety",
+            "description": {
+                "en": "Filter harmful or inappropriate content",
+                "zh": "过滤有害或不适当的内容"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "ref": "enterprise_security",
+            "name": {
+                "en": "Enterprise Security",
+                "zh": "企业级安全"
+            },
+            "status": "ready",
+            "techStack": "Azure Security",
+            "description": {
+                "en": "Enterprise-grade security and compliance",
+                "zh": "企业级安全性和合规性"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "ref": "service_isolation",
+            "name": {
+                "en": "Service Isolation",
+                "zh": "服务隔离"
+            },
+            "status": "sketch",
+            "techStack": "Azure OpenAI",
+            "description": {
+                "en": "Separate services for critical business scenarios and internal usage scenarios",
+                "zh": "关键业务场景与内部使用场景服务分开"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.7.cards[0]"
+    }
+}

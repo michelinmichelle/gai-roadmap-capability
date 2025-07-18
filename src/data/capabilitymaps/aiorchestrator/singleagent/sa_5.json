@@ -1,0 +1,93 @@
+{
+    "id": "5",
+    "ref": "knowledge_retrieval",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Knowledge Retrieval Mode",
+            "zh": "3.5 知识检索模式"
+        },
+        "status": "ready",
+        "color": "#98FB98",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "semantic_search",
+            "name": {
+                "en": "Semantic Search",
+                "zh": "语义搜索"
+            },
+            "status": "ready",
+            "techStack": "Vector Search",
+            "description": {
+                "en": "Search for relevant information based on semantic meaning",
+                "zh": "基于语义含义搜索相关信息"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "knowledge_integration",
+            "name": {
+                "en": "Knowledge Integration",
+                "zh": "知识整合"
+            },
+            "status": "ready",
+            "techStack": "Knowledge Base",
+            "description": {
+                "en": "Integrate external knowledge into execution process",
+                "zh": "将外部知识整合到执行过程中"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "context_enrichment",
+            "name": {
+                "en": "Context Enrichment",
+                "zh": "上下文丰富"
+            },
+            "status": "ready",
+            "techStack": "Context System",
+            "description": {
+                "en": "Enrich execution context with retrieved knowledge",
+                "zh": "用检索到的知识丰富执行上下文"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architectureCard": "sections.3.cards[4]"
+    }
+}

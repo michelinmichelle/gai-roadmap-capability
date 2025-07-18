@@ -1,0 +1,187 @@
+{
+    "id": "13",
+    "ref": "integration_hub",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Integration Hub Service",
+            "zh": "4.13 Integration Hub Service"
+        },
+        "status": "inProgress",
+        "color": "#86efac",
+        "lastUpdated": "2024-05-20T10:00:00Z",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "name": {
+                "en": "External API Connectors",
+                "zh": "外部API连接器"
+            },
+            "description": {
+                "en": "Standardized connectors for integrating with external APIs",
+                "zh": "用于与外部API集成的标准化连接器"
+            },
+            "status": "ready",
+            "techStack": "Connector Framework",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "name": {
+                "en": "Authentication Management",
+                "zh": "认证管理"
+            },
+            "description": {
+                "en": "Manage authentication for various integrated services",
+                "zh": "管理各种集成服务的认证"
+            },
+            "status": "ready",
+            "techStack": "Auth Manager",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_14",
+            "name": {
+                "en": "Alibaba Cloud Data Encryption",
+                "zh": "阿里云数据存储加密"
+            },
+            "description": {
+                "en": "Encryption for data stored in Alibaba Cloud services",
+                "zh": "存储在阿里云服务中的数据加密"
+            },
+            "status": "ready",
+            "techStack": "Alibaba Cloud KMS",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_15",
+            "name": {
+                "en": "Simple Dynamic Data Masking",
+                "zh": "简单的数据动态脱敏"
+            },
+            "description": {
+                "en": "Mask sensitive personal information in data dynamically",
+                "zh": "对数据中的个人敏感信息进行动态脱敏处理"
+            },
+            "status": "ready",
+            "techStack": "Masking Service",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_16",
+            "name": {
+                "en": "Azure Content Filtering",
+                "zh": "AZURE内容过滤"
+            },
+            "description": {
+                "en": "Content moderation and filtering using Azure Content Moderator",
+                "zh": "使用Azure内容审核服务进行内容过滤"
+            },
+            "status": "ready",
+            "techStack": "Azure Content Moderator",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_17",
+            "name": {
+                "en": "Hybrid Harmful Content Detection",
+                "zh": "混合检索有害信息识别"
+            },
+            "description": {
+                "en": "Detect harmful content using hybrid search methods",
+                "zh": "使用混合检索方法识别有害信息"
+            },
+            "status": "inProgress",
+            "techStack": "Detection System",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_18",
+            "name": {
+                "en": "Frontend Watermark",
+                "zh": "前端页面水印"
+            },
+            "description": {
+                "en": "Add dynamic watermarks to frontend pages for security and identification",
+                "zh": "为前端页面添加动态水印，用于安全和身份识别"
+            },
+            "status": "ready",
+            "techStack": "Watermark Component",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_19",
+            "name": {
+                "en": "Standardized Model Integration Service",
+                "zh": "模型集成服务的标准化"
+            },
+            "description": {
+                "en": "Standardized service for integrating various AI models into the platform",
+                "zh": "用于将各种AI模型集成到平台的标准化服务"
+            },
+            "status": "needEnhancement",
+            "techStack": "Model Integration Framework",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.4.cards[12]"
+    }
+}

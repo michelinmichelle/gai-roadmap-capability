@@ -1,0 +1,287 @@
+{
+    "id": "7",
+    "ref": "platform_monitoring",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Platform Monitoring Service",
+            "zh": "4.7 Platform Monitoring Service"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "lastUpdated": "2024-05-16T09:00:00Z",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "name": {
+                "en": "System Health Monitoring",
+                "zh": "系统健康监控"
+            },
+            "description": {
+                "en": "Monitor Alibaba Cloud components health and track CaaS usage",
+                "zh": "监控阿里云组件系统健康，跟踪CaaS使用情况"
+            },
+            "status": "ready",
+            "techStack": "Health Monitor",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "name": {
+                "en": "Resource Usage Tracking",
+                "zh": "资源使用跟踪"
+            },
+            "description": {
+                "en": "Track CPU, memory, and storage usage across the platform",
+                "zh": "跟踪平台的CPU、内存和存储使用情况"
+            },
+            "status": "ready",
+            "techStack": "Resource Monitor",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "name": {
+                "en": "API Performance Monitoring",
+                "zh": "API性能监控"
+            },
+            "description": {
+                "en": "Monitor response times and throughput of all platform APIs",
+                "zh": "监控所有平台API的响应时间和吞吐量"
+            },
+            "status": "missing",
+            "techStack": "API Monitor",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "name": {
+                "en": "Error Logging",
+                "zh": "错误日志记录"
+            },
+            "description": {
+                "en": "Comprehensive logging of system errors and exceptions",
+                "zh": "全面记录系统错误和异常"
+            },
+            "status": "ready",
+            "techStack": "Logging System",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_14",
+            "name": {
+                "en": "Azure GPT Usage Monitoring",
+                "zh": "Azure GPT用量和服务可观测性"
+            },
+            "description": {
+                "en": "Monitor Azure GPT usage, service metrics and provide observability for GPT services",
+                "zh": "监控Azure GPT的用量和服务指标，提供GPT服务的可观测性"
+            },
+            "status": "missing",
+            "techStack": "Azure Monitor",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "name": {
+                "en": "Alert Notification",
+                "zh": "警报通知"
+            },
+            "description": {
+                "en": "Send alerts when system metrics exceed defined thresholds",
+                "zh": "当系统指标超过定义的阈值时发送警报"
+            },
+            "status": "missing",
+            "techStack": "Alert System",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "name": {
+                "en": "User Activity Monitoring",
+                "zh": "用户活动监控"
+            },
+            "description": {
+                "en": "Analyze prompts, retrievals, generated content and user feedback",
+                "zh": "分析prompt与retrieval和生成内容与用户反馈"
+            },
+            "status": "ready",
+            "techStack": "Activity Tracker",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "name": {
+                "en": "Manual Threshold Configuration",
+                "zh": "手动阈值配置"
+            },
+            "description": {
+                "en": "Alert thresholds require manual configuration, not automatically adjusted",
+                "zh": "警报阈值需要手动配置，不能自动调整"
+            },
+            "status": "missing",
+            "techStack": "Adaptive Threshold",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "name": {
+                "en": "Predictive Monitoring",
+                "zh": "预测监控"
+            },
+            "description": {
+                "en": "Implement AI-based predictive monitoring to anticipate system issues",
+                "zh": "实施基于AI的预测监控，预测系统问题"
+            },
+            "status": "missing",
+            "techStack": "Predictive AI",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "name": {
+                "en": "Auto-scaling Integration",
+                "zh": "自动扩展集成"
+            },
+            "description": {
+                "en": "Integrate monitoring with auto-scaling capabilities for resource optimization",
+                "zh": "将监控与自动扩展能力集成，以优化资源"
+            },
+            "status": "missing",
+            "techStack": "Auto-scale System",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_11",
+            "name": {
+                "en": "Anomaly Detection",
+                "zh": "异常检测"
+            },
+            "description": {
+                "en": "Implement advanced anomaly detection to identify unusual system behavior",
+                "zh": "实施高级异常检测，识别不寻常的系统行为"
+            },
+            "status": "missing",
+            "techStack": "Anomaly Engine",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_12",
+            "name": {
+                "en": "Self-healing Capabilities",
+                "zh": "自我修复能力"
+            },
+            "description": {
+                "en": "Develop self-healing mechanisms for common system issues",
+                "zh": "为常见系统问题开发自我修复机制"
+            },
+            "status": "missing",
+            "techStack": "Self-heal System",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_13",
+            "name": {
+                "en": "AI Backend Observability",
+                "zh": "AI后台可观测能力"
+            },
+            "description": {
+                "en": "Implementing observability for AI backend using opentelemetry and openlit",
+                "zh": "使用opentelemetry和openlit实现AI后台的可观测能力"
+            },
+            "status": "missing",
+            "techStack": "Observability Tools",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.4.cards[6]"
+    }
+}

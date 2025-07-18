@@ -1,0 +1,95 @@
+{
+    "version": "1.0.0",
+    "prefix": "pt_",
+    "cards": [
+        {
+            "id": "1",
+            "ref": "mistation_portal",
+            "filename": "pt_1.json",
+            "metadata": {
+                "title": {
+                    "en": "MiStation Employee Portal",
+                    "zh": "米站(PC)"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "2",
+            "ref": "mistation_wecomm",
+            "filename": "pt_2.json",
+            "metadata": {
+                "title": {
+                    "en": "Mi-Station Employee WeComm (mobile)",
+                    "zh": "米站(WeComm)"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "3",
+            "ref": "dealer_portal",
+            "filename": "pt_3.json",
+            "metadata": {
+                "title": {
+                    "en": "DCP",
+                    "zh": "Dealer门户"
+                },
+                "status": "inProgress",
+                "color": "#86efac",
+                "lastUpdated": "2024-03-22T14:00:00Z"
+            }
+        },
+        {
+            "id": "4",
+            "ref": "call_center",
+            "filename": "pt_4.json",
+            "metadata": {
+                "title": {
+                    "en": "Call Center",
+                    "zh": "Call Center系统"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "5",
+            "ref": "teams",
+            "filename": "pt_5.json",
+            "metadata": {
+                "title": {
+                    "en": "Teams",
+                    "zh": "Teams"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        },
+        {
+            "id": "6",
+            "ref": "crm",
+            "filename": "pt_6.json",
+            "metadata": {
+                "title": {
+                    "en": "CRM",
+                    "zh": "CRM"
+                },
+                "status": "sketch",
+                "color": "transparent",
+                "lastUpdated": "2024-03-21T10:00:00Z"
+            }
+        }
+    ],
+    "deletedCards": [],
+    "references": {
+        "architecture": "../../architecture-cards.json",
+        "capabilities": "../capabilities"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "id": "3",
+    "ref": "servicenow",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "ServiceNow",
+            "zh": "ServiceNow服务"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            }
+        },
+        "createdAt": "2024-05-23T16:00:00Z",
+        "lastUpdated": "2024-05-23T16:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "1",
+            "ref": "cap_1",
+            "name": {
+                "en": "Service Request Creation",
+                "zh": "服务请求创建"
+            },
+            "status": "ready",
+            "techStack": "ServiceNow ITSM",
+            "description": {
+                "en": "Create and submit service requests to ServiceNow from AI applications",
+                "zh": "从AI应用创建并提交服务请求到ServiceNow"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architecture": "architecture_card_3.json"
+    }
+}

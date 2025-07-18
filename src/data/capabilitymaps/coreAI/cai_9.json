@@ -1,0 +1,282 @@
+{
+    "id": "9",
+    "ref": "memory",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Memory",
+            "zh": "记忆系统"
+        },
+        "status": "inProgress",
+        "color": "#fef9c3",
+        "priority": {
+            "level": 2,
+            "label": {
+                "en": "Critical",
+                "zh": "关键"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "conversation_history",
+            "name": {
+                "en": "Conversation History",
+                "zh": "对话历史"
+            },
+            "status": "ready",
+            "techStack": "Memory Store",
+            "description": {
+                "en": "Maintains and retrieves conversation history",
+                "zh": "维护和检索对话历史"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "contextual_recall",
+            "name": {
+                "en": "Contextual Recall",
+                "zh": "上下文记忆"
+            },
+            "status": "ready",
+            "techStack": "Context Engine",
+            "description": {
+                "en": "Retrieves relevant context from previous interactions",
+                "zh": "从先前的交互中检索相关上下文"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "user_preference_memory",
+            "name": {
+                "en": "User Preference Memory",
+                "zh": "用户偏好记忆"
+            },
+            "status": "ready",
+            "techStack": "User Profile Store",
+            "description": {
+                "en": "Remembers and applies user preferences",
+                "zh": "记住并应用用户偏好"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "working_memory",
+            "name": {
+                "en": "Working Memory",
+                "zh": "工作记忆"
+            },
+            "status": "ready",
+            "techStack": "State Management",
+            "description": {
+                "en": "Temporarily stores information needed for current task",
+                "zh": "临时存储当前任务所需的信息"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "ref": "long_term_storage",
+            "name": {
+                "en": "Long-term Storage",
+                "zh": "长期存储"
+            },
+            "status": "inProgress",
+            "techStack": "Persistent Storage",
+            "description": {
+                "en": "Persistently stores important information for future recall",
+                "zh": "持久存储重要信息以供将来调用"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "ref": "memory_indexing",
+            "name": {
+                "en": "Memory Indexing",
+                "zh": "记忆索引"
+            },
+            "status": "ready",
+            "techStack": "Index Engine",
+            "description": {
+                "en": "Organizes memories for efficient retrieval",
+                "zh": "为高效检索组织记忆"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "ref": "selective_forgetting",
+            "name": {
+                "en": "Selective Forgetting",
+                "zh": "选择性遗忘"
+            },
+            "status": "inProgress",
+            "techStack": "Memory Management",
+            "description": {
+                "en": "Discards irrelevant or outdated information",
+                "zh": "丢弃不相关或过时的信息"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "ref": "memory_context_window",
+            "name": {
+                "en": "Memory Context Window",
+                "zh": "记忆上下文窗口"
+            },
+            "status": "constraint",
+            "techStack": "Context Limitation",
+            "description": {
+                "en": "Limited context window for recalling information",
+                "zh": "回忆信息时的上下文窗口有限"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "ref": "episodic_memory",
+            "name": {
+                "en": "Episodic Memory",
+                "zh": "情景记忆"
+            },
+            "status": "inProgress",
+            "techStack": "Episode Store",
+            "description": {
+                "en": "Stores and recalls specific interaction episodes",
+                "zh": "存储和回忆特定的交互场景"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "ref": "memory_consolidation",
+            "name": {
+                "en": "Memory Consolidation",
+                "zh": "记忆巩固"
+            },
+            "status": "sketch",
+            "techStack": "Consolidation Engine",
+            "description": {
+                "en": "Transforms short-term memories into long-term knowledge",
+                "zh": "将短期记忆转化为长期知识"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_11",
+            "ref": "associative_recall",
+            "name": {
+                "en": "Associative Recall",
+                "zh": "联想记忆"
+            },
+            "status": "sketch",
+            "techStack": "Association Engine",
+            "description": {
+                "en": "Recalls related memories through associations",
+                "zh": "通过关联回忆相关记忆"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_12",
+            "ref": "cross_session_memory",
+            "name": {
+                "en": "Cross-session Memory",
+                "zh": "跨会话记忆"
+            },
+            "status": "inProgress",
+            "techStack": "Persistent Session",
+            "description": {
+                "en": "Maintains memory across multiple user sessions",
+                "zh": "在多个用户会话中维持记忆"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.2.cards[8]"
+    }
+}

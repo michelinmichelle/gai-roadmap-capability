@@ -1,0 +1,93 @@
+{
+    "id": "5",
+    "ref": "external_data_lake",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "External Data Lake Connection",
+            "zh": "连接外部数据湖存储（BKH)"
+        },
+        "status": "sketch",
+        "color": "#fef9c3",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            },
+            "updatedAt": "2024-05-23T15:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-05-23T15:00:00Z",
+        "updatedAt": "2024-05-23T15:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "data_lake_connector",
+            "name": {
+                "en": "Data Lake Connector",
+                "zh": "数据湖连接器"
+            },
+            "status": "missing",
+            "techStack": "BKH API",
+            "description": {
+                "en": "Secure connection to external BKH data lake storage",
+                "zh": "安全连接到外部BKH数据湖存储"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "data_integration",
+            "name": {
+                "en": "Data Integration",
+                "zh": "数据湖数据集成"
+            },
+            "status": "missing",
+            "techStack": "ETL Pipeline",
+            "description": {
+                "en": "Integration of data from external data lake into knowledge system",
+                "zh": "将外部数据湖中的数据集成到知识系统中"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "data_federation",
+            "name": {
+                "en": "Data Federation",
+                "zh": "数据联合查询"
+            },
+            "status": "missing",
+            "techStack": "Federated Query Engine",
+            "description": {
+                "en": "Query across both local and external data lake storage",
+                "zh": "跨本地和外部数据湖存储进行查询"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.8.cards[4]"
+    }
+}

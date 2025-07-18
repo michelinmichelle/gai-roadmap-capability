@@ -1,0 +1,133 @@
+{
+    "id": "4",
+    "ref": "msgraph",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "MS Graph API",
+            "zh": "MS Graph API服务"
+        },
+        "status": "sketch",
+        "color": "#fef9c3",
+        "priority": {
+            "level": 3,
+            "label": {
+                "en": "Low",
+                "zh": "低"
+            }
+        },
+        "createdAt": "2024-05-23T16:00:00Z",
+        "lastUpdated": "2024-05-23T16:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "1",
+            "ref": "cap_1",
+            "name": {
+                "en": "Office 365 Integration",
+                "zh": "Office 365集成"
+            },
+            "status": "sketch",
+            "techStack": "Microsoft Graph API",
+            "description": {
+                "en": "Access Office 365 services including Outlook, Teams, and SharePoint",
+                "zh": "访问Office 365服务，包括Outlook、Teams和SharePoint"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "2",
+            "ref": "cap_2",
+            "name": {
+                "en": "Calendar Management",
+                "zh": "日历管理"
+            },
+            "status": "sketch",
+            "techStack": "MS Graph Calendar API",
+            "description": {
+                "en": "Create, read, update and delete calendar events and meetings",
+                "zh": "创建、读取、更新和删除日历事件和会议"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "3",
+            "ref": "cap_3",
+            "name": {
+                "en": "Teams Integration",
+                "zh": "Teams集成"
+            },
+            "status": "sketch",
+            "techStack": "MS Graph Teams API",
+            "description": {
+                "en": "Interact with Microsoft Teams for messaging and collaboration",
+                "zh": "与Microsoft Teams交互实现消息传递和协作"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "4",
+            "ref": "cap_4",
+            "name": {
+                "en": "OneDrive & SharePoint Access",
+                "zh": "OneDrive和SharePoint访问"
+            },
+            "status": "sketch",
+            "techStack": "MS Graph Files API",
+            "description": {
+                "en": "Access and manage files stored in OneDrive and SharePoint",
+                "zh": "访问和管理存储在OneDrive和SharePoint中的文件"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "5",
+            "ref": "cap_5",
+            "name": {
+                "en": "Email Management",
+                "zh": "邮件管理"
+            },
+            "status": "sketch",
+            "techStack": "MS Graph Mail API",
+            "description": {
+                "en": "Read, compose, and send emails through Outlook/Exchange",
+                "zh": "通过Outlook/Exchange读取、撰写和发送电子邮件"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architecture": "architecture_card_4.json"
+    }
+}

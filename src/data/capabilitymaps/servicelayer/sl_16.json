@@ -1,0 +1,147 @@
+{
+    "id": "16",
+    "ref": "api_gateway",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "API Gateway Service",
+            "zh": "4.16 API Gateway Service"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "lastUpdated": "2024-05-20T14:30:00Z",
+        "priority": {
+            "level": 2,
+            "label": {
+                "en": "Critical",
+                "zh": "关键"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "name": {
+                "en": "API Routing",
+                "zh": "API路由"
+            },
+            "description": {
+                "en": "Route API requests to appropriate backend services",
+                "zh": "将API请求路由到适当的后端服务"
+            },
+            "status": "ready",
+            "techStack": "Routing Engine",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "name": {
+                "en": "Request Validation",
+                "zh": "请求验证"
+            },
+            "description": {
+                "en": "Validate incoming API requests against defined schemas",
+                "zh": "根据定义的模式验证传入的API请求"
+            },
+            "status": "ready",
+            "techStack": "Validation Framework",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "name": {
+                "en": "Rate Limiting",
+                "zh": "速率限制"
+            },
+            "description": {
+                "en": "Control the rate of requests to protect backend services",
+                "zh": "控制请求速率以保护后端服务"
+            },
+            "status": "missing",
+            "techStack": "Rate Limiter",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "name": {
+                "en": "Authentication Integration",
+                "zh": "身份验证集成"
+            },
+            "description": {
+                "en": "Integrate with authentication services to verify API requests",
+                "zh": "与身份验证服务集成以验证API请求"
+            },
+            "status": "ready",
+            "techStack": "Auth Framework",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "name": {
+                "en": "Response Transformation",
+                "zh": "响应转换"
+            },
+            "description": {
+                "en": "Transform API responses to match client requirements",
+                "zh": "转换API响应以匹配客户端要求"
+            },
+            "status": "ready",
+            "techStack": "Transform Engine",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "name": {
+                "en": "API Analytics",
+                "zh": "API分析"
+            },
+            "description": {
+                "en": "Track and analyze API usage patterns and performance",
+                "zh": "跟踪和分析API使用模式和性能"
+            },
+            "status": "missing",
+            "techStack": "Analytics System",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.4.cards[15]"
+    }
+}

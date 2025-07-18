@@ -1,0 +1,227 @@
+{
+    "id": "5",
+    "ref": "code_enhancement",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Code Enhancement Service",
+            "zh": "4.5 Code Enhancement Service"
+        },
+        "status": "inProgress",
+        "color": "#fdba74",
+        "lastUpdated": "2024-04-05T16:00:00Z",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "name": {
+                "en": "Code Generation",
+                "zh": "代码生成"
+            },
+            "description": {
+                "en": "Generate code based on natural language descriptions or specifications",
+                "zh": "根据自然语言描述或规格说明生成代码"
+            },
+            "status": "ready",
+            "techStack": "Code Generation Engine",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "name": {
+                "en": "Code Completion",
+                "zh": "代码补全"
+            },
+            "description": {
+                "en": "Provide context-aware code completion suggestions",
+                "zh": "提供上下文感知的代码补全建议"
+            },
+            "status": "ready",
+            "techStack": "Completion System",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "name": {
+                "en": "Explanation Generation",
+                "zh": "解释生成"
+            },
+            "description": {
+                "en": "Generate natural language explanations of code functionality",
+                "zh": "生成代码功能的自然语言解释"
+            },
+            "status": "ready",
+            "techStack": "Documentation Engine",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "name": {
+                "en": "Automated Test Generation (github copilot)",
+                "zh": "AI进行代码测试用例生成 (github copilot)"
+            },
+            "description": {
+                "en": "Generate unit tests and integration tests automatically",
+                "zh": "自动生成单元测试和集成测试"
+            },
+            "status": "inProgress",
+            "techStack": "Testing Framework",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_11",
+            "name": {
+                "en": "Documentation Generation (github copilot)",
+                "zh": "AI代码审查和代码文档生成 (github copilot)"
+            },
+            "description": {
+                "en": "Automatically generate API and code documentation",
+                "zh": "自动生成API和代码文档"
+            },
+            "status": "inProgress",
+            "techStack": "Documentation Generator",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_12",
+            "name": {
+                "en": "Rule-Driven Code Generation (Cursor)",
+                "zh": "利用规则文档约束代码设计与生成 (Cursor)"
+            },
+            "description": {
+                "en": "Constrain code design and generation using rule documents",
+                "zh": "利用规则文档约束代码设计与生成流程"
+            },
+            "status": "experimental",
+            "techStack": "Rule-Based Systems",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_13",
+            "name": {
+                "en": "Multi-Agent System Design (MetaGPT)",
+                "zh": "多Agent系统设计与代码生成 (MetaGPT)"
+            },
+            "description": {
+                "en": "Design and generate code with multiple agents working together",
+                "zh": "通过多个Agent协同工作进行系统设计与代码生成"
+            },
+            "status": "experimental",
+            "techStack": "Agent Frameworks",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_15",
+            "name": {
+                "en": "Document-Driven AI Coding",
+                "zh": "文档驱动AI coding"
+            },
+            "description": {
+                "en": "Use documentation to guide AI coding processes",
+                "zh": "使用文档引导AI编码过程"
+            },
+            "status": "sketch",
+            "techStack": "Document Analysis",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_16",
+            "name": {
+                "en": "Figma-Cursor Integration",
+                "zh": "Figma设计与Cursor集成"
+            },
+            "description": {
+                "en": "Automatically generate controllable high-fidelity prototype code from Figma designs",
+                "zh": "自动生成可控高保真原型代码"
+            },
+            "status": "sketch",
+            "techStack": "Design-to-Code",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_17",
+            "name": {
+                "en": "Code Agent Mode (Cursor)",
+                "zh": "代码智能体模式 (Cursor)"
+            },
+            "description": {
+                "en": "Full-process automated development with deep codebase awareness, automatic code modification and command execution",
+                "zh": "全流程自动化开发（含深度codebase感知，自动修改代码库与运行命令）"
+            },
+            "status": "planned",
+            "techStack": "Agent Architecture",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.4.cards[4]"
+    }
+}

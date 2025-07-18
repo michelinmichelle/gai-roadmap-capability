@@ -1,0 +1,93 @@
+{
+    "id": "5",
+    "ref": "teams",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Teams",
+            "zh": "Teams"
+        },
+        "status": "missing",
+        "color": "#ffffff",
+        "priority": {
+            "level": 3,
+            "label": {
+                "en": "Low",
+                "zh": "低"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "teams_bot_integration",
+            "name": {
+                "en": "Teams Bot Integration",
+                "zh": "Teams机器人集成"
+            },
+            "status": "missing",
+            "techStack": "Teams Bot Framework",
+            "description": {
+                "en": "Integration with Microsoft Teams bot framework",
+                "zh": "与Microsoft Teams机器人框架的集成"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "teams_channel_management",
+            "name": {
+                "en": "Teams Channel Management",
+                "zh": "Teams频道管理"
+            },
+            "status": "missing",
+            "techStack": "Teams API",
+            "description": {
+                "en": "Teams channel and group management",
+                "zh": "Teams频道和群组管理"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "teams_file_sharing",
+            "name": {
+                "en": "Teams File Sharing",
+                "zh": "Teams文件共享"
+            },
+            "status": "missing",
+            "techStack": "SharePoint Integration",
+            "description": {
+                "en": "File sharing and collaboration in Teams",
+                "zh": "Teams中的文件共享和协作"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.1.cards[4]"
+    }
+}

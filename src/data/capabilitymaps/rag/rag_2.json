@@ -1,0 +1,405 @@
+{
+    "id": "2",
+    "ref": "embedding_indexing",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Embeddings & Indexing",
+            "zh": "嵌入与索引"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "lastUpdated": "2024-05-21T12:00:00Z",
+        "priority": {
+            "level": 2,
+            "label": {
+                "en": "Critical",
+                "zh": "关键"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "text_embedding",
+            "name": {
+                "en": "Text Embedding Generation",
+                "zh": "文本嵌入生成"
+            },
+            "status": "ready",
+            "techStack": "OpenAI, BGE, SentenceTransformers",
+            "description": {
+                "en": "Semantic text embedding with multi-language support (Chinese/English), flexible chunking strategies for different scenarios, and contextual embeddings with document summaries",
+                "zh": "支持中英文的文本语义嵌入，可根据不同场景灵活调整分块策略，支持添加文档摘要的上下文嵌入"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "vector_indexing",
+            "name": {
+                "en": "Vector Indexing",
+                "zh": "向量索引"
+            },
+            "status": "ready",
+            "techStack": "Milvus, FAISS",
+            "description": {
+                "en": "Build and maintain vector indexes for efficient similarity search",
+                "zh": "构建和维护向量索引以实现高效相似度搜索"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "keyword_indexing",
+            "name": {
+                "en": "Keyword Indexing (BM25)",
+                "zh": "关键词索引 (BM25)"
+            },
+            "status": "ready",
+            "techStack": "Elasticsearch, Lucene",
+            "description": {
+                "en": "Evaluate document relevance based on keyword frequency and position, efficient for large-scale text data and suitable for fast response scenarios",
+                "zh": "根据关键词的出现频率、位置等因素来评估文档的相关性，处理大规模文本数据时具有较高的效率，适合快速响应的场景"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "multilingual_support",
+            "name": {
+                "en": "Multilingual Embedding",
+                "zh": "多语言嵌入"
+            },
+            "status": "ready",
+            "techStack": "Multilingual Models",
+            "description": {
+                "en": "Generates embeddings for content in multiple languages including Chinese and English",
+                "zh": "为多种语言内容（包括中文和英文）生成嵌入向量"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "ref": "batch_processing_limitation",
+            "name": {
+                "en": "Limited Batch Processing",
+                "zh": "有限的批量处理"
+            },
+            "status": "constraint",
+            "techStack": "Batch Processors",
+            "description": {
+                "en": "Limited concurrent batch processing capability due to computational constraints, affecting throughput for large-scale indexing tasks",
+                "zh": "由于计算资源限制，并发批量处理能力有限，影响大规模索引任务的吞吐量"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "ref": "model_selection_limitation",
+            "name": {
+                "en": "Fixed Embedding Model",
+                "zh": "固定的嵌入模型"
+            },
+            "status": "constraint",
+            "techStack": "Model Registry",
+            "description": {
+                "en": "Currently limited to fixed embedding models without dynamic model selection capability",
+                "zh": "目前仅支持固定的嵌入模型，不支持动态模型选择能力"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "ref": "caching",
+            "name": {
+                "en": "Caching System",
+                "zh": "缓存系统"
+            },
+            "status": "ready",
+            "techStack": "Cache System",
+            "description": {
+                "en": "Cache frequently used embeddings and index segments to improve query performance",
+                "zh": "缓存常用的嵌入向量和索引段以提高查询性能"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "ref": "dimension_reduction",
+            "name": {
+                "en": "Dimension Reduction",
+                "zh": "维度降低"
+            },
+            "status": "experiment",
+            "techStack": "Dimension Reduction Algorithms",
+            "description": {
+                "en": "Experimental feature: Reduces embedding dimensions while preserving semantic information to optimize storage and query speed",
+                "zh": "实验性功能：在保留语义信息的同时降低嵌入维度，优化存储和查询速度"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "ref": "hierarchical_indexing",
+            "name": {
+                "en": "Hierarchical Indexing",
+                "zh": "分层索引"
+            },
+            "status": "sketch",
+            "techStack": "Vector DB, LLM",
+            "description": {
+                "en": "Two-tier indexing for large knowledge bases: summary-level index for filtering + document chunk index for detailed retrieval, improving search efficiency and accuracy",
+                "zh": "针对大型知识库的两层索引架构：摘要级索引用于初步过滤 + 文档块索引用于详细检索，提高搜索效率和准确性"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_10",
+            "ref": "specialized_embeddings",
+            "name": {
+                "en": "Specialized Embeddings",
+                "zh": "专业化嵌入"
+            },
+            "status": "experiment",
+            "techStack": "Domain-specific Models",
+            "description": {
+                "en": "Experimental feature: Creates embeddings optimized for specific domains and use cases",
+                "zh": "实验性功能：创建针对特定领域和使用场景优化的嵌入"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_11",
+            "ref": "hypothetical_question_embedding",
+            "name": {
+                "en": "Hypothetical Question Embedding",
+                "zh": "假设性问题嵌入"
+            },
+            "status": "sketch",
+            "techStack": "LLM, Vector DB",
+            "description": {
+                "en": "LLM generates hypothetical questions for each chunk and embeds them into vectors, replacing chunk vectors with question vectors in the index for more accurate query matching",
+                "zh": "使用LLM为每个文档块生成假设性问题并嵌入向量，在索引中用问题向量替代块向量，提高查询匹配精度"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_12",
+            "ref": "multimodal_embedding",
+            "name": {
+                "en": "Multimodal Embedding",
+                "zh": "多模态嵌入"
+            },
+            "status": "sketch",
+            "techStack": "CLIP, ResNet, Vision Transformers",
+            "description": {
+                "en": "Creates embeddings for text, images, and other content types for integrated multimodal search",
+                "zh": "为文本、图像和其他内容类型创建嵌入，支持集成的多模态搜索"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_13",
+            "ref": "enterprise_data_integration",
+            "name": {
+                "en": "Enterprise Data Integration",
+                "zh": "企业数据集成"
+            },
+            "status": "sketch",
+            "techStack": "Microsoft Graph API, OAuth 2.0",
+            "description": {
+                "en": "Integration with Microsoft Graph API to support indexing of SharePoint sites, OneDrive, Teams and other internal unstructured data (HTTP/JSON)",
+                "zh": "集成Microsoft Graph API，支持SharePoint站点、OneDrive、Teams等公司内部非结构化数据的索引"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_14",
+            "ref": "hybrid_embeddings",
+            "name": {
+                "en": "Hybrid Embeddings",
+                "zh": "混合嵌入"
+            },
+            "status": "experiment",
+            "techStack": "Hybrid Models",
+            "description": {
+                "en": "Experimental feature: Combines different embedding types for enhanced representation and retrieval accuracy",
+                "zh": "实验性功能：结合不同的嵌入类型以增强表示和提高检索准确性"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_15",
+            "ref": "vector_dimension_constraint",
+            "name": {
+                "en": "Vector Dimension Constraint",
+                "zh": "向量维度限制"
+            },
+            "status": "constraint",
+            "techStack": "Model Limit",
+            "description": {
+                "en": "Fixed vector dimension of 1536 for OpenAI embeddings",
+                "zh": "OpenAI嵌入向量维度固定为1536"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_16",
+            "ref": "index_size_constraint",
+            "name": {
+                "en": "Index Size Constraint",
+                "zh": "索引大小限制"
+            },
+            "status": "constraint",
+            "techStack": "Storage Limit",
+            "description": {
+                "en": "Single index size should not exceed 10GB",
+                "zh": "单个索引大小不超过10GB"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_17",
+            "ref": "limited_context_understanding",
+            "name": {
+                "en": "Limited Context Understanding",
+                "zh": "有限的上下文理解"
+            },
+            "status": "constraint",
+            "techStack": "Model Limitations",
+            "description": {
+                "en": "Embedding models have limited understanding of wider document context",
+                "zh": "嵌入模型对更广泛的文档上下文理解有限"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_18",
+            "ref": "embedding_robustness",
+            "name": {
+                "en": "Embedding Process Robustness",
+                "zh": "嵌入过程健壮性"
+            },
+            "status": "constraint",
+            "techStack": "Processing Pipeline",
+            "description": {
+                "en": "Limited robustness in the embedding process, susceptible to failures with unusual content formats or network issues during model API calls",
+                "zh": "嵌入过程健壮性有限，对异常内容格式或模型API调用过程中的网络问题较为敏感"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.6.cards[1]"
+    }
+}

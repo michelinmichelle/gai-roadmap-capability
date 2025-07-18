@@ -1,0 +1,97 @@
+{
+    "id": "8",
+    "ref": "knowledge",
+    "version": "1.0.0",
+    "prefix": "knowledge_",
+    "metadata": {
+        "title": {
+            "en": "Knowledge",
+            "zh": "8. 知识库"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "lastUpdated": "2024-05-23T15:00:00Z"
+    },
+    "cards": [
+        {
+            "id": "1",
+            "ref": "vector_db",
+            "version": "1.0.0",
+            "filename": "knowledge_1.json",
+            "metadata": {
+                "title": {
+                    "en": "Semantic Knowledge Retrieval Engine",
+                    "zh": "语义知识检索引擎(向量库）"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-05-23T15:00:00Z"
+            }
+        },
+        {
+            "id": "2",
+            "ref": "graph_db",
+            "version": "1.0.0",
+            "filename": "knowledge_2.json",
+            "metadata": {
+                "title": {
+                    "en": "Text Knowledge Retrieval Center",
+                    "zh": "文本知识检索中心（ElasticSearch)"
+                },
+                "status": "inProgress",
+                "color": "#fef9c3",
+                "lastUpdated": "2024-05-23T15:00:00Z"
+            }
+        },
+        {
+            "id": "3",
+            "ref": "document_processing",
+            "version": "1.0.0",
+            "filename": "knowledge_3.json",
+            "metadata": {
+                "title": {
+                    "en": "Knowledge Metadata Management",
+                    "zh": "知识元数据管理（MySQL)"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-05-23T15:00:00Z"
+            }
+        },
+        {
+            "id": "4",
+            "ref": "content_management",
+            "version": "1.0.0",
+            "filename": "knowledge_4.json",
+            "metadata": {
+                "title": {
+                    "en": "Knowledge Cache Accelerator",
+                    "zh": "知识缓存加速器（Redis）"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-05-23T15:00:00Z"
+            }
+        },
+        {
+            "id": "5",
+            "ref": "external_data_lake",
+            "version": "1.0.0",
+            "filename": "knowledge_5.json",
+            "metadata": {
+                "title": {
+                    "en": "External Data Lake Connection",
+                    "zh": "连接外部数据湖存储（BKH)"
+                },
+                "status": "planned",
+                "color": "#fef9c3",
+                "lastUpdated": "2024-05-23T15:00:00Z"
+            }
+        }
+    ],
+    "deletedCards": [],
+    "references": {
+        "architecture": "../../architecture-cards.json",
+        "capabilities": "../capabilities"
+    }
+}

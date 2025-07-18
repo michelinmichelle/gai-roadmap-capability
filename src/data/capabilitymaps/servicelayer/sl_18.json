@@ -1,0 +1,47 @@
+{
+    "id": "18",
+    "ref": "model_context_protocol",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Model Context Protocol Service",
+            "zh": "模型上下文协议服务"
+        },
+        "status": "experimental",
+        "color": "#fdba74",
+        "lastUpdated": "2024-05-20T21:30:00Z",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "name": {
+                "en": "Standardized Data Access Interface",
+                "zh": "标准化的数据访问接口"
+            },
+            "description": {
+                "en": "Provides a unified protocol for LLM applications to access various external data sources and tools consistently, reducing the need for dedicated connectors for each data source",
+                "zh": "提供统一协议，使LLM应用能够以一致的方式访问各种外部数据源和工具，减少为每个数据源编写专用连接器的需求"
+            },
+            "status": "experimental",
+            "techStack": "Protocol Framework",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.4.cards[17]"
+    }
+}

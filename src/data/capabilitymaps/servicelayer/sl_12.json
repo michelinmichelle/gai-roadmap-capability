@@ -1,0 +1,127 @@
+{
+    "id": "12",
+    "ref": "data_analysis",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Data Analysis & Reporting Service",
+            "zh": "4.12 Data Analysis & Reporting Service"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "lastUpdated": "2024-05-16T15:30:00Z",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "name": {
+                "en": "Knowledge Bot Usage Analysis",
+                "zh": "知识机器人使用分析"
+            },
+            "description": {
+                "en": "Track and analyze knowledge bot usage patterns and metrics",
+                "zh": "跟踪和分析知识机器人使用模式和指标"
+            },
+            "status": "ready",
+            "techStack": "Analytics Engine",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "name": {
+                "en": "Usage Trend Analysis",
+                "zh": "趋势分析"
+            },
+            "description": {
+                "en": "Analyze and visualize platform usage trends over time",
+                "zh": "分析和可视化平台使用的时间趋势"
+            },
+            "status": "ready",
+            "techStack": "Trend Engine",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "name": {
+                "en": "Business Accuracy Scoring",
+                "zh": "业务准确性打分分析"
+            },
+            "description": {
+                "en": "Analyze and score business accuracy of AI responses",
+                "zh": "分析和评分AI回复的业务准确性"
+            },
+            "status": "needEnhancement",
+            "techStack": "Scoring Framework",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "name": {
+                "en": "AI Automated Analysis Reports",
+                "zh": "AI自动分析报告"
+            },
+            "description": {
+                "en": "AI-generated analysis reports of platform performance and usage",
+                "zh": "AI生成的平台性能和使用情况分析报告"
+            },
+            "status": "missing",
+            "techStack": "AI Reporting",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "name": {
+                "en": "Natural Language Reporting",
+                "zh": "自然语言报告"
+            },
+            "description": {
+                "en": "Generate analytics reports using natural language processing",
+                "zh": "使用自然语言处理生成分析报告"
+            },
+            "status": "missing",
+            "techStack": "NLG Engine",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.4.cards[11]"
+    }
+}

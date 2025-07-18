@@ -1,0 +1,217 @@
+{
+    "id": "1",
+    "ref": "asr",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "ASR",
+            "zh": "自动语音识别"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            }
+        },
+        "createdAt": "2024-03-22T10:00:00Z",
+        "lastUpdated": "2024-05-23T17:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "1",
+            "ref": "cap_1",
+            "name": {
+                "en": "Real-time Speech Recognition",
+                "zh": "实时语音识别"
+            },
+            "status": "ready",
+            "techStack": "Alibaba Cloud ASR / Azure Speech",
+            "description": {
+                "en": "Convert spoken language to text in real-time with high accuracy",
+                "zh": "高精度实时将口语转换为文本"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "2",
+            "ref": "cap_2",
+            "name": {
+                "en": "Multi-language Support",
+                "zh": "多语言支持"
+            },
+            "status": "ready",
+            "techStack": "Alibaba Cloud ASR / Azure Speech",
+            "description": {
+                "en": "Support for multiple languages and dialects in speech recognition",
+                "zh": "支持多种语言和方言的语音识别"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "3",
+            "ref": "cap_3",
+            "name": {
+                "en": "Background Noise Filtering",
+                "zh": "背景噪声过滤"
+            },
+            "status": "ready",
+            "techStack": "Alibaba Cloud ASR / Azure Speech",
+            "description": {
+                "en": "Filter out background noise to improve recognition accuracy",
+                "zh": "过滤背景噪声以提高识别准确性"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "4",
+            "ref": "cap_4",
+            "name": {
+                "en": "Speaker Diarization",
+                "zh": "说话人分离"
+            },
+            "status": "missing",
+            "techStack": "Speaker Recognition",
+            "description": {
+                "en": "Identify and separate different speakers in audio streams",
+                "zh": "在音频流中识别和分离不同的说话者"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "5",
+            "ref": "cap_5",
+            "name": {
+                "en": "Domain-specific Vocabulary",
+                "zh": "领域特定词汇"
+            },
+            "status": "ready",
+            "techStack": "Custom Language Models",
+            "description": {
+                "en": "Support for specialized terminology and industry-specific vocabulary",
+                "zh": "支持专业术语和行业特定词汇"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "6",
+            "ref": "cap_6",
+            "name": {
+                "en": "Accent Recognition Limitations",
+                "zh": "口音识别限制"
+            },
+            "status": "missing",
+            "techStack": "ASR",
+            "description": {
+                "en": "May have reduced accuracy with strong accents or regional dialects",
+                "zh": "对强烈口音或地方方言的识别准确度可能降低"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "7",
+            "ref": "cap_7",
+            "name": {
+                "en": "Adaptive Learning",
+                "zh": "自适应学习"
+            },
+            "status": "missing",
+            "techStack": "Personalized ASR",
+            "description": {
+                "en": "Learn and adapt to individual speaking patterns over time",
+                "zh": "随时间学习并适应个人说话模式"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "8",
+            "ref": "cap_8",
+            "name": {
+                "en": "Dialect Package",
+                "zh": "方言包"
+            },
+            "status": "missing",
+            "techStack": "Regional Dialect Models",
+            "description": {
+                "en": "Additional packages for regional dialect recognition",
+                "zh": "用于区域方言识别的额外包"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "9",
+            "ref": "cap_9",
+            "name": {
+                "en": "Speech Synthesis",
+                "zh": "语音合成"
+            },
+            "status": "missing",
+            "techStack": "TTS Engine",
+            "description": {
+                "en": "Generate natural-sounding speech from text with human-like intonation",
+                "zh": "从文本生成带有类人语调的自然语音"
+            },
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architecture": "architecture_card_1.json"
+    }
+}

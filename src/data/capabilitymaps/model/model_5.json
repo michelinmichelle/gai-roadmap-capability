@@ -1,0 +1,93 @@
+{
+    "id": "5",
+    "ref": "qwen_model",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Qwen Model",
+            "zh": "Qwen 模型"
+        },
+        "status": "sketch",
+        "color": "transparent",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            },
+            "updatedAt": "2024-05-22T17:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-05-22T17:00:00Z",
+        "updatedAt": "2024-05-22T17:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "multimodal_understanding",
+            "name": {
+                "en": "Multimodal Understanding",
+                "zh": "多模态理解"
+            },
+            "status": "sketch",
+            "techStack": "Qwen-VL",
+            "description": {
+                "en": "Process and understand both images and text inputs",
+                "zh": "处理和理解图像和文本输入"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "image_captioning",
+            "name": {
+                "en": "Image Captioning",
+                "zh": "图像描述"
+            },
+            "status": "sketch",
+            "techStack": "Qwen-VL",
+            "description": {
+                "en": "Generate descriptive captions for images",
+                "zh": "为图像生成描述性文字"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "visual_question_answering",
+            "name": {
+                "en": "Visual Question Answering",
+                "zh": "视觉问答"
+            },
+            "status": "sketch",
+            "techStack": "Qwen-VL",
+            "description": {
+                "en": "Answer questions about image content",
+                "zh": "回答关于图像内容的问题"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.7.cards[4]"
+    }
+}

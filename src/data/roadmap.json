@@ -1,0 +1,904 @@
+{
+  "overallGoal": {
+    "zh": "从基础知识检索到智能业务助手，GAI 平台逐步增强信息管理、智能交互、任务执行、数据分析等能力，助力企业高效决策、运营自动化，并保障数据安全。",
+    "en": "From basic knowledge retrieval to intelligent business assistant, the GAI platform gradually enhances information management, intelligent interaction, task execution, data analysis and other capabilities, helping enterprises make efficient decisions, automate operations, and ensure data security."
+  },
+  "quarters": [
+    {
+      "id": "S1",
+      "quarter": "24Q4",
+      "period": "Oct 24 - Dec 24",
+      "quarterGoal": {
+        "zh": "打造标准化AI交互平台，优化知识库管理，增强智能交互",
+        "en": "Build a standardized AI interaction platform, optimize knowledge base management, and enhance intelligent interaction"
+      },
+      "keywords": {
+        "zh": "基础搭建、知识管理、智能交互",
+        "en": "Foundation building, knowledge management, intelligent interaction"
+      },
+      "keyCapabilities": [
+        {
+          "zh": "标准化问答体验，提升用户交互的一致性和流畅性",
+          "en": "Standardized Q&A experience, enhancing consistency and fluency in user interactions"
+        },
+        {
+          "zh": "灵活知识管理，支持多种格式的知识存储与检索",
+          "en": "Flexible knowledge management, supporting storage and retrieval of knowledge in various formats"
+        },
+        {
+          "zh": "智能交互优化，提升AI响应速度与准确性",
+          "en": "Intelligent interaction optimization, improving AI response speed and accuracy"
+        }
+      ],
+      "quarterTechnicalStudy": [],
+      "monthlyPlans": [
+        {
+          "id": "M1",
+          "month": "Oct 24",
+          "title": {
+            "zh": "通用GAI平台基础建设",
+            "en": "Foundation of Universal GAI Platform"
+          },
+          "value": {
+            "zh": "构建一个灵活的AI平台，支持多种应用场景，提升企业智能化水平",
+            "en": "Build a flexible AI platform supporting various application scenarios to enhance enterprise intelligence"
+          },
+          "technicalStudy": [],
+          "releases": [
+            {
+              "id": "R1.1",
+              "name": "GAI Solution Enabler V1.0",
+              "description": {
+                "zh": "提供AI聊天、场景管理、知识管理和历史记录功能",
+                "en": "Provides AI chat, scenario management, knowledge management, and history logging functionalities"
+              },
+              "launchDate": "2024-10-15",
+              "businessValue": {
+                "zh": "支持多种业务场景，降低运营成本，提高自主可控能力",
+                "en": "Supports various business scenarios, reduces operational costs, and enhances self-control capabilities"
+              }
+            },
+            {
+              "id": "R1.2",
+              "name": "Mi-Know SP Migration",
+              "description": {
+                "zh": "MiKnow SP 版本升级，整个迁移到新平台",
+                "en": "MiKnow SP version upgrade, fully migrated to the new platform"
+              },
+              "launchDate": "2024-10-28",
+              "businessValue": {
+                "zh": "提高数据安全性，增强业务连续性",
+                "en": "Improves data security and enhances business continuity"
+              }
+            }
+          ],
+          "capabilities": [
+            {
+              "id": "C1.1",
+              "content": {
+                "zh": "智能对话界面，支持多场景应用，提升用户体验",
+                "en": "Intelligent dialogue interface supporting multi-scenario applications, enhancing user experience"
+              },
+              "type": "VUE3",
+              "technicalImplementation": [
+                "Vue",
+                "Java"
+              ],
+              "technicalStudy": []
+            },
+            {
+              "id": "C1.2",
+              "content": {
+                "zh": "支持多种文件格式的知识检索和解析，提升信息获取效率",
+                "en": "Supports knowledge retrieval and parsing for various file formats, improving information acquisition efficiency"
+              },
+              "type": "LangChain",
+              "technicalImplementation": [
+                "LangChain"
+              ],
+              "technicalStudy": []
+            },
+            {
+              "id": "C1.3",
+              "content": {
+                "zh": "视频文件管理和智能问答，提升多媒体处理能力",
+                "en": "Video file management and intelligent Q&A, enhancing multimedia processing capabilities"
+              },
+              "technicalImplementation": [
+                "自研视频处理模块"
+              ],
+              "technicalStudy": []
+            },
+            {
+              "id": "C1.4",
+              "content": {
+                "zh": "智能文本分割 → 根据中英文文本优化切分策略（Chunking），提高检索准确度，提升知识拆分和检索准确度",
+                "en": "Intelligent text segmentation → Optimize chunking strategy based on Chinese and English text, improve retrieval accuracy, enhance knowledge splitting and retrieval accuracy"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            }
+          ]
+        },
+        {
+          "id": "M2",
+          "month": "Nov 24",
+          "title": {
+            "zh": "AI 预处理能力增强与知识管理优化",
+            "en": "AI preprocessing capability enhancement and knowledge management optimization"
+          },
+          "value": {
+            "zh": "通过支持不同场景自定义chunk size和开发端到端删除工具，优化知识管理，确保数据一致性和完整性",
+            "en": "Optimize knowledge management by supporting custom chunk size for different scenarios and developing end-to-end deletion tools, ensuring data consistency and completeness"
+          },
+          "technicalStudy": [],
+          "releases": [
+            {
+              "id": "R2.1",
+              "name": "MiKnow(SP) V1.1",
+              "description": {
+                "zh": "MiKnow SP 版本升级，迁移部分到新平台",
+                "en": "MiKnow SP version upgrade, migrating parts to the new platform"
+              },
+              "launchDate": "2024-11-20",
+              "businessValue": {
+                "zh": "增强知识库管理能力",
+                "en": "Enhanced knowledge base management capabilities"
+              }
+            }
+          ],
+          "capabilities": [
+            {
+              "id": "C2.1",
+              "content": {
+                "zh": "支持不同知识库 & 业务场景自定义 Chunk Size → 提升知识适配性",
+                "en": "Support custom chunk size for different knowledge bases & business scenarios → improve knowledge adaptability"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            },
+            {
+              "id": "C2.2",
+              "content": {
+                "zh": "端到端知识清理 → 确保知识库内容完整、无冗余、不冲突",
+                "en": "End-to-end knowledge cleaning → ensure knowledge base content is complete, non-redundant, and non-conflicting"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            }
+          ]
+        },
+        {
+          "id": "M3",
+          "month": "Dec 24",
+          "title": {
+            "zh": "增强智能交互，提高知识可读性",
+            "en": "Enhance intelligent interaction, improve knowledge readability"
+          },
+          "value": {
+            "zh": "优化 AI 生成的内容，提升用户获取信息的效率",
+            "en": "Optimize AI-generated content, improve user information acquisition efficiency"
+          },
+          "technicalStudy": [],
+          "releases": [
+            {
+              "id": "R3.1",
+              "name": "GAI Solution Enabler V1.1",
+              "description": {
+                "zh": "RBAC（基于角色的访问控制）在知识数据中的应用",
+                "en": "RBAC (Role-Based Access Control) application in knowledge data"
+              },
+              "launchDate": "2024-12-30",
+              "businessValue": {
+                "zh": "增强知识数据的安全性和管理",
+                "en": "Enhance security and management of knowledge data"
+              }
+            },
+            {
+              "id": "R3.2",
+              "name": "Mi-Know V1.2 (IT)",
+              "description": {
+                "zh": "覆盖员工关心的IT知识问答",
+                "en": "Covers IT knowledge Q&A that employees care about"
+              },
+              "launchDate": "2024-12-30",
+              "businessValue": {
+                "zh": "提升员工对IT知识的获取和理解",
+                "en": "Improve employees' access to and understanding of IT knowledge"
+              }
+            }
+          ],
+          "capabilities": [
+            {
+              "id": "C3.1",
+              "content": {
+                "zh": "专增强术语理解 → 专有名词智能替换（超链接、名词解释），降低术语理解门槛",
+                "en": "Enhanced terminology understanding → Intelligent replacement of proper nouns (hyperlinks, noun explanations), lower the threshold for terminology understanding"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            },
+            {
+              "id": "C3.2",
+              "content": {
+                "zh": "自动总结能力 → 新增聊天小结接口 对历史对话进行总结，生成清晰的摘要（标题 & 主要内容）",
+                "en": "Automatic summarization capability → Add chat summary interface to summarize historical conversations, generate clear summaries (title & main content)"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            },
+            {
+              "id": "C3.3",
+              "content": {
+                "zh": "使用CDN进行大视频加速",
+                "en": "Use CDN for large video acceleration"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            },
+            {
+              "id": "C3.4",
+              "content": {
+                "zh": "开发环境部署AI agentic workflow开发组件Dify（POC）",
+                "en": "Deploy AI agentic workflow development component Dify (POC) in development environment"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            },
+            {
+              "id": "C3.5",
+              "content": {
+                "zh": "尝试多个RAG AI Assessment框架测评",
+                "en": "Attempt multiple RAG AI Assessment framework evaluations"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "quarter": "25Q1",
+      "period": "Jan 25 - Mar 25",
+      "quarterGoal": {
+        "zh": "提升知识访问精准度，增强AI质量评估，实现动态决策与任务执行",
+        "en": "Improve knowledge access precision, enhance AI quality assessment, achieve dynamic decision-making and task execution"
+      },
+      "keywords": {
+        "zh": "精准访问、质量评估、动态决策",
+        "en": "Precise access, quality assessment, dynamic decision-making"
+      },
+      "keyCapabilities": [
+        {
+          "zh": "精准知识访问",
+          "en": "Precise knowledge access"
+        },
+        {
+          "zh": "AI质量评估",
+          "en": "AI quality assessment"
+        },
+        {
+          "zh": "动态决策与任务执行",
+          "en": "Dynamic decision-making and task execution"
+        }
+      ],
+      "quarterTechnicalStudy": [],
+      "monthlyPlans": [
+        {
+          "id": "M4",
+          "month": "Jan 25",
+          "title": {
+            "zh": "精准知识访问 & 上下文智能召回",
+            "en": "Precise knowledge access & contextual intelligent recall"
+          },
+          "value": {
+            "zh": "支持企业级知识访问管理，确保用户获取的知识精准、安全",
+            "en": "Support enterprise-level knowledge access management, ensure users obtain precise and secure knowledge"
+          },
+          "technicalStudy": [],
+          "releases": [
+            {
+              "id": "R4.1",
+              "name": "GAI Solution V1.2",
+              "description": {
+                "zh": "增加 ReRank 模型，提升检索准确性",
+                "en": "Add ReRank model to improve retrieval accuracy"
+              },
+              "launchDate": "2025-01-15",
+              "businessValue": {
+                "zh": "通过 GPU 加速的 ReRank 模型提升检索准确性，优化用户体验",
+                "en": "Improve retrieval accuracy through GPU-accelerated ReRank model, optimize user experience"
+              }
+            }
+          ],
+          "capabilities": [
+            {
+              "id": "C4.1",
+              "content": {
+                "zh": "智能权限管理 → 基于用户角色、地域、部门的文档级权限控制 确保知识安全可控",
+                "en": "Intelligent permission management → Document-level permission control based on user roles, regions, and departments, ensuring knowledge security and controllability"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            },
+            {
+              "id": "C4.2",
+              "content": {
+                "zh": "上下文感知检索 → 在知识切分（Chunking）过程中引入自动知识总结，让每个知识块包含更完整的背景信息，提高检索时的语义准确度，使 AI 在回答问题时能更精准地理解和匹配用户意图",
+                "en": "Contextual Retrieval → Introduce automatic knowledge summarization during the chunking process, making each knowledge block contain more complete background information, improving semantic accuracy during retrieval, enabling AI to more accurately understand and match user intent when answering questions"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            },
+            {
+              "id": "C4.3",
+              "content": {
+                "zh": "GPU 加速的 ReRank 模型 → 启用 GPU 部署 ReRank 模型，为检索结果进行二次排序，大幅提升回答准确性，优化用户体验",
+                "en": "GPU-accelerated ReRank model → Enable GPU deployment of ReRank model for secondary sorting of retrieval results, significantly improving answer accuracy and optimizing user experience"
+              },
+              "type": "GPU",
+              "technicalImplementation": [
+                "CUDA",
+                "ReRank Model",
+                "GPU Acceleration"
+              ],
+              "technicalStudy": []
+            }
+          ]
+        },
+        {
+          "id": "M5",
+          "month": "Feb 25",
+          "title": {
+            "zh": "AI RAG 质量评估 & 企业级安全保障",
+            "en": "AI RAG quality assessment & enterprise-level security assurance"
+          },
+          "value": {
+            "zh": "确保 AI 生成内容的质量 & 数据访问安全，增强企业可信度",
+            "en": "Ensure the quality of AI-generated content & data access security, enhance enterprise credibility"
+          },
+          "technicalStudy": [],
+          "releases": [
+            {
+              "id": "R5.1",
+              "name": "GAI Solution Enabler V1.3",
+              "description": {
+                "zh": "发布公司级 SSO 集成，将 GAI Admin Console 和 MiKnow Employee Portal 与 SSO 系统集成，提升用户访问安全合规性",
+                "en": "Release enterprise-level SSO integration, integrating GAI Admin Console and MiKnow Employee Portal with SSO system, improving user access security compliance"
+              },
+              "launchDate": "2025-02-13",
+              "businessValue": {
+                "zh": "提升系统安全性，简化用户认证流程，增强企业级安全合规性",
+                "en": "Improve system security, simplify user authentication process, enhance enterprise-level security compliance"
+              }
+            },
+            {
+              "id": "R5.2",
+              "name": "GAI Solution Enabler V1.4",
+              "description": {
+                "zh": "增加 AI 评估性能指标，帮助知识所有者评估 AI 性能，AI 生成的评分可在控制台日志中下载",
+                "en": "Add AI assessment performance metrics to help knowledge owners evaluate AI performance, AI-generated scores can be downloaded in console log"
+              },
+              "launchDate": "2025-02-24",
+              "businessValue": {
+                "zh": "提供可量化的 AI 性能评估指标，帮助知识所有者优化内容质量",
+                "en": "Provide quantifiable AI performance metrics to help knowledge owners optimize content quality"
+              }
+            },
+            {
+              "id": "R5.3",
+              "name": "MiKnow(IT) V1.3",
+              "description": {
+                "zh": "IT 机器人现在可以识别软件安装/权限申请的用户请求，并自动总结工单描述以协助用户创建 SNOW 工单",
+                "en": "IT bot now can identify user requests with software installation/permission application, and auto summarize the ticket description to assist user to create SNOW ticket"
+              },
+              "launchDate": "2025-02-24",
+              "businessValue": {
+                "zh": "提升 IT 服务效率，简化工单创建流程，减少人工操作",
+                "en": "Improve IT service efficiency, simplify ticket creation process, reduce manual operations"
+              }
+            }
+          ],
+          "capabilities": [
+            {
+              "id": "C5.1",
+              "content": {
+                "zh": "SSO 集成能力 → 实现 GAI Admin Console 和 MiKnow Employee Portal 与公司 SSO 系统的无缝集成，提供统一的用户认证体验",
+                "en": "SSO integration capability → Achieve seamless integration between GAI Admin Console, MiKnow Employee Portal and company SSO system, providing unified user authentication experience"
+              },
+              "type": "Springboot",
+              "technicalImplementation": [
+                "SSO",
+                "OAuth2.0"
+              ],
+              "technicalStudy": []
+            },
+            {
+              "id": "C5.2",
+              "content": {
+                "zh": "AI 性能评估系统 → 提供全面的 AI 评估指标，包括忠实度(Faithfulness)、答案相关性(Answer Relevancy)、上下文相关性(Context Relevancy)和人工介入评分，支持知识所有者优化内容质量",
+                "en": "AI performance assessment system → Provide comprehensive AI evaluation metrics including Faithfulness, Answer Relevancy, Context Relevancy and human intervention scores, supporting knowledge owners to optimize content quality"
+              },
+              "technicalImplementation": [
+                "RAG Assessment Framework",
+                "Performance Metrics API",
+                "Human-in-the-loop Scoring"
+              ],
+              "technicalStudy": []
+            },
+            {
+              "id": "C5.3",
+              "content": {
+                "zh": "IT 服务智能识别 → 自动识别软件安装和权限申请请求，智能总结工单内容，协助用户快速创建 SNOW 工单",
+                "en": "IT service intelligent recognition → Automatically identify software installation and permission application requests, intelligently summarize ticket content, assist users in quickly creating SNOW tickets"
+              },
+              "technicalImplementation": [
+                "NLP",
+                "SNOW API Integration"
+              ],
+              "technicalStudy": []
+            }
+          ]
+        },
+        {
+          "id": "M6",
+          "month": "Mar 25",
+          "title": {
+            "zh": "AI 动态意图路由 & 任务执行",
+            "en": "AI dynamic intention router & task execution"
+          },
+          "value": {
+            "zh": "让 AI 不仅仅回答问题，还能理解用户需求并主动执行任务",
+            "en": "Enable AI not only to answer questions but also to understand user needs and proactively execute tasks"
+          },
+          "technicalStudy": [],
+          "releases": [
+            {
+              "id": "R6.1",
+              "name": "GAI Solution Enabler V1.5",
+              "description": {
+                "zh": "Elasticsearch 多路径检索能力增强，提升检索准确性和效率",
+                "en": "Elasticsearch multi-path retrieval capability enhancement, improving retrieval accuracy and efficiency"
+              },
+              "launchDate": "2025-03-10",
+              "businessValue": {
+                "zh": "通过多路径检索提升知识检索的准确性和效率，优化用户体验",
+                "en": "Improve knowledge retrieval accuracy and efficiency through multi-path retrieval, optimize user experience"
+              }
+            },
+            {
+              "id": "R6.2",
+              "name": "Mi-Know (Purchase) V1.4",
+              "description": {
+                "zh": "采购领域知识库首次上线，提供采购相关智能问答服务，支持采购流程咨询、政策查询等功能",
+                "en": "First launch of purchase domain knowledge base, providing procurement-related intelligent Q&A services, supporting procurement process consultation, policy inquiry and other functions"
+              },
+              "launchDate": "2025-03-07",
+              "businessValue": {
+                "zh": "建立采购领域智能问答系统，提升采购流程效率，优化采购决策支持",
+                "en": "Establish intelligent Q&A system in procurement domain, improve procurement process efficiency, optimize procurement decision support"
+              }
+            },
+            {
+              "id": "R6.3",
+              "name": "MiKnow(INDUS) V1.5",
+              "description": {
+                "zh": "用户意图识别能力增强，无需切换 SP/IT/Purchase 标签，AI 自动识别问题领域并给出相应回答",
+                "en": "Enhanced user query intention recognition, AI automatically identifies question domain and provides corresponding answers without switching SP/IT/Purchase tabs"
+              },
+              "launchDate": "2025-03-24",
+              "businessValue": {
+                "zh": "简化用户操作流程，提升跨领域问题解决效率",
+                "en": "Simplify user operation process, improve cross-domain problem-solving efficiency"
+              }
+            },
+            {
+              "id": "R6.4",
+              "name": "TEDS AI MVP2 V1.1",
+              "description": {
+                "zh": "TEDS AI 扩展到 T+ 整体，增加语音输入能力，支持用户通过语音与 AI 进行交互，提升操作便利性",
+                "en": "TEDS AI extends to T+ overall, adding voice input capability, supporting users to interact with AI through voice, improving operation convenience"
+              },
+              "launchDate": "2025-03-31",
+              "businessValue": {
+                "zh": "扩展 AI 应用范围，提升用户交互体验，实现更便捷的智能操作",
+                "en": "Expand AI application scope, improve user interaction experience, achieve more convenient intelligent operations"
+              }
+            },
+            {
+              "id": "R6.5",
+              "name": "Customer Service AI Case 6 Migration V1.0",
+              "description": {
+                "zh": "工单小结功能从 SaaS 平台迁移至 GAI 平台，整合现有客服知识库，提供更智能的工单总结服务",
+                "en": "Case summary feature migration from SaaS platform to GAI platform, integrating existing customer service knowledge base, providing more intelligent case summary service"
+              },
+              "launchDate": "2025-03-31",
+              "businessValue": {
+                "zh": "提升工单处理效率，优化客服工作流程，实现更智能的工单管理",
+                "en": "Improve case processing efficiency, optimize customer service workflow, achieve more intelligent case management"
+              }
+            }
+          ],
+          "capabilities": [
+            {
+              "id": "C6.1",
+              "content": {
+                "zh": "多路径检索能力 → 基于 Elasticsearch 实现多路径检索，提升知识检索的准确性和效率",
+                "en": "Multi-path retrieval capability → Implement multi-path retrieval based on Elasticsearch, improving knowledge retrieval accuracy and efficiency"
+              },
+              "type": "Platform",
+              "technicalImplementation": [
+                "Elasticsearch",
+                "Multi-path Retrieval"
+              ],
+              "technicalStudy": []
+            },
+            {
+              "id": "C6.2",
+              "content": {
+                "zh": "跨领域意图识别 → 智能识别用户问题领域，自动路由到相应知识库，无需手动切换标签",
+                "en": "Cross-domain intention recognition → Intelligently identify user question domain, automatically route to corresponding knowledge base without manual tab switching"
+              },
+              "type": "AI",
+              "technicalImplementation": [
+                "NLP",
+                "Intent Classification"
+              ],
+              "technicalStudy": []
+            },
+            {
+              "id": "C6.3",
+              "content": {
+                "zh": "语音输入能力 → 支持语音输入，让用户可以通过语音与 AI 进行交互，提升操作便利性",
+                "en": "Voice input capability → Support voice input, allowing users to interact with AI through voice, improving operation convenience"
+              },
+              "type": "Voice",
+              "technicalImplementation": [
+                "Speech-to-Text"
+              ],
+              "technicalStudy": []
+            },
+            {
+              "id": "C6.4",
+              "content": {
+                "zh": "客服通话智能分析 → 自动生成通话小结，识别通话意图标签，提升客服效率和服务质量监控",
+                "en": "Intelligent customer service call analysis → Automatically generate call summaries, identify call intention tags, improve customer service efficiency and service quality monitoring"
+              },
+              "type": "AI",
+              "technicalImplementation": [
+                "NLP",
+                "Call Intent Classification",
+                "Conversation Summarization"
+              ],
+              "technicalStudy": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "quarter": "25Q2",
+      "period": "Apr 25 - Jun 25",
+      "quarterGoal": {
+        "zh": "增强多模态处理能力，实现智能数据分析与可视化，连接实时信息",
+        "en": "Enhance multimodal processing capabilities, achieve intelligent data analysis and visualization, connect real-time information"
+      },
+      "keywords": {
+        "zh": "多模态处理、数据分析、实时信息",
+        "en": "Multimodal processing, data analysis, real-time information"
+      },
+      "keyCapabilities": [
+        {
+          "zh": "多模态AI",
+          "en": "Multimodal AI"
+        },
+        {
+          "zh": "智能数据分析",
+          "en": "Intelligent data analysis"
+        },
+        {
+          "zh": "实时信息连接",
+          "en": "Real-time information connection"
+        }
+      ],
+      "quarterTechnicalStudy": [],
+      "monthlyPlans": [
+        {
+          "id": "M7",
+          "month": "Apr 25",
+          "title": {
+            "zh": "多模态 AI & 复杂数据理解",
+            "en": "Multimodal AI & complex data understanding"
+          },
+          "value": {
+            "zh": "AI 能处理更丰富的数据类型，增强分析能力",
+            "en": "AI can process richer data types, enhancing analytical capabilities"
+          },
+          "technicalStudy": [],
+          "releases": [],
+          "capabilities": [
+            {
+              "id": "C7.1",
+              "content": {
+                "zh": "多模态 AI 解析能力增强，提升 AI 处理结构化数据的能力（图片/Layout）",
+                "en": "Enhanced multimodal AI parsing capabilities, improving AI's ability to process structured data (images/layouts)"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            },
+            {
+              "id": "C7.2",
+              "content": {
+                "zh": "OCR + 复杂表格解析（处理扫描件、加强复杂非结构化表数据的解析）",
+                "en": "OCR + complex table parsing (processing scanned documents, enhancing parsing of complex unstructured table data)"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            },
+            {
+              "id": "C7.3",
+              "content": {
+                "zh": "Reasoning（推理 & 规划能力），提升 AI 的逻辑分析能力",
+                "en": "Reasoning (inference & planning capabilities), enhancing AI's logical analysis capabilities"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            }
+          ]
+        },
+        {
+          "id": "M8",
+          "month": "May 25",
+          "title": {
+            "zh": "智能数据分析 & 可视化",
+            "en": "Intelligent data analysis & visualization"
+          },
+          "value": {
+            "zh": "让 AI 不仅能回答问题，还能深度分析数据，主动提供可视化洞察",
+            "en": "Enable AI not only to answer questions but also to deeply analyze data and proactively provide visual insights"
+          },
+          "technicalStudy": [],
+          "releases": [],
+          "capabilities": [
+            {
+              "id": "C8.1",
+              "content": {
+                "zh": "数据智能分析 Agent（自动识别数据模式，提供业务洞察）",
+                "en": "Data intelligent analysis Agent (automatically identifying data patterns, providing business insights)"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            },
+            {
+              "id": "C8.2",
+              "content": {
+                "zh": "智能数据图表展示（AI 结果生成数据可视化渲染，支持业务决策）",
+                "en": "Intelligent data chart display (AI results generate data visualization rendering, supporting business decisions)"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            }
+          ]
+        },
+        {
+          "id": "M9",
+          "month": "Jun 25",
+          "title": {
+            "zh": "AI 连接外部信息（Web 爬取、HTML 数据解析 & 实时语音对话）",
+            "en": "AI connects to real-time information (Web crawling, HTML data parsing & real-time voice dialogue)"
+          },
+          "value": {
+            "zh": "让 AI 具备实时搜索 & 语音对话能力，获取最新信息",
+            "en": "Enable AI with real-time search & voice dialogue capabilities to obtain the latest information"
+          },
+          "technicalStudy": [],
+          "releases": [],
+          "capabilities": [
+            {
+              "id": "C9.1",
+              "content": {
+                "zh": "Web Search（互联网搜索能力），支持 AI 访问最新数据",
+                "en": "Web Search (internet search capability), supporting AI access to the latest data"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            },
+            {
+              "id": "C9.2",
+              "content": {
+                "zh": "HTML 数据解析，支持网页数据提取、结构化分析",
+                "en": "HTML data parsing, supporting webpage data extraction and structured analysis"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            },
+            {
+              "id": "C9.3",
+              "content": {
+                "zh": "实时语音对话，支持 AI 与用户进行语音交流，提高互动体验",
+                "en": "Real-time voice dialogue, supporting AI voice communication with users, improving interactive experience"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "quarter": "25Q3",
+      "period": "Jul 25 - Aug 25",
+      "quarterGoal": {
+        "zh": "提升AI全局语义理解与任务执行能力，增强系统可靠性与监控",
+        "en": "Enhance AI global semantic understanding and task execution capabilities, strengthen system reliability and monitoring"
+      },
+      "keywords": {
+        "zh": "语义理解、任务执行、系统可靠性",
+        "en": "Semantic understanding, task execution, system reliability"
+      },
+      "keyCapabilities": [
+        {
+          "zh": "高级语义理解",
+          "en": "Advanced semantic understanding"
+        },
+        {
+          "zh": "复杂任务执行",
+          "en": "Complex task execution"
+        },
+        {
+          "zh": "系统可靠性",
+          "en": "System reliability"
+        }
+      ],
+      "quarterTechnicalStudy": [],
+      "monthlyPlans": [
+        {
+          "id": "M10",
+          "month": "Jul 25",
+          "title": {
+            "zh": "AI 语义理解 & 高级任务执行",
+            "en": "AI semantic understanding & advanced task execution"
+          },
+          "value": {
+            "zh": "让 AI 具备更强的逻辑推理 & 自动化任务能力",
+            "en": "Enable AI with stronger logical reasoning & automated task capabilities"
+          },
+          "technicalStudy": [],
+          "releases": [],
+          "capabilities": [
+            {
+              "id": "C10.1",
+              "content": {
+                "zh": "Agent 语义分析 & 数据建模（AI 具备更强的逻辑推理能力，可自主执行复杂任务）",
+                "en": "Agent semantic analysis & data modeling (AI has stronger logical reasoning capabilities and can independently execute complex tasks)"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            },
+            {
+              "id": "C10.2",
+              "content": {
+                "zh": "Agent 智能任务执行 → AI 可结合数据分析，自动执行更复杂的任务",
+                "en": "Agent intelligent task execution → AI can combine data analysis to automatically execute more complex tasks"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            },
+            {
+              "id": "C10.3",
+              "content": {
+                "zh": "MCP协议支持 → 接入新一代AI交互标准，实现跨平台AI能力无缝协作，提升业务场景适配性",
+                "en": "MCP protocol support → Access to next-generation AI interaction standards, enabling seamless collaboration of cross-platform AI capabilities, improving business scenario adaptability"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            }
+          ]
+        },
+        {
+          "id": "M11",
+          "month": "Aug 25",
+          "title": {
+            "zh": "AI 可靠性提升 & 系统监控",
+            "en": "AI reliability improvement & system monitoring"
+          },
+          "value": {
+            "zh": "确保 AI 平台稳定、安全运行，支持大规模业务应用",
+            "en": "Ensure stable and secure operation of the AI platform, supporting large-scale business applications"
+          },
+          "technicalStudy": [],
+          "releases": [],
+          "capabilities": [
+            {
+              "id": "C11.1",
+              "content": {
+                "zh": "基座系统稳定性优化（保障 AI 在高负载下稳定运行）",
+                "en": "Base system stability optimization (ensuring stable AI operation under high load)"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            },
+            {
+              "id": "C11.2",
+              "content": {
+                "zh": "Milvus 备份方案（优化向量数据库备份策略，防止数据丢失）",
+                "en": "Milvus backup solution (optimizing vector database backup strategy to prevent data loss)"
+              },
+              "type": "Milvus",
+              "technicalImplementation": [],
+              "technicalStudy": []
+            },
+            {
+              "id": "C11.3",
+              "content": {
+                "zh": "AI 可观测性（建立 AI 监控体系，实时跟踪 AI 运行状态 & 业务表现）",
+                "en": "AI observability (establishing AI monitoring system, real-time tracking of AI operational status & business performance)"
+              },
+              "technicalImplementation": [],
+              "technicalStudy": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "futureSummary": {
+    "coreValues": [
+      {
+        "id": "V1",
+        "content": {
+          "zh": "让 AI 更聪明 —— 支持多模态、推理能力，增强数据理解和决策能力",
+          "en": "Make AI smarter — Support multimodal, reasoning capabilities, enhance data understanding and decision-making abilities"
+        }
+      },
+      {
+        "id": "V2",
+        "content": {
+          "zh": "让 AI 更专业 —— 数据分析 Agent、智能图表，让 AI 提供业务洞察",
+          "en": "Make AI more professional — Data analysis Agent, intelligent charts, enabling AI to provide business insights"
+        }
+      },
+      {
+        "id": "V3",
+        "content": {
+          "zh": "让 AI 更实时 —— Web Search、HTML 解析，让 AI 获取最新信息",
+          "en": "Make AI more real-time — Web Search, HTML parsing, enabling AI to obtain the latest information"
+        }
+      },
+      {
+        "id": "V4",
+        "content": {
+          "zh": "让 AI 更可靠 —— 向量数据库备份、AI 可观测性，保障 AI 稳定、安全运行",
+          "en": "Make AI more reliable — Vector database backup, AI observability, ensuring stable and secure AI operation"
+        }
+      }
+    ],
+    "evolutionPath": [
+      {
+        "id": "E1",
+        "content": {
+          "zh": "过去，AI 只是一个知识助手",
+          "en": "In the past, AI was just a knowledge assistant"
+        }
+      },
+      {
+        "id": "E2",
+        "content": {
+          "zh": "现在，AI 能理解问题背景，并执行业务任务",
+          "en": "Now, AI can understand problem context and execute business tasks"
+        }
+      },
+      {
+        "id": "E3",
+        "content": {
+          "zh": "未来，GAI 平台将成为企业的智能业务引擎，助力全链路自动化 & 实时决策！",
+          "en": "In the future, the GAI platform will become an intelligent business engine for enterprises, enabling full-chain automation & real-time decision-making!"
+        }
+      }
+    ]
+  }
+}

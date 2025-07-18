@@ -1,0 +1,93 @@
+{
+    "id": "4",
+    "ref": "incremental_reasoning",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "Incremental Reasoning Mode",
+            "zh": "3.4 增量推理模式"
+        },
+        "status": "sketch",
+        "color": "#FFFFFF",
+        "priority": {
+            "level": 0,
+            "label": {
+                "en": "Normal",
+                "zh": "普通"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "step_by_step_reasoning",
+            "name": {
+                "en": "Step-by-Step Reasoning",
+                "zh": "逐步推理"
+            },
+            "status": "sketch",
+            "techStack": "Reasoning Engine",
+            "description": {
+                "en": "Break down complex reasoning into manageable steps",
+                "zh": "将复杂推理分解为可管理的步骤"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "thought_chaining",
+            "name": {
+                "en": "Thought Chaining",
+                "zh": "思维链接"
+            },
+            "status": "sketch",
+            "techStack": "Chain-of-Thought",
+            "description": {
+                "en": "Connect sequential thoughts in logical progression",
+                "zh": "按逻辑顺序连接连续思维"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "iterative_refinement",
+            "name": {
+                "en": "Iterative Refinement",
+                "zh": "迭代细化"
+            },
+            "status": "sketch",
+            "techStack": "Refinement System",
+            "description": {
+                "en": "Progressively refine reasoning through multiple iterations",
+                "zh": "通过多次迭代逐步细化推理"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architectureCard": "sections.3.cards[3]"
+    }
+}

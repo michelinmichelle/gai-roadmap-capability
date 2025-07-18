@@ -1,0 +1,93 @@
+{
+    "id": "5",
+    "ref": "feedback_loop_optimization",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "HITL-Feedback-Loop Optimization",
+            "zh": "3.15 反馈驱动模式"
+        },
+        "status": "sketch",
+        "color": "transparent",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "feedback_collection",
+            "name": {
+                "en": "Feedback Collection",
+                "zh": "反馈收集"
+            },
+            "status": "sketch",
+            "techStack": "Feedback System",
+            "description": {
+                "en": "Systematically collect human feedback on AI outputs",
+                "zh": "系统地收集关于AI输出的人类反馈"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "optimization_engine",
+            "name": {
+                "en": "Optimization Engine",
+                "zh": "优化引擎"
+            },
+            "status": "sketch",
+            "techStack": "ML Optimization",
+            "description": {
+                "en": "Adjust and optimize AI behavior based on human feedback",
+                "zh": "基于人类反馈调整和优化AI行为"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "continuous_improvement",
+            "name": {
+                "en": "Continuous Improvement",
+                "zh": "持续改进"
+            },
+            "status": "sketch",
+            "techStack": "Learning Framework",
+            "description": {
+                "en": "Establish cycles of feedback and improvement for AI systems",
+                "zh": "为AI系统建立反馈和改进的循环"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "manifest.json",
+        "architectureCard": "sections.3.cards[14]"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "id": "6",
+    "ref": "crm",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "CRM",
+            "zh": "CRM"
+        },
+        "status": "critical",
+        "color": "#f87171",
+        "priority": {
+            "level": 2,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-03-21T10:00:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "ref": "crm_sales_knowledge",
+            "name": {
+                "en": "CRM Sales Knowledge Base Integration",
+                "zh": "集成CRM销售知识库"
+            },
+            "status": "critical",
+            "techStack": "CRM API, Knowledge Base",
+            "description": {
+                "en": "Integration with CRM sales knowledge base for improved sales support",
+                "zh": "集成CRM销售知识库，提升销售支持能力"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "sales_visit_planning",
+            "name": {
+                "en": "Sales Visit Planning Integration",
+                "zh": "销售拜访规划功能的集成"
+            },
+            "status": "missing",
+            "techStack": "CRM API, Planning Tools",
+            "description": {
+                "en": "Integration with sales visit planning functionality for better customer engagement",
+                "zh": "销售拜访规划功能的集成，提升客户互动效率"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.1.cards[5]"
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "id": "7",
+    "ref": "model",
+    "version": "1.0.0",
+    "prefix": "model_",
+    "metadata": {
+        "title": {
+            "en": "Model",
+            "zh": "7. 模型"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "lastUpdated": "2024-05-23T10:00:00Z"
+    },
+    "cards": [
+        {
+            "id": "1",
+            "ref": "azure_openai",
+            "version": "1.0.0",
+            "filename": "model_1.json",
+            "metadata": {
+                "title": {
+                    "en": "Azure OpenAI",
+                    "zh": "Azure OpenAI"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-05-22T21:00:00Z"
+            }
+        },
+        {
+            "id": "2",
+            "ref": "bge_model",
+            "version": "1.0.0",
+            "filename": "model_2.json",
+            "metadata": {
+                "title": {
+                    "en": "BGE Model",
+                    "zh": "BGE 模型"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-05-22T23:30:00Z"
+            }
+        },
+        {
+            "id": "3",
+            "ref": "bert_model",
+            "version": "1.0.0",
+            "filename": "model_3.json",
+            "metadata": {
+                "title": {
+                    "en": "BERT Model",
+                    "zh": "BERT 模型"
+                },
+                "status": "sketch",
+                "color": "transparent",
+                "lastUpdated": "2024-05-22T20:30:00Z"
+            }
+        },
+        {
+            "id": "4",
+            "ref": "deepseek_model",
+            "version": "1.0.0",
+            "filename": "model_4.json",
+            "metadata": {
+                "title": {
+                    "en": "Deepseek Model",
+                    "zh": "Deepseek 模型"
+                },
+                "status": "sketch",
+                "color": "transparent",
+                "lastUpdated": "2024-05-22T20:30:00Z"
+            }
+        },
+        {
+            "id": "5",
+            "ref": "qwen_model",
+            "version": "1.0.0",
+            "filename": "model_5.json",
+            "metadata": {
+                "title": {
+                    "en": "Qwen Model",
+                    "zh": "Qwen 模型"
+                },
+                "status": "sketch",
+                "color": "transparent",
+                "lastUpdated": "2024-05-22T20:30:00Z"
+            }
+        },
+        {
+            "id": "6",
+            "ref": "azure_embedding",
+            "version": "1.0.0",
+            "filename": "model_6.json",
+            "metadata": {
+                "title": {
+                    "en": "Azure Embedding Models",
+                    "zh": "Azure 嵌入模型"
+                },
+                "status": "ready",
+                "color": "#ffffff",
+                "lastUpdated": "2024-05-23T10:00:00Z"
+            }
+        }
+    ],
+    "deletedCards": [],
+    "references": {
+        "architecture": "../../architecture-cards.json",
+        "capabilities": "../capabilities"
+    }
+}

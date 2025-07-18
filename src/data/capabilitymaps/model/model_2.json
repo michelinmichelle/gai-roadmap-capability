@@ -1,0 +1,156 @@
+{
+    "id": "2",
+    "ref": "bge_model",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "BGE Model",
+            "zh": "BGE 模型"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            },
+            "updatedAt": "2024-03-21T10:00:00Z",
+            "updatedBy": "system"
+        },
+        "createdAt": "2024-03-21T10:00:00Z",
+        "updatedAt": "2024-05-22T23:30:00Z"
+    },
+    "capabilities": [
+        {
+            "id": "cap_5",
+            "ref": "reranking",
+            "name": {
+                "en": "Re-ranking",
+                "zh": "重新排序"
+            },
+            "status": "ready",
+            "techStack": "BGE-Rerank-Base",
+            "description": {
+                "en": "Re-rank retrieved documents for better relevance using BGE-Rerank-Base",
+                "zh": "使用BGE-Rerank-Base对检索文档进行重新排序以提高相关性"
+            },
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Critical",
+                    "zh": "关键"
+                }
+            }
+        },
+        {
+            "id": "cap_1",
+            "ref": "bilingual_support",
+            "name": {
+                "en": "Bilingual Support",
+                "zh": "双语支持"
+            },
+            "status": "ready",
+            "techStack": "BGE-Rerank-Base",
+            "description": {
+                "en": "Simultaneous support for Chinese and English text reranking tasks, providing advantages in multilingual information retrieval",
+                "zh": "同时支持中文和英文文本的重排序任务，在多语言信息检索中具有优势"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "ref": "high_accuracy",
+            "name": {
+                "en": "High Accuracy",
+                "zh": "高准确性"
+            },
+            "status": "ready",
+            "techStack": "BGE-Rerank-Base",
+            "description": {
+                "en": "As a cross-encoder model, it provides higher accuracy than traditional embedding models, with better understanding of semantic relationships between texts",
+                "zh": "作为交叉编码器模型，准确性优于传统的嵌入模型，能更精准地理解文本间的语义关系"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "ref": "moderate_scale",
+            "name": {
+                "en": "Moderate Scale",
+                "zh": "适度规模"
+            },
+            "status": "ready",
+            "techStack": "BGE-Rerank-Base",
+            "description": {
+                "en": "The base version maintains high performance with smaller model size, suitable for resource-constrained scenarios such as devices with limited computing resources",
+                "zh": "base版本在保持较高性能的同时具有更小的模型规模，适合资源受限的场景，如在计算资源有限的设备上运行"
+            },
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "ref": "dense_retrieval",
+            "name": {
+                "en": "Dense Retrieval",
+                "zh": "密集检索"
+            },
+            "status": "ready",
+            "techStack": "BGE-Reranker",
+            "description": {
+                "en": "Effective dense retrieval for information search",
+                "zh": "用于信息搜索的高效密集检索"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "ref": "deployment_limitations",
+            "name": {
+                "en": "Deployment Limitations",
+                "zh": "部署限制"
+            },
+            "status": "constraint",
+            "techStack": "GPU Infrastructure",
+            "description": {
+                "en": "Requires GPU deployment, currently limited to specific business scenarios due to GPU cost constraints",
+                "zh": "需要GPU部署，由于GPU成本限制，目前仅针对特定业务场景使用"
+            },
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.7.cards[1]"
+    }
+}

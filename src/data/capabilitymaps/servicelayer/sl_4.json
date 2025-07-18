@@ -1,0 +1,367 @@
+{
+    "id": "4",
+    "ref": "llm_assessment",
+    "version": "1.0.0",
+    "metadata": {
+        "title": {
+            "en": "LLM Assessment Service",
+            "zh": "4.4 LLM Assessment Service"
+        },
+        "status": "ready",
+        "color": "#ffffff",
+        "lastUpdated": "2024-03-24T10:00:00Z",
+        "priority": {
+            "level": 1,
+            "label": {
+                "en": "High",
+                "zh": "高"
+            }
+        }
+    },
+    "capabilities": [
+        {
+            "id": "cap_1",
+            "name": {
+                "en": "AI-based Content Scoring",
+                "zh": "AI 评分"
+            },
+            "description": {
+                "en": "Allow AI to automatically score LLM-generated content",
+                "zh": "允许 AI 对 LLM 生成内容进行自动评分"
+            },
+            "status": "needEnhancement",
+            "techStack": "Scoring Engine",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_2",
+            "name": {
+                "en": "Human Evaluation",
+                "zh": "人工评分"
+            },
+            "description": {
+                "en": "Allow humans to evaluate the quality of LLM output and provide scoring",
+                "zh": "允许人工评估 LLM 输出的质量并提供评分"
+            },
+            "status": "ready",
+            "techStack": "Feedback System",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_3",
+            "name": {
+                "en": "Scoring Categories",
+                "zh": "获取评分类别"
+            },
+            "description": {
+                "en": "Retrieve different categories of scoring dimensions, such as readability, accuracy, etc.",
+                "zh": "获取不同类别的评分维度，如可读性、准确性等"
+            },
+            "status": "missing",
+            "techStack": "Category Framework",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_4",
+            "name": {
+                "en": "Scoring Standards",
+                "zh": "获取评分标准"
+            },
+            "description": {
+                "en": "Retrieve specific scoring standards and evaluation methods",
+                "zh": "获取具体的评分标准和评价方式"
+            },
+            "status": "missing",
+            "techStack": "Standards API",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_5",
+            "name": {
+                "en": "Scoring Scenarios",
+                "zh": "获取评分场景"
+            },
+            "description": {
+                "en": "Divide different scoring scenarios based on business needs, such as conversation quality, code generation, etc.",
+                "zh": "根据业务需求划分不同的评分场景，如对话质量、代码生成等"
+            },
+            "status": "missing",
+            "techStack": "Scenario Manager",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_6",
+            "name": {
+                "en": "Average Score Calculation",
+                "zh": "计算平均评分"
+            },
+            "description": {
+                "en": "Calculate average scores for different models or categories",
+                "zh": "统计不同模型或类别下的平均评分"
+            },
+            "status": "missing",
+            "techStack": "Analytics Engine",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_7",
+            "name": {
+                "en": "Scoring History Maintenance",
+                "zh": "评分数据存储"
+            },
+            "description": {
+                "en": "Maintain scoring history data for subsequent analysis",
+                "zh": "维护评分历史数据，以供后续分析"
+            },
+            "status": "missing",
+            "techStack": "Data Storage",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_8",
+            "name": {
+                "en": "Model Support Limitation",
+                "zh": "模型支持限制"
+            },
+            "description": {
+                "en": "Currently LLM assessment only supports 4o model, no expansion capability for other models",
+                "zh": "目前 LLM 评估仅支持 4o，没有对其他模型的扩展能力"
+            },
+            "status": "constraint",
+            "techStack": "Model Interface",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_9",
+            "name": {
+                "en": "Fixed Categories",
+                "zh": "评分类别固定"
+            },
+            "description": {
+                "en": "Current scoring categories are predefined and cannot be flexibly adjusted",
+                "zh": "目前的评分类别是预定义的，不能灵活调整"
+            },
+            "status": "constraint",
+            "techStack": "Category System",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        },
+        {
+            "id": "cap_11",
+            "name": {
+                "en": "No Feedback Loop",
+                "zh": "评分不具备反馈闭环"
+            },
+            "description": {
+                "en": "Scoring results are not used for model fine-tuning or policy optimization",
+                "zh": "评分结果没有用于模型微调或策略优化"
+            },
+            "status": "constraint",
+            "techStack": "Feedback Loop",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_12",
+            "name": {
+                "en": "Multi-Model Scoring",
+                "zh": "多模型评分"
+            },
+            "description": {
+                "en": "Currently only supports 4o model, need to extend to multiple models for comparison",
+                "zh": "目前仅支持 4o 模型，需要扩展至多个模型进行对比"
+            },
+            "status": "missing",
+            "techStack": "Multi-Model Framework",
+            "priority": {
+                "level": 3,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_13",
+            "name": {
+                "en": "Scoring Explanation",
+                "zh": "评分解释能力"
+            },
+            "description": {
+                "en": "Allow AI to explain scoring results, provide improvement suggestions",
+                "zh": "允许 AI 解释评分结果，提供改进建议"
+            },
+            "status": "sketch",
+            "techStack": "Explainability Engine",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_14",
+            "name": {
+                "en": "Score Visualization",
+                "zh": "评分可视化"
+            },
+            "description": {
+                "en": "Provide more intuitive scoring trend analysis and visualization charts",
+                "zh": "提供更直观的评分趋势分析与可视化图表"
+            },
+            "status": "sketch",
+            "techStack": "Visualization Tools",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_15",
+            "name": {
+                "en": "User-defined Scoring Standards",
+                "zh": "用户自定义评分标准"
+            },
+            "description": {
+                "en": "Allow administrators to customize different scoring dimensions and weights",
+                "zh": "允许管理员自定义不同的评分维度和权重"
+            },
+            "status": "sketch",
+            "techStack": "Customization System",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_16",
+            "name": {
+                "en": "Score Auto-optimization",
+                "zh": "评分自动优化"
+            },
+            "description": {
+                "en": "Optimize AI scoring accuracy through feedback learning",
+                "zh": "通过反馈学习优化 AI 评分的精准度"
+            },
+            "status": "sketch",
+            "techStack": "Learning Framework",
+            "priority": {
+                "level": 2,
+                "label": {
+                    "en": "Low",
+                    "zh": "低"
+                }
+            }
+        },
+        {
+            "id": "cap_17",
+            "name": {
+                "en": "LLM Inspector RAG Simple Evaluation",
+                "zh": "LLM Inspector RAG 简易评估"
+            },
+            "description": {
+                "en": "AI-based evaluation of RAG generated content using LLM Inspector",
+                "zh": "使用 LLM Inspector 进行 AI 对 RAG 生成内容的评估"
+            },
+            "status": "ready",
+            "techStack": "LLM Inspector",
+            "priority": {
+                "level": 1,
+                "label": {
+                    "en": "High",
+                    "zh": "高"
+                }
+            }
+        },
+        {
+            "id": "cap_18",
+            "name": {
+                "en": "API-based AI Evaluation",
+                "zh": "基于 API 的 AI 评估"
+            },
+            "description": {
+                "en": "Integrate LLM Inspector API for AI evaluation",
+                "zh": "集成 LLM Inspector API 进行 AI 评估"
+            },
+            "status": "inProgress",
+            "techStack": "External API",
+            "priority": {
+                "level": 0,
+                "label": {
+                    "en": "Normal",
+                    "zh": "普通"
+                }
+            }
+        }
+    ],
+    "references": {
+        "manifest": "./manifest.json",
+        "architectureCard": "sections.4.cards[3]"
+    }
+}
